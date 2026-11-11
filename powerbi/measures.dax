@@ -1,0 +1,26 @@
+Total Customers =
+DISTINCTCOUNT('Customer Churn'[customerID])
+
+Churned Customers =
+CALCULATE(
+    [Total Customers],
+    'Customer Churn'[Churn] = "Yes"
+)
+
+Churn Rate =
+DIVIDE([Churned Customers], [Total Customers], 0)
+
+Monthly Revenue at Risk =
+CALCULATE(
+    SUM('Customer Churn'[MonthlyCharges]),
+    'Customer Churn'[Churn] = "Yes"
+)
+
+Average Monthly Charges =
+AVERAGE('Customer Churn'[MonthlyCharges])
+
+Average Tenure (Months) =
+AVERAGE('Customer Churn'[tenure])
+
+Retained Customers =
+[Total Customers] - [Churned Customers]

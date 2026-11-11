@@ -1,0 +1,14 @@
+{
+  "name": "Northstar Customer Analytics",
+  "dataColors": [
+    "#008C78",
+    "#E36A58",
+    "#4386BB",
+    "#D3A43E",
+    "#71A88B",
+    "#8E7C63"
+  ],
+  "background": "#F4F6F2",
+  "foreground": "#1C2926",
+  "tableAccent": "#008C78"
+}
