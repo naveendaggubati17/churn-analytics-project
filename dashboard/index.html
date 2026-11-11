@@ -5,41 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f4f6f2">
   <title>Customer Churn | Analytics</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="./vendor/chart.umd.js" defer></script>
+  <script src="./dashboard_data.js" defer></script>
   <script src="./dashboard.js" defer></script>
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar" aria-label="Dashboard navigation">
-      <a class="brand" href="#overview" aria-label="Churn analytics overview">
+      <div class="brand" aria-label="Churn analytics">
         <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
         <span>northstar<span class="brand-sub">CUSTOMER INTELLIGENCE</span></span>
-      </a>
+      </div>
       <div class="nav-label">WORKSPACE</div>
-      <a class="nav-item active" href="#overview"><span class="nav-icon" aria-hidden="true">◫</span>Overview</a>
-      <a class="nav-item" href="#segments"><span class="nav-icon" aria-hidden="true">▥</span>Segments</a>
-      <a class="nav-item" href="#revenue"><span class="nav-icon" aria-hidden="true">↗</span>Revenue at risk</a>
+      <button class="nav-item active" type="button" data-target="overview"><span class="nav-icon" aria-hidden="true">◫</span>Overview</button>
+      <button class="nav-item" type="button" data-target="segments"><span class="nav-icon" aria-hidden="true">▥</span>Segments</button>
+      <button class="nav-item" type="button" data-target="revenue"><span class="nav-icon" aria-hidden="true">↗</span>Revenue at risk</button>
       <div class="sidebar-bottom">
         <span class="status-dot"></span>
-        <span>Sample dataset<br><strong>1,000 customers</strong></span>
+        <span>Sample dataset<br><strong id="record-count-sidebar">-- customers</strong></span>
       </div>
     </aside>
 
     <main id="overview" class="main-content">
       <header class="topbar">
         <div class="breadcrumb">Analytics <span>/</span> Customer churn</div>
-        <div class="topbar-right"><span class="updated-label">DATASET</span><span class="dataset-pill"><span class="status-dot"></span> Sample · 1,000 records</span></div>
+        <div class="topbar-right"><span class="updated-label">DATASET</span><span class="dataset-pill"><span class="status-dot"></span> Sample · <span id="record-count-header">-- records</span></span></div>
       </header>
 
       <section class="page-heading">
         <div>
           <div class="eyebrow"><span></span> RETENTION PERFORMANCE</div>
           <h1>Customer churn</h1>
-          <p>Understand retention patterns across contracts, tenure, and payment behavior.</p>
+          <p>Track quarterly churn, isolate vulnerable segments, and prioritize retention tests.</p>
         </div>
         <div class="heading-meta"><span class="meta-label">REPORT PERIOD</span><strong>Full sample</strong></div>
       </section>
@@ -57,13 +55,26 @@
         <button id="reset-filters" class="reset-button" type="button" title="Reset all filters"><span aria-hidden="true">↺</span> Reset</button>
       </section>
 
-      <div id="load-error" class="load-error" role="alert" hidden>Dashboard data could not be loaded. Run <code>python python/build_dashboard_data.py</code> and serve the project folder over HTTP.</div>
+      <div id="load-error" class="load-error" role="alert" hidden>Dashboard data or chart library is unavailable. Run <code>python python/generate_sample_data.py</code> to rebuild the dashboard data.</div>
       <div id="dashboard-content" hidden>
         <section class="kpi-grid" aria-label="Key performance indicators">
           <article class="kpi-card accent-teal"><div class="kpi-top"><span>CHURN RATE</span><span class="kpi-symbol">%</span></div><div class="kpi-value" id="kpi-churn">--</div><div class="kpi-foot"><span class="kpi-dot"></span>of selected customers</div></article>
           <article class="kpi-card accent-coral"><div class="kpi-top"><span>CHURNED CUSTOMERS</span><span class="kpi-symbol">↘</span></div><div class="kpi-value" id="kpi-churned">--</div><div class="kpi-foot"><span class="kpi-dot"></span><span id="kpi-churned-share">--</span> of customer base</div></article>
           <article class="kpi-card accent-blue"><div class="kpi-top"><span>MONTHLY REVENUE AT RISK</span><span class="kpi-symbol">$</span></div><div class="kpi-value" id="kpi-revenue">--</div><div class="kpi-foot"><span class="kpi-dot"></span>monthly charges from churned customers</div></article>
           <article class="kpi-card accent-gold"><div class="kpi-top"><span>AVG. CUSTOMER TENURE</span><span class="kpi-symbol">⌁</span></div><div class="kpi-value" id="kpi-tenure">--</div><div class="kpi-foot"><span class="kpi-dot"></span>months among selected customers</div></article>
+        </section>
+
+        <section class="executive-grid" aria-label="Executive trend and retention priorities">
+          <article class="chart-panel">
+            <div class="panel-heading"><div><h2>Quarterly churn trend</h2><p>Churned customers divided by customers active at quarter start</p></div><span class="panel-tag">SYNTHETIC SCENARIO</span></div>
+            <div class="trend-summary" id="trend-summary">Loading quarterly trend…</div>
+            <div class="chart-wrap trend-chart-wrap"><canvas id="quarterly-chart" aria-label="Quarterly churn rate trend"></canvas></div>
+          </article>
+          <article class="playbook-panel">
+            <div class="panel-heading"><div><h2>Retention plays to test</h2><p>Segment signals translated into controlled experiments</p></div><span class="panel-tag">HYPOTHESES</span></div>
+            <div id="retention-actions" class="action-list"></div>
+            <p class="playbook-note">Validate each offer with a holdout group before broad rollout.</p>
+          </article>
         </section>
 
         <section id="segments" class="chart-grid">
@@ -84,7 +95,7 @@
             <div class="mix-layout"><div class="mix-chart"><canvas id="mix-chart" aria-label="Share of churned and retained customers"></canvas></div><div id="mix-legend" class="mix-legend"></div></div>
           </article>
         </section>
-        <footer class="data-note"><span class="note-mark">i</span><p><strong>About this sample</strong> Churn labels in this synthetic dataset were randomly assigned. These charts demonstrate the dashboard workflow and should not be interpreted as statistically meaningful customer behavior.</p></footer>
+        <footer class="data-note"><span class="note-mark">i</span><p><strong>About this scenario</strong> The quarterly event file is synthetic and intentionally uses rising churn hazards. Customer and segment results demonstrate the workflow; they are not historical performance or causal evidence.</p></footer>
       </div>
     </main>
   </div>

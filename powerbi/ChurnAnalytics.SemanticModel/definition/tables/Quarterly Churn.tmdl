@@ -1,0 +1,108 @@
+/// Synthetic quarterly customer exposure and churn events for trend reporting; not observed historical performance.
+table 'Quarterly Churn'
+	lineageTag: 800137cb-d778-4baf-a1ed-30cd3774080f
+
+	/// Customers active at the start of the selected quarter.
+	measure 'Customers at Quarter Start' = SUM('Quarterly Churn'[ActiveAtStart])
+		formatString: #,##0
+		lineageTag: ae4b7352-c3bb-4fbb-9270-6b9a15860f1a
+
+	/// Customers who churned during the selected quarter.
+	measure 'Quarterly Churned Customers' = SUM('Quarterly Churn'[ChurnedThisQuarter])
+		formatString: #,##0
+		lineageTag: 1c47cfaf-96b5-4a6c-8ee3-d6a70f8e141d
+
+	/// Quarterly churn events divided by customers active at quarter start.
+	measure 'Quarterly Churn Rate' = DIVIDE([Quarterly Churned Customers], [Customers at Quarter Start], 0)
+		formatString: 0.00%
+		lineageTag: b020a9e1-fd3c-4f53-8e19-d63ff145a09c
+
+	/// Churn rate for the immediately preceding calendar quarter.
+	measure 'Previous Quarter Churn Rate' = VAR PriorQuarter = EDATE(MAX('Quarterly Churn'[QuarterStart]), -3) RETURN CALCULATE([Quarterly Churn Rate], REMOVEFILTERS('Quarterly Churn'[QuarterLabel], 'Quarterly Churn'[QuarterStart]), 'Quarterly Churn'[QuarterStart] = PriorQuarter)
+		formatString: 0.00%
+		isHidden
+		lineageTag: 41e143fc-1d85-4569-b465-73ddf9230deb
+
+	/// Quarter-over-quarter rate change in percentage points.
+	measure 'QoQ Churn Change (pp)' = VAR PreviousRate = [Previous Quarter Churn Rate] RETURN IF(ISBLANK(PreviousRate), BLANK(), ([Quarterly Churn Rate] - PreviousRate) * 100)
+		formatString: 0.00 "pp"
+		lineageTag: eb5c356a-1a90-4679-92c7-3468da46c886
+
+	/// Monthly charges associated with customers who churned during the selected quarter.
+	measure 'Quarterly Revenue Lost' = CALCULATE(SUM('Quarterly Churn'[MonthlyCharges]), 'Quarterly Churn'[ChurnedThisQuarter] = 1)
+		formatString: $#,##0
+		lineageTag: 9b26b562-bd70-44b7-b0ed-b33150fe317b
+
+	column CustomerID
+		dataType: string
+		isNullable: false
+		lineageTag: 082f3b54-45a9-479d-ba6d-b2aae719b5b6
+		summarizeBy: none
+		sourceColumn: CustomerID
+
+	column QuarterStart
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 2c20583a-9dec-4a51-b69e-b4dce5c4f2d5
+		summarizeBy: none
+		sourceColumn: QuarterStart
+
+	column QuarterLabel
+		dataType: string
+		lineageTag: 25daf8a5-555f-419d-9af9-3cd84a715338
+		summarizeBy: none
+		sourceColumn: QuarterLabel
+
+	column ActiveAtStart
+		dataType: int64
+		lineageTag: 1daca9d4-54e4-405f-8fe4-cbda9ed0d5e9
+		summarizeBy: sum
+		sourceColumn: ActiveAtStart
+
+	column ChurnedThisQuarter
+		dataType: int64
+		lineageTag: 44b74602-01af-4d61-aa46-155a93a52db2
+		summarizeBy: sum
+		sourceColumn: ChurnedThisQuarter
+
+	column MonthlyCharges
+		dataType: decimal
+		formatString: $#,##0.00
+		lineageTag: 9a0e4c29-be54-4770-be70-921b3a56279d
+		summarizeBy: sum
+		sourceColumn: MonthlyCharges
+
+	column Contract
+		dataType: string
+		lineageTag: b278a8f5-b99a-4b59-a3e9-0fce83b54313
+		summarizeBy: none
+		sourceColumn: Contract
+
+	column PaymentMethod
+		dataType: string
+		lineageTag: 6536f5b1-a8ca-47c2-baa2-1689590df86e
+		summarizeBy: none
+		sourceColumn: PaymentMethod
+
+	column TenureGroup
+		dataType: string
+		lineageTag: 94a42fdf-3c0b-421e-976b-01ab6ec494fe
+		summarizeBy: none
+		sourceColumn: TenureGroup
+
+	column RiskScore
+		dataType: int64
+		lineageTag: 2d261a0c-d108-4478-9194-6a11574af2fd
+		summarizeBy: average
+		sourceColumn: RiskScore
+
+	partition 'Quarterly Churn' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents("https://raw.githubusercontent.com/naveendaggubati17/churn-analytics-project/main/data/quarterly_churn_events.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"CustomerID", type text}, {"QuarterStart", type date}, {"QuarterLabel", type text}, {"ActiveAtStart", Int64.Type}, {"ChurnedThisQuarter", Int64.Type}, {"MonthlyCharges", type number}, {"Contract", type text}, {"PaymentMethod", type text}, {"TenureGroup", type text}, {"RiskScore", Int64.Type}}, "en-US")
+				in
+				    ChangedTypes
+

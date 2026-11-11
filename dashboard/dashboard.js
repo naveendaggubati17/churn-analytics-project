@@ -17,6 +17,7 @@ const paymentOrder = [
 ];
 const charts = {};
 let customers = [];
+let quarterlyEvents = [];
 
 const percent = (value) => `${value.toFixed(1)}%`;
 const money = (value) => new Intl.NumberFormat("en-US", {
@@ -52,6 +53,16 @@ function selectedCustomers() {
     && (tenure === "all" || customer.TenureGroup === tenure));
 }
 
+function selectedQuarterlyEvents() {
+  const contract = document.getElementById("contract-filter").value;
+  const payment = document.getElementById("payment-filter").value;
+  const tenure = document.getElementById("tenure-filter").value;
+  return quarterlyEvents.filter((event) =>
+    (contract === "all" || event.Contract === contract)
+    && (payment === "all" || event.PaymentMethod === payment)
+    && (tenure === "all" || event.TenureGroup === tenure));
+}
+
 function churnRate(records) {
   if (!records.length) return 0;
   return records.filter((customer) => customer.Churn === "Yes").length / records.length * 100;
@@ -64,18 +75,104 @@ function groupedRate(records, field, order) {
   });
 }
 
+function quarterlyTrend(events) {
+  const grouped = new Map();
+  for (const event of events) {
+    let quarter = grouped.get(event.QuarterLabel);
+    if (!quarter) {
+      quarter = { label: event.QuarterLabel, start: event.QuarterStart, active: 0, churned: 0 };
+      grouped.set(event.QuarterLabel, quarter);
+    }
+    quarter.active += Number(event.ActiveAtStart);
+    quarter.churned += Number(event.ChurnedThisQuarter);
+  }
+  return [...grouped.values()]
+    .sort((left, right) => left.start.localeCompare(right.start))
+    .map((quarter) => ({
+      ...quarter,
+      rate: quarter.active ? quarter.churned / quarter.active * 100 : 0,
+    }));
+}
+
+function highestChurnSegment(records, field) {
+  const values = [...new Set(records.map((customer) => customer[field]).filter(Boolean))];
+  return values.map((value) => {
+    const group = records.filter((customer) => customer[field] === value);
+    return { value, count: group.length, rate: churnRate(group) };
+  }).sort((left, right) => right.rate - left.rate || right.count - left.count)[0];
+}
+
+function renderRetentionActions(records) {
+  const contract = highestChurnSegment(records, "Contract");
+  const payment = highestChurnSegment(records, "PaymentMethod");
+  const tenure = highestChurnSegment(records, "TenureGroup");
+  const highRisk = records.filter((customer) => customer.Churn === "No" && customer.RiskScore >= 3);
+  const actions = [
+    contract && {
+      title: `Contract: ${contract.value}`,
+      detail: `Test a term or renewal offer with this cohort (${percent(contract.rate)} churn; ${contract.count.toLocaleString()} customers).`,
+    },
+    payment && {
+      title: `Payment: ${payment.value}`,
+      detail: `Test billing support or an automatic-payment migration (${percent(payment.rate)} churn; ${payment.count.toLocaleString()} customers).`,
+    },
+    tenure && {
+      title: `Tenure: ${tenure.value}`,
+      detail: `Pilot proactive service check-ins for this tenure group (${percent(tenure.rate)} churn; ${tenure.count.toLocaleString()} customers).`,
+    },
+    {
+      title: "High-risk active customers",
+      detail: `Test a targeted save offer for ${highRisk.length.toLocaleString()} active customers with risk score 3 or higher.`,
+    },
+  ].filter(Boolean);
+
+  const list = document.getElementById("retention-actions");
+  list.replaceChildren(...actions.map((action, index) => {
+    const row = document.createElement("div");
+    row.className = "action-item";
+    const number = document.createElement("span");
+    number.className = "action-number";
+    number.textContent = String(index + 1).padStart(2, "0");
+    const content = document.createElement("div");
+    const title = document.createElement("strong");
+    title.textContent = action.title;
+    const detail = document.createElement("p");
+    detail.textContent = action.detail;
+    content.append(title, detail);
+    row.append(number, content);
+    return row;
+  }));
+}
+
+function updateExecutiveTrend(records) {
+  const trend = quarterlyTrend(selectedQuarterlyEvents());
+  const chart = charts.quarterly;
+  chart.data.labels = trend.map((quarter) => quarter.label);
+  chart.data.datasets[0].data = trend.map((quarter) => quarter.rate);
+  chart.options.scales.y.suggestedMax = Math.max(8, Math.ceil(Math.max(...trend.map((quarter) => quarter.rate), 0) / 2) * 2);
+  chart.update();
+
+  const first = trend[0];
+  const latest = trend.at(-1);
+  const previous = trend.at(-2);
+  document.getElementById("trend-summary").textContent = first && latest
+    ? `${percent(first.rate)} in ${first.label} to ${percent(latest.rate)} in ${latest.label}${previous ? ` · ${latest.rate - previous.rate >= 0 ? "+" : ""}${(latest.rate - previous.rate).toFixed(2)} pp QoQ` : ""}`
+    : "No quarterly data for this selection.";
+  renderRetentionActions(records);
+}
+
 function baseChartOptions({ horizontal = false } = {}) {
   const rateAxis = {
     beginAtZero: true,
     max: 100,
     grid: { color: "#edf0ed" },
     border: { display: false },
-    ticks: { color: "#83908a", font: { family: "DM Sans", size: 9 }, callback: (value) => `${value}%`, maxTicksLimit: 5 },
+    ticks: { color: "#83908a", font: { family: "Trebuchet MS", size: 9 }, callback: (value) => `${value}%`, maxTicksLimit: 5 },
   };
   const categoryAxis = {
     grid: { display: false },
     border: { display: false },
-    ticks: { color: "#75817b", font: { family: "DM Sans", size: 9 } },
+    ticks: { color: "#75817b", font: { family: "Trebuchet MS", size: 9 } },
   };
   return {
     responsive: true,
@@ -86,8 +183,8 @@ function baseChartOptions({ horizontal = false } = {}) {
       tooltip: {
         backgroundColor: "#20332d",
         padding: 10,
-        titleFont: { family: "DM Sans", size: 11 },
-        bodyFont: { family: "DM Sans", size: 11 },
+        titleFont: { family: "Trebuchet MS", size: 11 },
+        bodyFont: { family: "Trebuchet MS", size: 11 },
         callbacks: { label: (context) => ` ${context.parsed[horizontal ? "x" : "y"].toFixed(1)}% churn` },
       },
     },
@@ -120,6 +217,7 @@ function setKpis(records) {
 function updateDashboard() {
   const records = selectedCustomers();
   setKpis(records);
+  updateExecutiveTrend(records);
 
   const tenure = groupedRate(records, "TenureGroup", tenureOrder);
   setBarChart("tenure", tenure.map((item) => item.label), tenure.map((item) => item.rate), palette.teal);
@@ -141,7 +239,7 @@ function updateDashboard() {
 }
 
 function initializeCharts() {
-  Chart.defaults.font.family = "DM Sans";
+  Chart.defaults.font.family = "Trebuchet MS";
   Chart.defaults.color = "#75817b";
   charts.tenure = new Chart(document.getElementById("tenure-chart"), {
     type: "bar",
@@ -163,19 +261,35 @@ function initializeCharts() {
     data: { labels: ["Retained", "Churned"], datasets: [{ data: [0, 0], backgroundColor: [palette.teal, palette.coral], borderWidth: 0, hoverOffset: 4 }] },
     options: { responsive: true, maintainAspectRatio: false, cutout: "72%", plugins: { legend: { display: false }, tooltip: { callbacks: { label: (context) => ` ${context.label}: ${context.raw.toLocaleString()} customers` } } } },
   });
+  const trendOptions = baseChartOptions();
+  trendOptions.scales.y.max = undefined;
+  trendOptions.scales.y.suggestedMax = 8;
+  trendOptions.scales.y.ticks.stepSize = 2;
+  charts.quarterly = new Chart(document.getElementById("quarterly-chart"), {
+    type: "line",
+    data: { labels: [], datasets: [{ data: [], borderColor: palette.teal, backgroundColor: "rgb(0 140 120 / 12%)", borderWidth: 3, pointBackgroundColor: palette.teal, pointRadius: 4, pointHoverRadius: 6, tension: 0.3, fill: true }] },
+    options: trendOptions,
+  });
 }
 
 async function startDashboard() {
   try {
-    const response = await fetch("./dashboard_data.json");
-    if (!response.ok) throw new Error("Dashboard data request failed");
-    const data = await response.json();
-    if (!Array.isArray(data.customers) || typeof Chart === "undefined") throw new Error("Dashboard data or chart library is unavailable");
+    const data = window.CHURN_DASHBOARD_DATA;
+    if (!Array.isArray(data?.customers) || !Array.isArray(data?.quarterly) || typeof Chart === "undefined") throw new Error("Dashboard data or chart library is unavailable");
     customers = data.customers;
+    quarterlyEvents = data.quarterly;
+    const recordCount = new Intl.NumberFormat("en-US").format(customers.length);
+    document.getElementById("record-count-sidebar").textContent = `${recordCount} customers`;
+    document.getElementById("record-count-header").textContent = `${recordCount} records`;
     populateFilter("contract-filter", "Contract", "Filter by contract", contractOrder);
     populateFilter("payment-filter", "PaymentMethod", "Filter by payment method", paymentOrder);
     populateFilter("tenure-filter", "TenureGroup", "Filter by tenure", tenureOrder);
     initializeCharts();
+    document.querySelectorAll(".nav-item[data-target]").forEach((button) => {
+      button.addEventListener("click", () => {
+        document.getElementById(button.dataset.target).scrollIntoView({ behavior: "smooth" });
+      });
+    });
     document.getElementById("reset-filters").addEventListener("click", () => {
       document.querySelectorAll(".filters select").forEach((select) => { select.value = "all"; });
       updateDashboard();

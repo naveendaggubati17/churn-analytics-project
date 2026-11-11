@@ -1,0 +1,4 @@
+relationship 'Quarterly Churn to Customer'
+	fromColumn: 'Quarterly Churn'.CustomerID
+	toColumn: 'Customer Churn'.customerID
+

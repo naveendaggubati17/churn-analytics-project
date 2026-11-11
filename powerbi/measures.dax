@@ -24,3 +24,36 @@ AVERAGE('Customer Churn'[tenure])
 
 Retained Customers =
 [Total Customers] - [Churned Customers]
+
+Customers at Quarter Start =
+SUM('Quarterly Churn'[ActiveAtStart])
+
+Quarterly Churned Customers =
+SUM('Quarterly Churn'[ChurnedThisQuarter])
+
+Quarterly Churn Rate =
+DIVIDE([Quarterly Churned Customers], [Customers at Quarter Start], 0)
+
+Previous Quarter Churn Rate =
+VAR PriorQuarter = EDATE(MAX('Quarterly Churn'[QuarterStart]), -3)
+RETURN
+    CALCULATE(
+        [Quarterly Churn Rate],
+        REMOVEFILTERS('Quarterly Churn'[QuarterLabel], 'Quarterly Churn'[QuarterStart]),
+        'Quarterly Churn'[QuarterStart] = PriorQuarter
+    )
+
+QoQ Churn Change (pp) =
+VAR PreviousRate = [Previous Quarter Churn Rate]
+RETURN
+    IF(
+        ISBLANK(PreviousRate),
+        BLANK(),
+        ([Quarterly Churn Rate] - PreviousRate) * 100
+    )
+
+Quarterly Revenue Lost =
+CALCULATE(
+    SUM('Quarterly Churn'[MonthlyCharges]),
+    'Quarterly Churn'[ChurnedThisQuarter] = 1
+)

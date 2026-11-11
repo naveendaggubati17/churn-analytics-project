@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "artifacts": {
+    "semanticModel": {
+      "path": "ChurnAnalytics.SemanticModel"
+    }
+  },
+  "settings": {
+    "enableAutoRecovery": true
+  }
+}

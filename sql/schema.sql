@@ -26,3 +26,22 @@ CREATE TABLE customer_sales (
     tenure_group VARCHAR(20),
     risk_score INT
 );
+
+CREATE TABLE quarterly_churn_events (
+    customer_id VARCHAR(50) NOT NULL,
+    quarter_start DATE NOT NULL,
+    quarter_label VARCHAR(7) NOT NULL,
+    active_at_start TINYINT UNSIGNED NOT NULL,
+    churned_this_quarter TINYINT UNSIGNED NOT NULL,
+    monthly_charges DECIMAL(10,2) NOT NULL,
+    contract VARCHAR(25) NOT NULL,
+    payment_method VARCHAR(50) NOT NULL,
+    tenure_group VARCHAR(20) NOT NULL,
+    risk_score INT NOT NULL,
+    PRIMARY KEY (customer_id, quarter_start),
+    KEY idx_quarter_start (quarter_start),
+    CONSTRAINT fk_quarterly_customer
+        FOREIGN KEY (customer_id) REFERENCES customer_sales (customer_id),
+    CONSTRAINT chk_active_at_start CHECK (active_at_start IN (0, 1)),
+    CONSTRAINT chk_quarterly_churn CHECK (churned_this_quarter <= active_at_start)
+);

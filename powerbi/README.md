@@ -1,19 +1,15 @@
-# Power BI Report Setup
+# Power BI Project
 
-## Load the dataset
-1. Open Power BI Desktop and choose **Get data > Text/CSV**.
-2. Select `data/cleaned_churn_data.csv` and load it.
-3. In the model pane, rename the imported table to `Customer Churn`.
-4. Set `MonthlyCharges` and `TotalCharges` to decimal number, and `tenure`, `SeniorCitizen`, and `RiskScore` to whole number.
-5. From **View > Themes > Browse for themes**, import `powerbi/theme.json`.
-6. Add the measures in `powerbi/measures.dax` to the `Customer Churn` table. Format `Churn Rate` as a percentage and the revenue measures as currency.
+Open `ChurnAnalytics.pbip` in Power BI Desktop. Its semantic model contains `Customer Churn` and `Quarterly Churn`, sourced from the cleaned customer and quarterly event CSVs in this public GitHub repository. The Power Query partitions use the repository's raw CSV URLs; set the source credentials to **Anonymous** if prompted.
 
-## Suggested report page
-- KPI cards: `Churn Rate`, `Churned Customers`, `Monthly Revenue at Risk`, and `Average Tenure (Months)`.
-- Clustered column chart: `TenureGroup` by `Churn Rate`.
-- Bar chart: `Contract` by `Churn Rate`.
-- Bar chart: `PaymentMethod` by `Churn Rate`.
-- Doughnut chart: `Churn` by `Total Customers`.
+The model has typed columns, a many-to-one quarterly-event-to-customer relationship, and measures for customer counts, base churn rate, quarterly churn rate, quarter-over-quarter change, and revenue lost. The measures are listed in `measures.dax`, and `theme.json` provides the report palette.
+
+## Executive Report Page
+- KPI cards: `Total Customers`, `Churn Rate`, `Quarterly Churn Rate`, `QoQ Churn Change (pp)`, and `Quarterly Revenue Lost`.
+- Line chart: `QuarterLabel` by `Quarterly Churn Rate`; add `Customers at Quarter Start` and `Quarterly Churned Customers` to tooltips.
+- Bar charts: `TenureGroup`, `Contract`, and `PaymentMethod` by `Churn Rate`.
+- Detail table: customer ID, contract, payment method, tenure group, risk score, and monthly charges; sort risk score descending.
 - Slicers: `Contract`, `PaymentMethod`, and `TenureGroup`.
+- Retention action panel: treat high-rate segments as hypotheses for controlled billing, contract, and onboarding experiments.
 
-The repository also includes an interactive browser preview under `dashboard/`. The source data is synthetic and its churn labels are randomly assigned, so the report is for demonstrating the workflow rather than making business claims.
+This PBIP currently contains the semantic model only; report pages and visuals must be created in Power BI Desktop. The quarterly event history is synthetic and intentionally has rising churn hazards to demonstrate trend analysis. It is not observed historical performance or causal evidence.

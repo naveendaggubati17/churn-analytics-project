@@ -1,0 +1,192 @@
+/// Final customer churn status in a synthetic four-quarter attrition scenario; not observed historical performance.
+table 'Customer Churn'
+	lineageTag: a530fb45-9668-4820-aba5-79d8dcdc0dc4
+
+	/// Distinct customers in the current filter context.
+	measure 'Total Customers' = DISTINCTCOUNT('Customer Churn'[customerID])
+		formatString: #,##0
+		lineageTag: 8e730997-30d6-4c91-b76c-7f28f251c554
+
+	/// Distinct customers marked as churned.
+	measure 'Churned Customers' = CALCULATE([Total Customers], 'Customer Churn'[Churn] = "Yes")
+		formatString: #,##0
+		lineageTag: 4763421e-e410-45c9-a09c-4bcf49c87d54
+
+	/// Share of customers marked as churned.
+	measure 'Churn Rate' = DIVIDE([Churned Customers], [Total Customers], 0)
+		formatString: 0.0%
+		lineageTag: 21d871a6-a311-468a-9336-5d920c0f88ef
+
+	/// Monthly charges associated with customers marked as churned.
+	measure 'Monthly Revenue at Risk' = CALCULATE(SUM('Customer Churn'[MonthlyCharges]), 'Customer Churn'[Churn] = "Yes")
+		formatString: $#,##0
+		lineageTag: f8f648e9-b020-4515-8549-760916746458
+
+	/// Average monthly charges in the current filter context.
+	measure 'Average Monthly Charges' = AVERAGE('Customer Churn'[MonthlyCharges])
+		formatString: $#,##0.00
+		lineageTag: dd4ac1a2-9e5f-4762-abe3-7c193474c376
+
+	/// Average tenure in months in the current filter context.
+	measure 'Average Tenure (Months)' = AVERAGE('Customer Churn'[tenure])
+		formatString: 0.0
+		lineageTag: dec2962a-a726-4a8c-ae43-8b9603a2053c
+
+	/// Distinct customers not marked as churned.
+	measure 'Retained Customers' = [Total Customers] - [Churned Customers]
+		formatString: #,##0
+		lineageTag: 3452ac87-a5f6-4e69-aa10-43bfa542bd90
+
+	column customerID
+		dataType: string
+		isUnique
+		isKey
+		isNullable: false
+		lineageTag: 6660face-1705-4731-b202-40c5e6254748
+		summarizeBy: none
+		sourceColumn: customerID
+
+	column gender
+		dataType: string
+		lineageTag: 406ee3e0-e90e-4207-b261-86bdacb35772
+		summarizeBy: none
+		sourceColumn: gender
+
+	column SeniorCitizen
+		dataType: int64
+		lineageTag: a123c6d4-46b0-48ff-842d-929602740d78
+		summarizeBy: none
+		sourceColumn: SeniorCitizen
+
+	column Partner
+		dataType: string
+		lineageTag: e43e9035-e30a-4c26-b47d-67be730a4869
+		summarizeBy: none
+		sourceColumn: Partner
+
+	column Dependents
+		dataType: string
+		lineageTag: d0ae5f72-223a-40b9-9489-ecebcbf0c08d
+		summarizeBy: none
+		sourceColumn: Dependents
+
+	column tenure
+		dataType: int64
+		lineageTag: de60128e-3fe9-4754-b5bc-2af4cafdf174
+		summarizeBy: average
+		sourceColumn: tenure
+
+	column PhoneService
+		dataType: string
+		lineageTag: 9a1c54bd-a1f4-449b-b574-1ad19ca00ecb
+		summarizeBy: none
+		sourceColumn: PhoneService
+
+	column MultipleLines
+		dataType: string
+		lineageTag: 6339a26b-6a10-4089-a5dc-27ffa0c9c5cc
+		summarizeBy: none
+		sourceColumn: MultipleLines
+
+	column InternetService
+		dataType: string
+		lineageTag: a5a60e62-3be6-41c9-8397-1d49ccc0f8bf
+		summarizeBy: none
+		sourceColumn: InternetService
+
+	column OnlineSecurity
+		dataType: string
+		lineageTag: ca61bb6d-95a5-4366-bdf2-5e547dacf860
+		summarizeBy: none
+		sourceColumn: OnlineSecurity
+
+	column OnlineBackup
+		dataType: string
+		lineageTag: dfa359ca-86f2-4174-b4d6-1e921340bf67
+		summarizeBy: none
+		sourceColumn: OnlineBackup
+
+	column DeviceProtection
+		dataType: string
+		lineageTag: 8c3dcb3e-d3d4-400a-bcdd-dfa4d10171f3
+		summarizeBy: none
+		sourceColumn: DeviceProtection
+
+	column TechSupport
+		dataType: string
+		lineageTag: a68c9c27-8372-497c-9463-671bb88d690c
+		summarizeBy: none
+		sourceColumn: TechSupport
+
+	column StreamingTV
+		dataType: string
+		lineageTag: 46974834-dc89-40af-a40a-2e31cdfaa524
+		summarizeBy: none
+		sourceColumn: StreamingTV
+
+	column StreamingMovies
+		dataType: string
+		lineageTag: 0dd97a1c-0fef-4f5b-bb22-07879f2259cb
+		summarizeBy: none
+		sourceColumn: StreamingMovies
+
+	column Contract
+		dataType: string
+		lineageTag: 86bfd88a-b0fd-419b-aafc-5744b0ebf024
+		summarizeBy: none
+		sourceColumn: Contract
+
+	column PaperlessBilling
+		dataType: string
+		lineageTag: 4902d069-5186-4a59-b89d-b9bb89695ff2
+		summarizeBy: none
+		sourceColumn: PaperlessBilling
+
+	column PaymentMethod
+		dataType: string
+		lineageTag: 8a106947-a604-4671-8623-d7e42ba61390
+		summarizeBy: none
+		sourceColumn: PaymentMethod
+
+	column MonthlyCharges
+		dataType: decimal
+		formatString: $#,##0.00
+		lineageTag: 85283541-229c-4b05-8347-920ab91b5ab1
+		summarizeBy: sum
+		sourceColumn: MonthlyCharges
+
+	column TotalCharges
+		dataType: decimal
+		formatString: $#,##0.00
+		lineageTag: 86568335-71fd-46b6-b7ef-db4d876060bc
+		summarizeBy: sum
+		sourceColumn: TotalCharges
+
+	column Churn
+		dataType: string
+		lineageTag: 4cd74055-44c4-49e2-963d-7eea017370f6
+		summarizeBy: none
+		sourceColumn: Churn
+
+	column TenureGroup
+		dataType: string
+		lineageTag: 805851e8-2290-4efb-b469-f61a244761ce
+		summarizeBy: none
+		sourceColumn: TenureGroup
+
+	column RiskScore
+		dataType: int64
+		lineageTag: 8c1f6701-264b-4396-8432-04f8aea86029
+		summarizeBy: average
+		sourceColumn: RiskScore
+
+	partition 'Customer Churn' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(Web.Contents("https://raw.githubusercontent.com/naveendaggubati17/churn-analytics-project/main/data/cleaned_churn_data.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"customerID", type text}, {"gender", type text}, {"SeniorCitizen", Int64.Type}, {"Partner", type text}, {"Dependents", type text}, {"tenure", Int64.Type}, {"PhoneService", type text}, {"MultipleLines", type text}, {"InternetService", type text}, {"OnlineSecurity", type text}, {"OnlineBackup", type text}, {"DeviceProtection", type text}, {"TechSupport", type text}, {"StreamingTV", type text}, {"StreamingMovies", type text}, {"Contract", type text}, {"PaperlessBilling", type text}, {"PaymentMethod", type text}, {"MonthlyCharges", type number}, {"TotalCharges", type number}, {"Churn", type text}, {"TenureGroup", type text}, {"RiskScore", Int64.Type}}, "en-US")
+				in
+				    ChangedTypes
+

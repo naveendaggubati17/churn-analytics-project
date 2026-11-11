@@ -1,0 +1,4 @@
+/// Customer churn analytics semantic model for the churn analytics project.
+database ChurnAnalytics
+	compatibilityLevel: 1600
+
