@@ -1,0 +1,1001 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn,TenureGroup,RiskScore
+7590-WB0001,Female,0,No,No,51,No,Yes,No,No,Yes,No,No internet service,Yes,Yes,Month-to-month,No,Bank transfer (automatic),85.88,4379.88,No,49-72 Mos,3
+7590-WB0002,Male,0,No,Yes,47,Yes,No phone service,No,Yes,No,No,No internet service,Yes,No,One year,No,Credit card (automatic),61.71,2900.37,No,25-48 Mos,2
+7590-WB0003,Female,0,No,Yes,4,Yes,Yes,No,No internet service,No internet service,Yes,No internet service,No,No,Two year,No,Electronic check,100.34,401.36,No,0-12 Mos,3
+7590-WB0004,Female,0,No,Yes,7,Yes,No phone service,DSL,No internet service,No,No,Yes,Yes,No,Month-to-month,No,Electronic check,37.98,265.86,No,0-12 Mos,4
+7590-WB0005,Female,0,Yes,No,35,No,No,DSL,Yes,No,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,38.86,1360.1,No,25-48 Mos,3
+7590-WB0006,Male,0,Yes,No,48,No,Yes,DSL,No internet service,No internet service,No internet service,No,Yes,Yes,Month-to-month,Yes,Mailed check,83.15,3991.2,No,25-48 Mos,3
+7590-WB0007,Female,1,No,No,72,Yes,Yes,Fiber optic,No,No,Yes,No,No,No internet service,Month-to-month,Yes,Mailed check,103.27,7435.44,No,49-72 Mos,3
+7590-WB0008,Female,0,Yes,No,45,Yes,Yes,DSL,No internet service,No internet service,No,Yes,No internet service,No internet service,Month-to-month,No,Electronic check,65.71,2956.95,No,25-48 Mos,4
+7590-WB0009,Female,1,No,No,72,No,No,No,Yes,No,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),91.31,6574.32,No,49-72 Mos,3
+7590-WB0010,Male,0,Yes,No,19,Yes,No phone service,No,No,No internet service,No internet service,No internet service,Yes,No internet service,Two year,No,Mailed check,118.68,2254.92,No,13-24 Mos,2
+7590-WB0011,Female,0,No,No,63,Yes,No phone service,DSL,Yes,No internet service,No,No internet service,No internet service,No,Two year,Yes,Credit card (automatic),117.77,7419.51,No,49-72 Mos,2
+7590-WB0012,Female,0,No,Yes,38,Yes,Yes,DSL,No,No internet service,No internet service,No,No,No,One year,Yes,Mailed check,93.06,3536.28,Yes,25-48 Mos,2
+7590-WB0013,Female,1,Yes,No,67,No,No,No,No,Yes,No internet service,Yes,No internet service,No,Month-to-month,Yes,Credit card (automatic),92.58,6202.86,Yes,49-72 Mos,3
+7590-WB0014,Female,1,Yes,Yes,59,No,No,DSL,No internet service,No,Yes,Yes,Yes,No,One year,No,Credit card (automatic),43.14,2545.26,Yes,49-72 Mos,2
+7590-WB0015,Male,0,No,Yes,69,No,No,No,No,Yes,No internet service,No,Yes,Yes,One year,Yes,Electronic check,102.02,7039.38,No,49-72 Mos,3
+7590-WB0016,Female,0,No,No,13,No,No,Fiber optic,Yes,No,No,No,No internet service,No internet service,Two year,No,Credit card (automatic),58.96,766.48,No,13-24 Mos,2
+7590-WB0017,Male,0,Yes,No,47,No,No,No,No internet service,No,No internet service,No internet service,No,No internet service,One year,No,Bank transfer (automatic),114.93,5401.71,Yes,25-48 Mos,2
+7590-WB0018,Male,0,Yes,Yes,61,No,No phone service,Fiber optic,Yes,No,No internet service,No internet service,No,No,Two year,No,Electronic check,26.43,1612.23,Yes,49-72 Mos,3
+7590-WB0019,Male,1,No,Yes,31,Yes,No phone service,DSL,No,Yes,Yes,No internet service,Yes,No,One year,Yes,Mailed check,62.05,1923.55,No,25-48 Mos,2
+7590-WB0020,Female,0,Yes,No,22,No,No phone service,DSL,Yes,No,No internet service,No,Yes,No internet service,Month-to-month,Yes,Electronic check,74.11,1630.42,Yes,13-24 Mos,4
+7590-WB0021,Male,0,No,No,43,No,Yes,Fiber optic,Yes,Yes,Yes,No,No,Yes,One year,No,Bank transfer (automatic),58.97,2535.71,No,25-48 Mos,2
+7590-WB0022,Female,0,No,Yes,67,Yes,No,DSL,No,No internet service,Yes,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),39.41,2640.47,Yes,49-72 Mos,2
+7590-WB0023,Male,1,No,No,54,No,Yes,Fiber optic,No internet service,No,No,No internet service,No internet service,No,Two year,No,Credit card (automatic),77.85,4203.9,No,49-72 Mos,2
+7590-WB0024,Male,1,No,No,10,No,No,DSL,Yes,No,No,Yes,No internet service,No,Two year,No,Bank transfer (automatic),94.22,942.2,No,0-12 Mos,2
+7590-WB0025,Male,0,Yes,No,42,Yes,No phone service,No,No,No internet service,No,Yes,No internet service,Yes,One year,No,Bank transfer (automatic),83.06,3488.52,No,25-48 Mos,2
+7590-WB0026,Male,0,Yes,Yes,64,Yes,Yes,DSL,No internet service,No internet service,No,No internet service,No,No internet service,One year,Yes,Bank transfer (automatic),41.81,2675.84,No,49-72 Mos,2
+7590-WB0027,Male,0,Yes,Yes,21,Yes,No phone service,No,No internet service,No,Yes,No internet service,Yes,Yes,Two year,Yes,Bank transfer (automatic),91.78,1927.38,No,13-24 Mos,2
+7590-WB0028,Male,0,Yes,Yes,66,No,No,No,No internet service,No internet service,No internet service,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,44.07,2908.62,No,49-72 Mos,3
+7590-WB0029,Male,0,Yes,No,41,Yes,No,Fiber optic,Yes,Yes,No,No internet service,No internet service,No,Month-to-month,No,Mailed check,35.86,1470.26,No,25-48 Mos,3
+7590-WB0030,Male,1,Yes,No,24,No,No,DSL,Yes,Yes,No,Yes,No,No internet service,One year,No,Electronic check,87.66,2103.84,No,13-24 Mos,3
+7590-WB0031,Female,0,Yes,Yes,35,No,No phone service,Fiber optic,Yes,No,No,Yes,No,No,One year,Yes,Credit card (automatic),102.95,3603.25,Yes,25-48 Mos,2
+7590-WB0032,Female,1,No,Yes,56,No,No,DSL,No internet service,Yes,No internet service,Yes,No internet service,No internet service,Two year,Yes,Mailed check,66.64,3731.84,No,49-72 Mos,2
+7590-WB0033,Male,1,Yes,Yes,30,No,No phone service,No,Yes,Yes,No,No,No internet service,No,One year,No,Bank transfer (automatic),71.65,2149.5,Yes,25-48 Mos,2
+7590-WB0034,Male,0,Yes,No,57,Yes,Yes,No,No,No,No internet service,No,No internet service,No,One year,No,Credit card (automatic),48.68,2774.76,No,49-72 Mos,2
+7590-WB0035,Male,0,No,Yes,47,Yes,No,DSL,Yes,No internet service,Yes,No internet service,Yes,No internet service,Two year,No,Mailed check,67.96,3194.12,No,25-48 Mos,2
+7590-WB0036,Female,1,Yes,Yes,35,No,No,DSL,Yes,No,Yes,Yes,No internet service,No internet service,Two year,Yes,Electronic check,31.51,1102.85,No,25-48 Mos,3
+7590-WB0037,Male,1,Yes,No,19,Yes,No,Fiber optic,No internet service,Yes,Yes,No,Yes,No,One year,No,Bank transfer (automatic),114.31,2171.89,No,13-24 Mos,2
+7590-WB0038,Female,0,No,No,8,No,Yes,DSL,Yes,No,No internet service,No internet service,No,No internet service,Month-to-month,No,Credit card (automatic),98.69,789.52,No,0-12 Mos,3
+7590-WB0039,Female,0,Yes,No,26,No,No,DSL,No,No,No,No internet service,No,No,One year,No,Mailed check,85.38,2219.88,No,25-48 Mos,2
+7590-WB0040,Female,0,Yes,Yes,71,No,No phone service,DSL,No internet service,Yes,No,No internet service,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),72.34,5136.14,No,49-72 Mos,3
+7590-WB0041,Female,1,Yes,No,30,Yes,No phone service,Fiber optic,No,Yes,No,No internet service,Yes,No,Month-to-month,No,Mailed check,97.86,2935.8,Yes,25-48 Mos,3
+7590-WB0042,Female,0,No,No,7,No,No,DSL,No internet service,No,No,No internet service,Yes,No,Month-to-month,Yes,Electronic check,67.97,475.79,No,0-12 Mos,4
+7590-WB0043,Male,0,Yes,Yes,67,No,No,No,No internet service,Yes,No,Yes,Yes,No,Two year,No,Bank transfer (automatic),48.4,3242.8,No,49-72 Mos,2
+7590-WB0044,Male,0,Yes,No,65,Yes,Yes,Fiber optic,Yes,Yes,No internet service,No internet service,No internet service,Yes,Two year,No,Electronic check,34.37,2234.05,No,49-72 Mos,3
+7590-WB0045,Male,0,No,Yes,36,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No,No internet service,Two year,Yes,Bank transfer (automatic),83.33,2999.88,No,25-48 Mos,2
+7590-WB0046,Male,0,Yes,Yes,25,Yes,Yes,No,No internet service,Yes,No,No,No internet service,No,One year,No,Bank transfer (automatic),111.66,2791.5,Yes,25-48 Mos,2
+7590-WB0047,Male,0,No,No,37,Yes,No,No,Yes,Yes,Yes,No internet service,Yes,Yes,Two year,Yes,Credit card (automatic),33.69,1246.53,Yes,25-48 Mos,2
+7590-WB0048,Female,0,No,No,1,No,Yes,No,No internet service,Yes,No internet service,No,No internet service,No,Two year,No,Mailed check,36.34,36.34,No,0-12 Mos,2
+7590-WB0049,Male,0,Yes,No,15,Yes,Yes,DSL,No internet service,No internet service,No internet service,Yes,No internet service,Yes,One year,Yes,Electronic check,61.83,927.45,No,13-24 Mos,3
+7590-WB0050,Male,0,No,No,37,No,No phone service,No,No internet service,No,No,Yes,No,No,One year,No,Electronic check,99.34,3675.58,No,25-48 Mos,3
+7590-WB0051,Female,0,No,No,13,Yes,Yes,DSL,No internet service,Yes,No internet service,No,No internet service,No,Month-to-month,Yes,Electronic check,47.79,621.27,No,13-24 Mos,4
+7590-WB0052,Male,1,Yes,No,8,Yes,No phone service,Fiber optic,No internet service,No,Yes,No internet service,No,Yes,One year,Yes,Credit card (automatic),43.77,350.16,No,0-12 Mos,2
+7590-WB0053,Female,0,No,Yes,5,Yes,No phone service,Fiber optic,No internet service,No internet service,No,No internet service,Yes,Yes,One year,No,Credit card (automatic),80.56,402.8,Yes,0-12 Mos,2
+7590-WB0054,Male,0,No,Yes,60,Yes,Yes,No,Yes,Yes,No,No,No internet service,No internet service,Two year,Yes,Credit card (automatic),72.08,4324.8,Yes,49-72 Mos,2
+7590-WB0055,Female,1,Yes,No,1,Yes,No phone service,DSL,No internet service,No,Yes,No,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),24.3,24.3,Yes,0-12 Mos,3
+7590-WB0056,Male,0,Yes,Yes,36,Yes,No,No,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,26.44,951.84,No,25-48 Mos,4
+7590-WB0057,Male,0,Yes,No,35,No,No,No,Yes,Yes,No,No internet service,Yes,No internet service,One year,No,Bank transfer (automatic),82.87,2900.45,Yes,25-48 Mos,2
+7590-WB0058,Female,0,No,Yes,66,Yes,Yes,DSL,No,Yes,Yes,No internet service,Yes,Yes,Two year,No,Electronic check,64.99,4289.34,No,49-72 Mos,3
+7590-WB0059,Female,0,Yes,Yes,63,Yes,No,No,No internet service,Yes,No,No internet service,No,No internet service,Two year,No,Electronic check,115.83,7297.29,No,49-72 Mos,3
+7590-WB0060,Female,0,No,Yes,23,Yes,No phone service,Fiber optic,No,Yes,No,No,Yes,No,Two year,No,Mailed check,86.44,1988.12,No,13-24 Mos,2
+7590-WB0061,Female,0,No,No,9,Yes,No,No,No internet service,Yes,Yes,No internet service,Yes,No internet service,Two year,Yes,Electronic check,19.26,173.34,Yes,0-12 Mos,3
+7590-WB0062,Female,0,No,Yes,34,No,Yes,DSL,No internet service,Yes,No internet service,Yes,Yes,No,One year,No,Credit card (automatic),66.59,2264.06,Yes,25-48 Mos,2
+7590-WB0063,Female,0,No,No,46,Yes,Yes,DSL,Yes,No internet service,Yes,No,No internet service,No,Two year,No,Credit card (automatic),59.9,2755.4,No,25-48 Mos,2
+7590-WB0064,Female,0,No,Yes,4,Yes,No phone service,Fiber optic,Yes,No internet service,No,No internet service,Yes,No internet service,Month-to-month,No,Credit card (automatic),28.97,115.88,No,0-12 Mos,3
+7590-WB0065,Female,0,No,Yes,30,Yes,Yes,DSL,No internet service,Yes,Yes,No,No,Yes,Month-to-month,No,Mailed check,111.03,3330.9,No,25-48 Mos,3
+7590-WB0066,Male,0,No,Yes,72,Yes,No,DSL,Yes,Yes,No,Yes,No internet service,No,One year,No,Mailed check,99.15,7138.8,No,49-72 Mos,2
+7590-WB0067,Male,0,Yes,Yes,3,No,Yes,Fiber optic,No,No internet service,No,Yes,No internet service,No,Two year,Yes,Bank transfer (automatic),41.37,124.11,No,0-12 Mos,2
+7590-WB0068,Female,0,Yes,Yes,14,Yes,No phone service,No,Yes,No internet service,Yes,No,No,No internet service,Two year,No,Electronic check,43.98,615.72,No,13-24 Mos,3
+7590-WB0069,Male,1,No,No,60,No,Yes,Fiber optic,Yes,No internet service,No,No,Yes,Yes,Two year,Yes,Electronic check,21.47,1288.2,No,49-72 Mos,3
+7590-WB0070,Male,0,No,No,45,Yes,No,No,No,Yes,No internet service,Yes,No internet service,Yes,Two year,Yes,Credit card (automatic),48.07,2163.15,No,25-48 Mos,2
+7590-WB0071,Male,0,Yes,Yes,34,No,No phone service,Fiber optic,Yes,No,No,No,No internet service,No internet service,One year,No,Credit card (automatic),77.0,2618.0,No,25-48 Mos,2
+7590-WB0072,Male,0,No,Yes,45,No,No,No,No internet service,No,Yes,Yes,No internet service,Yes,Two year,No,Credit card (automatic),60.54,2724.3,No,25-48 Mos,2
+7590-WB0073,Female,0,Yes,Yes,61,Yes,No phone service,Fiber optic,No,No,No internet service,Yes,Yes,No internet service,One year,Yes,Credit card (automatic),115.66,7055.26,No,49-72 Mos,2
+7590-WB0074,Male,0,Yes,Yes,16,Yes,Yes,No,No internet service,No,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Credit card (automatic),23.89,382.24,No,13-24 Mos,2
+7590-WB0075,Female,1,Yes,No,66,No,No phone service,Fiber optic,No,Yes,No,No,No,No internet service,Two year,Yes,Credit card (automatic),77.69,5127.54,No,49-72 Mos,2
+7590-WB0076,Male,1,No,Yes,40,No,No phone service,No,No internet service,No,Yes,No,Yes,No,Month-to-month,No,Electronic check,104.51,4180.4,No,25-48 Mos,4
+7590-WB0077,Male,0,No,No,17,Yes,Yes,Fiber optic,No internet service,No internet service,No,No internet service,No,No,One year,Yes,Mailed check,66.56,1131.52,No,13-24 Mos,2
+7590-WB0078,Male,1,Yes,Yes,34,No,No,DSL,Yes,No internet service,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),18.55,630.7,No,25-48 Mos,3
+7590-WB0079,Female,0,Yes,No,16,No,Yes,No,No internet service,No,Yes,No,No internet service,No internet service,One year,No,Electronic check,42.65,682.4,No,13-24 Mos,3
+7590-WB0080,Male,0,Yes,Yes,60,No,No phone service,Fiber optic,Yes,No internet service,Yes,No internet service,No internet service,No,Two year,Yes,Credit card (automatic),50.79,3047.4,Yes,49-72 Mos,2
+7590-WB0081,Female,0,Yes,Yes,66,Yes,Yes,No,No,Yes,No,No internet service,No internet service,No,Two year,No,Bank transfer (automatic),115.33,7611.78,Yes,49-72 Mos,2
+7590-WB0082,Male,1,Yes,No,66,No,No phone service,No,No internet service,No,No internet service,No,No,No,One year,Yes,Bank transfer (automatic),109.88,7252.08,No,49-72 Mos,2
+7590-WB0083,Female,0,No,Yes,13,No,Yes,Fiber optic,No internet service,No,No,No internet service,Yes,No internet service,Month-to-month,No,Electronic check,113.64,1477.32,No,13-24 Mos,4
+7590-WB0084,Male,0,Yes,Yes,56,No,Yes,No,No,Yes,No internet service,Yes,No internet service,No internet service,One year,Yes,Mailed check,101.24,5669.44,Yes,49-72 Mos,2
+7590-WB0085,Female,0,No,Yes,31,Yes,No,Fiber optic,No,No internet service,No,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),53.59,1661.29,Yes,25-48 Mos,2
+7590-WB0086,Female,0,Yes,No,34,Yes,No phone service,DSL,No internet service,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),109.29,3715.86,No,25-48 Mos,2
+7590-WB0087,Male,0,No,Yes,39,No,No,No,No,Yes,No internet service,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,116.91,4559.49,Yes,25-48 Mos,3
+7590-WB0088,Female,0,No,Yes,67,Yes,No phone service,DSL,Yes,No internet service,Yes,No,No,No,One year,No,Bank transfer (automatic),53.43,3579.81,Yes,49-72 Mos,2
+7590-WB0089,Male,0,No,No,8,No,Yes,No,No,Yes,Yes,No internet service,No internet service,No,Month-to-month,Yes,Credit card (automatic),44.44,355.52,No,0-12 Mos,3
+7590-WB0090,Male,0,No,No,55,Yes,No phone service,No,No,No internet service,Yes,Yes,No,No internet service,Month-to-month,No,Mailed check,73.22,4027.1,Yes,49-72 Mos,3
+7590-WB0091,Male,0,No,No,27,Yes,No,No,No internet service,No internet service,Yes,Yes,No internet service,No internet service,One year,No,Bank transfer (automatic),37.06,1000.62,Yes,25-48 Mos,2
+7590-WB0092,Male,0,No,Yes,53,No,No,Fiber optic,Yes,Yes,Yes,No internet service,Yes,No,Month-to-month,No,Mailed check,21.53,1141.09,No,49-72 Mos,3
+7590-WB0093,Male,0,Yes,Yes,39,Yes,No,DSL,No,No internet service,No,Yes,No,No,Two year,No,Credit card (automatic),113.31,4419.09,No,25-48 Mos,2
+7590-WB0094,Male,0,No,Yes,65,Yes,No phone service,No,Yes,Yes,No internet service,No internet service,No internet service,Yes,Two year,No,Bank transfer (automatic),111.29,7233.85,No,49-72 Mos,2
+7590-WB0095,Male,1,Yes,No,17,Yes,No,Fiber optic,Yes,No internet service,No,No,No internet service,Yes,Two year,No,Electronic check,34.6,588.2,Yes,13-24 Mos,3
+7590-WB0096,Male,0,No,Yes,30,No,No,No,Yes,No,No,Yes,No internet service,No internet service,Two year,No,Bank transfer (automatic),59.23,1776.9,No,25-48 Mos,2
+7590-WB0097,Male,0,No,Yes,53,Yes,No,Fiber optic,No internet service,No internet service,No,Yes,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),101.77,5393.81,No,49-72 Mos,3
+7590-WB0098,Male,0,Yes,No,13,Yes,Yes,No,No,No internet service,Yes,No internet service,No,Yes,Two year,Yes,Credit card (automatic),84.68,1100.84,Yes,13-24 Mos,2
+7590-WB0099,Male,0,No,No,21,No,Yes,DSL,No internet service,Yes,No,No internet service,No internet service,No internet service,One year,No,Electronic check,57.93,1216.53,Yes,13-24 Mos,3
+7590-WB0100,Female,0,Yes,No,19,Yes,No phone service,DSL,No,No internet service,No internet service,No internet service,No,Yes,Two year,No,Electronic check,93.04,1767.76,Yes,13-24 Mos,3
+7590-WB0101,Female,0,Yes,No,53,Yes,No phone service,No,No,No,No,No internet service,No internet service,No,One year,No,Electronic check,108.4,5745.2,No,49-72 Mos,3
+7590-WB0102,Male,0,Yes,No,19,Yes,No,Fiber optic,No internet service,No,Yes,Yes,No,Yes,One year,Yes,Credit card (automatic),111.33,2115.27,No,13-24 Mos,2
+7590-WB0103,Male,0,Yes,Yes,57,Yes,Yes,No,Yes,No internet service,No internet service,No,No,No internet service,Two year,No,Credit card (automatic),56.32,3210.24,No,49-72 Mos,2
+7590-WB0104,Male,0,No,No,25,Yes,No,Fiber optic,Yes,No internet service,No internet service,No,No internet service,No,Two year,Yes,Credit card (automatic),35.69,892.25,No,25-48 Mos,2
+7590-WB0105,Male,0,No,Yes,31,No,No,No,No,No,No internet service,No,No internet service,Yes,Month-to-month,No,Credit card (automatic),109.99,3409.69,No,25-48 Mos,3
+7590-WB0106,Male,0,Yes,Yes,55,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No internet service,No,One year,No,Credit card (automatic),27.55,1515.25,No,49-72 Mos,2
+7590-WB0107,Male,0,No,No,23,Yes,Yes,DSL,Yes,No,No,No internet service,No internet service,No,Two year,No,Electronic check,90.78,2087.94,No,13-24 Mos,3
+7590-WB0108,Male,0,No,No,32,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-month,No,Mailed check,32.37,1035.84,Yes,25-48 Mos,3
+7590-WB0109,Male,0,Yes,No,62,Yes,No phone service,DSL,No,No internet service,No internet service,Yes,No internet service,Yes,Two year,No,Credit card (automatic),57.38,3557.56,No,49-72 Mos,2
+7590-WB0110,Female,0,No,Yes,10,No,No phone service,DSL,No,No internet service,No internet service,Yes,No internet service,No internet service,Two year,Yes,Mailed check,59.61,596.1,No,0-12 Mos,2
+7590-WB0111,Male,0,Yes,No,72,No,No,No,No internet service,No,Yes,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),34.21,2463.12,No,49-72 Mos,2
+7590-WB0112,Female,0,Yes,No,54,Yes,No phone service,No,No,Yes,No,Yes,No,No,One year,Yes,Bank transfer (automatic),110.98,5992.92,No,49-72 Mos,2
+7590-WB0113,Male,0,No,No,52,Yes,Yes,Fiber optic,Yes,No,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Credit card (automatic),18.52,963.04,No,49-72 Mos,2
+7590-WB0114,Male,0,No,No,20,No,Yes,Fiber optic,Yes,No,No,Yes,No,No,Month-to-month,No,Bank transfer (automatic),108.08,2161.6,No,13-24 Mos,3
+7590-WB0115,Female,1,No,No,32,Yes,No phone service,DSL,Yes,Yes,No,No,No,No,Two year,No,Mailed check,107.07,3426.24,Yes,25-48 Mos,2
+7590-WB0116,Male,1,Yes,Yes,14,No,No,Fiber optic,Yes,No,No,No internet service,No,No internet service,Two year,No,Bank transfer (automatic),50.1,701.4,No,13-24 Mos,2
+7590-WB0117,Female,0,Yes,Yes,50,No,No,Fiber optic,No internet service,No,No,Yes,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),89.03,4451.5,No,49-72 Mos,3
+7590-WB0118,Male,0,No,Yes,28,Yes,No phone service,No,No internet service,No internet service,No internet service,No,Yes,No internet service,Month-to-month,Yes,Mailed check,43.66,1222.48,No,25-48 Mos,3
+7590-WB0119,Male,0,No,No,53,No,No,Fiber optic,No,Yes,No internet service,No,No internet service,Yes,One year,Yes,Bank transfer (automatic),94.51,5009.03,Yes,49-72 Mos,2
+7590-WB0120,Female,0,No,No,24,Yes,No,DSL,No,No internet service,No,No,No,No,One year,No,Credit card (automatic),74.64,1791.36,Yes,13-24 Mos,2
+7590-WB0121,Male,0,No,No,22,Yes,No,Fiber optic,No,No internet service,No,No internet service,No internet service,No,One year,Yes,Mailed check,48.42,1065.24,No,13-24 Mos,2
+7590-WB0122,Female,0,Yes,Yes,30,Yes,Yes,DSL,No internet service,Yes,Yes,No internet service,No,No,One year,Yes,Mailed check,58.47,1754.1,No,25-48 Mos,2
+7590-WB0123,Male,0,No,No,63,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No internet service,Month-to-month,Yes,Electronic check,87.58,5517.54,No,49-72 Mos,4
+7590-WB0124,Female,0,Yes,No,4,Yes,No phone service,DSL,No,No,Yes,No,No,No internet service,Two year,No,Electronic check,109.31,437.24,No,0-12 Mos,3
+7590-WB0125,Female,0,Yes,No,59,Yes,Yes,Fiber optic,Yes,No internet service,No internet service,Yes,No internet service,No internet service,Two year,Yes,Mailed check,31.39,1852.01,No,49-72 Mos,2
+7590-WB0126,Male,0,No,Yes,8,No,No,No,No,Yes,Yes,Yes,No internet service,No internet service,Two year,Yes,Mailed check,75.67,605.36,No,0-12 Mos,2
+7590-WB0127,Male,0,No,No,12,No,Yes,Fiber optic,No,No internet service,No internet service,No,Yes,No internet service,One year,No,Electronic check,43.75,525.0,Yes,0-12 Mos,3
+7590-WB0128,Female,0,No,Yes,31,No,No phone service,No,No,No internet service,No internet service,Yes,No internet service,Yes,Month-to-month,No,Credit card (automatic),98.79,3062.49,Yes,25-48 Mos,3
+7590-WB0129,Male,0,Yes,No,34,No,Yes,No,No,Yes,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),25.31,860.54,No,25-48 Mos,3
+7590-WB0130,Male,0,No,Yes,49,Yes,No,Fiber optic,No,No,No internet service,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),87.49,4287.01,No,49-72 Mos,3
+7590-WB0131,Male,0,No,Yes,57,No,No,Fiber optic,Yes,No internet service,Yes,No,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),35.83,2042.31,No,49-72 Mos,2
+7590-WB0132,Female,1,Yes,Yes,26,No,No phone service,No,No,Yes,No,No internet service,No,No,One year,Yes,Mailed check,78.19,2032.94,No,25-48 Mos,2
+7590-WB0133,Female,0,No,No,18,No,Yes,No,Yes,No,No,No internet service,Yes,No internet service,Month-to-month,No,Credit card (automatic),102.24,1840.32,Yes,13-24 Mos,3
+7590-WB0134,Female,0,Yes,No,38,Yes,Yes,Fiber optic,No internet service,No internet service,No,Yes,No internet service,No internet service,One year,Yes,Electronic check,94.14,3577.32,No,25-48 Mos,3
+7590-WB0135,Female,0,No,Yes,50,No,Yes,DSL,No,Yes,Yes,Yes,No,No,Month-to-month,No,Credit card (automatic),93.92,4696.0,No,49-72 Mos,3
+7590-WB0136,Female,0,Yes,Yes,8,Yes,No,Fiber optic,Yes,No internet service,No,No internet service,No internet service,No,One year,No,Credit card (automatic),70.29,562.32,No,0-12 Mos,2
+7590-WB0137,Female,0,No,No,41,No,No phone service,No,No internet service,Yes,Yes,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),107.77,4418.57,Yes,25-48 Mos,3
+7590-WB0138,Female,0,No,No,6,Yes,Yes,Fiber optic,No internet service,Yes,Yes,No,Yes,No,One year,Yes,Electronic check,77.35,464.1,No,0-12 Mos,3
+7590-WB0139,Female,0,Yes,Yes,69,Yes,No,DSL,No internet service,No internet service,Yes,Yes,No,Yes,Month-to-month,Yes,Credit card (automatic),110.46,7621.74,No,49-72 Mos,3
+7590-WB0140,Female,0,Yes,No,44,No,No,Fiber optic,Yes,No internet service,No,Yes,No internet service,No,Month-to-month,No,Electronic check,73.18,3219.92,No,25-48 Mos,4
+7590-WB0141,Male,0,No,No,64,Yes,No,No,No,Yes,No,No internet service,No,No internet service,One year,No,Mailed check,69.1,4422.4,No,49-72 Mos,2
+7590-WB0142,Female,0,Yes,No,29,Yes,Yes,Fiber optic,No,No,No,Yes,No internet service,No internet service,One year,Yes,Bank transfer (automatic),40.6,1177.4,Yes,25-48 Mos,2
+7590-WB0143,Male,0,Yes,No,28,No,Yes,No,Yes,No internet service,No internet service,Yes,Yes,Yes,Two year,No,Electronic check,73.0,2044.0,Yes,25-48 Mos,3
+7590-WB0144,Male,0,Yes,Yes,11,No,Yes,No,No,Yes,Yes,Yes,No,No,One year,Yes,Mailed check,32.38,356.18,Yes,0-12 Mos,2
+7590-WB0145,Male,0,Yes,No,65,No,Yes,Fiber optic,Yes,Yes,No internet service,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,105.65,6867.25,No,49-72 Mos,3
+7590-WB0146,Female,1,No,No,19,Yes,Yes,No,No,No,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Mailed check,86.18,1637.42,No,13-24 Mos,3
+7590-WB0147,Female,0,No,Yes,9,Yes,Yes,No,No internet service,No,No,No,No internet service,No internet service,One year,No,Credit card (automatic),118.11,1062.99,No,0-12 Mos,2
+7590-WB0148,Female,0,Yes,Yes,27,Yes,Yes,DSL,No,No,Yes,No,No,Yes,Two year,No,Credit card (automatic),27.51,742.77,Yes,25-48 Mos,2
+7590-WB0149,Female,0,Yes,No,34,No,Yes,DSL,Yes,No internet service,Yes,No,No,Yes,One year,Yes,Bank transfer (automatic),42.44,1442.96,No,25-48 Mos,2
+7590-WB0150,Male,0,Yes,No,44,Yes,Yes,DSL,Yes,Yes,No internet service,No,No,No,Month-to-month,Yes,Bank transfer (automatic),106.4,4681.6,No,25-48 Mos,3
+7590-WB0151,Female,0,Yes,No,68,Yes,No,DSL,No internet service,Yes,Yes,No internet service,Yes,Yes,Month-to-month,No,Mailed check,57.97,3941.96,Yes,49-72 Mos,3
+7590-WB0152,Female,0,No,No,15,Yes,Yes,No,Yes,Yes,No,No,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),65.11,976.65,No,13-24 Mos,2
+7590-WB0153,Female,0,No,Yes,51,Yes,No phone service,Fiber optic,No,No,Yes,Yes,No internet service,No internet service,One year,No,Credit card (automatic),104.75,5342.25,Yes,49-72 Mos,2
+7590-WB0154,Female,0,Yes,Yes,13,Yes,No,No,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),70.69,918.97,Yes,13-24 Mos,3
+7590-WB0155,Female,0,Yes,Yes,49,Yes,Yes,No,No internet service,No internet service,Yes,Yes,Yes,No,Month-to-month,No,Electronic check,37.69,1846.81,Yes,49-72 Mos,4
+7590-WB0156,Male,0,Yes,No,70,Yes,No phone service,No,Yes,No,No internet service,No,No,Yes,Month-to-month,Yes,Credit card (automatic),107.9,7553.0,No,49-72 Mos,3
+7590-WB0157,Female,0,No,No,56,No,Yes,Fiber optic,No internet service,No,Yes,No internet service,No,No,One year,No,Mailed check,21.37,1196.72,No,49-72 Mos,2
+7590-WB0158,Male,0,Yes,No,51,No,No phone service,DSL,No,No,Yes,No,No,No internet service,One year,Yes,Mailed check,108.24,5520.24,No,49-72 Mos,2
+7590-WB0159,Female,0,No,No,37,No,No phone service,No,No internet service,No,No internet service,No,No,No internet service,Two year,No,Bank transfer (automatic),23.33,863.21,No,25-48 Mos,2
+7590-WB0160,Male,0,Yes,Yes,17,Yes,No phone service,No,Yes,No internet service,No internet service,No internet service,No,No,Month-to-month,No,Credit card (automatic),85.17,1447.89,No,13-24 Mos,3
+7590-WB0161,Female,0,No,Yes,58,Yes,No phone service,DSL,No internet service,Yes,No internet service,No,No,No,Month-to-month,No,Mailed check,25.45,1476.1,No,49-72 Mos,3
+7590-WB0162,Female,1,Yes,No,29,No,No,No,Yes,No internet service,No internet service,Yes,Yes,No,Two year,No,Mailed check,89.22,2587.38,No,25-48 Mos,2
+7590-WB0163,Male,0,No,Yes,33,Yes,No,Fiber optic,Yes,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),21.66,714.78,No,25-48 Mos,3
+7590-WB0164,Male,0,Yes,No,60,No,No phone service,No,No,No internet service,No,No,Yes,Yes,Two year,No,Credit card (automatic),102.92,6175.2,No,49-72 Mos,2
+7590-WB0165,Male,0,Yes,No,55,Yes,Yes,No,No,No,Yes,No,No internet service,No internet service,Two year,No,Mailed check,65.08,3579.4,Yes,49-72 Mos,2
+7590-WB0166,Female,0,Yes,Yes,10,Yes,No phone service,DSL,No,No,No,No internet service,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),27.64,276.4,No,0-12 Mos,3
+7590-WB0167,Male,0,No,No,47,No,No,No,Yes,No internet service,Yes,No,No,Yes,One year,No,Bank transfer (automatic),89.29,4196.63,No,25-48 Mos,2
+7590-WB0168,Female,0,Yes,No,23,No,Yes,No,No internet service,No internet service,No,No,Yes,Yes,One year,Yes,Bank transfer (automatic),67.42,1550.66,Yes,13-24 Mos,2
+7590-WB0169,Female,0,No,Yes,21,No,No,Fiber optic,Yes,Yes,No internet service,Yes,No internet service,Yes,One year,No,Electronic check,37.44,786.24,No,13-24 Mos,3
+7590-WB0170,Male,0,No,No,13,No,No,DSL,No,No internet service,No internet service,No,No internet service,No internet service,One year,No,Credit card (automatic),19.83,257.79,Yes,13-24 Mos,2
+7590-WB0171,Male,0,Yes,No,33,No,Yes,DSL,No,No internet service,No,No,Yes,No,Month-to-month,No,Mailed check,60.26,1988.58,No,25-48 Mos,3
+7590-WB0172,Female,1,Yes,Yes,24,Yes,No phone service,Fiber optic,No internet service,Yes,No,No,No internet service,No internet service,Two year,No,Electronic check,26.86,644.64,Yes,13-24 Mos,3
+7590-WB0173,Female,0,Yes,No,11,Yes,No phone service,No,No,Yes,Yes,No,No internet service,Yes,Two year,No,Bank transfer (automatic),27.71,304.81,Yes,0-12 Mos,2
+7590-WB0174,Male,0,No,Yes,17,Yes,No phone service,DSL,No,Yes,Yes,Yes,Yes,No,Month-to-month,No,Electronic check,45.12,767.04,No,13-24 Mos,4
+7590-WB0175,Male,0,Yes,No,68,No,No phone service,DSL,No,No internet service,Yes,Yes,No internet service,No,One year,Yes,Mailed check,81.61,5549.48,No,49-72 Mos,2
+7590-WB0176,Male,1,No,Yes,47,No,Yes,No,No internet service,Yes,No internet service,No internet service,Yes,No,Two year,Yes,Mailed check,71.51,3360.97,No,25-48 Mos,2
+7590-WB0177,Female,0,No,Yes,25,No,Yes,No,Yes,No,No internet service,No,No internet service,No internet service,Month-to-month,No,Credit card (automatic),25.18,629.5,Yes,25-48 Mos,3
+7590-WB0178,Female,0,Yes,Yes,21,No,Yes,DSL,No,No,No internet service,No internet service,Yes,No,Month-to-month,No,Bank transfer (automatic),115.58,2427.18,Yes,13-24 Mos,3
+7590-WB0179,Female,1,Yes,No,12,No,No,No,No internet service,No,No internet service,No internet service,No internet service,No internet service,One year,Yes,Bank transfer (automatic),107.41,1288.92,No,0-12 Mos,2
+7590-WB0180,Female,1,Yes,Yes,37,No,Yes,DSL,No,No internet service,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,44.3,1639.1,No,25-48 Mos,4
+7590-WB0181,Female,0,Yes,Yes,42,Yes,No phone service,No,No internet service,No,No internet service,Yes,Yes,Yes,Two year,No,Bank transfer (automatic),30.55,1283.1,No,25-48 Mos,2
+7590-WB0182,Female,0,Yes,Yes,17,Yes,No,No,No,No internet service,No internet service,Yes,No internet service,Yes,Two year,No,Electronic check,112.96,1920.32,Yes,13-24 Mos,3
+7590-WB0183,Male,0,Yes,Yes,48,Yes,No phone service,Fiber optic,No internet service,No internet service,No internet service,No,Yes,No,Month-to-month,No,Mailed check,64.59,3100.32,No,25-48 Mos,3
+7590-WB0184,Female,0,No,Yes,28,Yes,No phone service,No,No,No,No internet service,No,Yes,No,Two year,No,Mailed check,49.52,1386.56,No,25-48 Mos,2
+7590-WB0185,Female,1,No,No,41,Yes,Yes,Fiber optic,Yes,Yes,No,Yes,No internet service,Yes,Month-to-month,No,Mailed check,67.53,2768.73,No,25-48 Mos,3
+7590-WB0186,Female,0,No,No,47,No,Yes,No,No,No internet service,Yes,No,No,No internet service,Two year,No,Mailed check,95.91,4507.77,No,25-48 Mos,2
+7590-WB0187,Male,0,Yes,No,18,No,No phone service,DSL,No internet service,No,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,35.17,633.06,Yes,13-24 Mos,2
+7590-WB0188,Female,0,No,No,71,No,No phone service,DSL,No,No internet service,No internet service,No,No,Yes,Two year,No,Electronic check,95.38,6771.98,Yes,49-72 Mos,3
+7590-WB0189,Female,0,No,No,13,No,No,No,Yes,Yes,No,Yes,No,No internet service,One year,No,Mailed check,93.57,1216.41,No,13-24 Mos,2
+7590-WB0190,Male,0,No,No,13,No,Yes,No,No,Yes,Yes,No internet service,No internet service,Yes,One year,Yes,Electronic check,72.45,941.85,No,13-24 Mos,3
+7590-WB0191,Female,0,No,No,31,No,No,DSL,No internet service,No,Yes,No internet service,No,Yes,Month-to-month,Yes,Mailed check,105.27,3263.37,No,25-48 Mos,3
+7590-WB0192,Female,0,No,Yes,2,Yes,No,No,No internet service,No internet service,No internet service,No,Yes,No,One year,Yes,Electronic check,31.53,63.06,No,0-12 Mos,3
+7590-WB0193,Female,0,Yes,No,16,No,No,Fiber optic,Yes,No internet service,No internet service,Yes,Yes,No,Two year,Yes,Electronic check,78.1,1249.6,No,13-24 Mos,3
+7590-WB0194,Female,0,Yes,Yes,9,No,No phone service,Fiber optic,No internet service,No internet service,Yes,No,No,Yes,Two year,No,Electronic check,63.41,570.69,No,0-12 Mos,3
+7590-WB0195,Female,0,No,Yes,38,No,No,Fiber optic,No,No internet service,Yes,Yes,Yes,No,One year,Yes,Bank transfer (automatic),60.69,2306.22,No,25-48 Mos,2
+7590-WB0196,Male,0,No,No,54,No,No,Fiber optic,No,No,No,No,No internet service,Yes,Month-to-month,Yes,Electronic check,43.63,2356.02,Yes,49-72 Mos,4
+7590-WB0197,Male,0,No,Yes,56,Yes,No phone service,Fiber optic,No,Yes,Yes,Yes,Yes,No internet service,One year,No,Electronic check,55.66,3116.96,Yes,49-72 Mos,3
+7590-WB0198,Male,0,Yes,Yes,45,Yes,Yes,No,No internet service,No,Yes,Yes,No,No internet service,Two year,Yes,Mailed check,29.12,1310.4,No,25-48 Mos,2
+7590-WB0199,Female,0,Yes,Yes,34,No,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Electronic check,43.54,1480.36,Yes,25-48 Mos,3
+7590-WB0200,Female,0,No,Yes,9,Yes,No,Fiber optic,No,No internet service,Yes,No,Yes,No internet service,One year,No,Electronic check,45.58,410.22,Yes,0-12 Mos,3
+7590-WB0201,Female,0,Yes,No,8,Yes,No phone service,No,No,Yes,No internet service,No internet service,No internet service,Yes,One year,No,Credit card (automatic),90.68,725.44,Yes,0-12 Mos,2
+7590-WB0202,Male,0,Yes,No,7,No,Yes,No,Yes,No internet service,Yes,No internet service,No,No internet service,One year,No,Bank transfer (automatic),23.13,161.91,Yes,0-12 Mos,2
+7590-WB0203,Female,0,No,No,36,No,No,Fiber optic,No internet service,No,Yes,Yes,Yes,No internet service,Two year,No,Credit card (automatic),83.69,3012.84,Yes,25-48 Mos,2
+7590-WB0204,Female,0,Yes,No,18,No,No,No,No internet service,No,Yes,No,No internet service,No internet service,Two year,No,Mailed check,40.5,729.0,No,13-24 Mos,2
+7590-WB0205,Male,0,Yes,No,3,No,No phone service,No,No internet service,Yes,No,Yes,No internet service,No internet service,Two year,No,Bank transfer (automatic),26.48,79.44,No,0-12 Mos,2
+7590-WB0206,Female,1,No,No,28,No,No,No,Yes,No,No internet service,Yes,Yes,Yes,Month-to-month,No,Bank transfer (automatic),48.48,1357.44,No,25-48 Mos,3
+7590-WB0207,Male,0,Yes,No,70,Yes,Yes,Fiber optic,No internet service,No,No,Yes,No internet service,No internet service,Two year,Yes,Credit card (automatic),40.81,2856.7,No,49-72 Mos,2
+7590-WB0208,Male,0,Yes,No,44,No,No phone service,No,Yes,No,Yes,No,No internet service,No,Two year,Yes,Bank transfer (automatic),73.73,3244.12,No,25-48 Mos,2
+7590-WB0209,Male,0,No,No,21,No,Yes,DSL,Yes,No,No,No,No,No,Month-to-month,No,Credit card (automatic),54.17,1137.57,Yes,13-24 Mos,3
+7590-WB0210,Female,0,Yes,No,28,No,Yes,DSL,No internet service,No internet service,No internet service,Yes,No,No,Month-to-month,Yes,Electronic check,115.33,3229.24,No,25-48 Mos,4
+7590-WB0211,Female,0,Yes,Yes,54,Yes,Yes,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Credit card (automatic),115.09,6214.86,Yes,49-72 Mos,3
+7590-WB0212,Female,0,No,No,54,No,No,DSL,No,Yes,No,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),62.84,3393.36,No,49-72 Mos,3
+7590-WB0213,Female,0,No,Yes,65,No,No,Fiber optic,No internet service,Yes,No,No,No,No,Month-to-month,No,Bank transfer (automatic),98.16,6380.4,No,49-72 Mos,3
+7590-WB0214,Female,0,No,Yes,21,No,Yes,DSL,No internet service,No,No internet service,No,No,Yes,Month-to-month,Yes,Mailed check,19.58,411.18,No,13-24 Mos,3
+7590-WB0215,Female,0,Yes,Yes,13,Yes,Yes,DSL,Yes,Yes,No,No internet service,Yes,No,One year,No,Mailed check,73.31,953.03,No,13-24 Mos,2
+7590-WB0216,Female,1,No,Yes,57,No,No phone service,DSL,No internet service,No,No internet service,Yes,No,No internet service,One year,Yes,Mailed check,92.95,5298.15,No,49-72 Mos,2
+7590-WB0217,Male,0,Yes,No,49,No,No phone service,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No,One year,No,Mailed check,40.05,1962.45,No,49-72 Mos,2
+7590-WB0218,Female,1,No,Yes,54,No,No,Fiber optic,No internet service,Yes,Yes,No internet service,Yes,Yes,One year,Yes,Bank transfer (automatic),24.4,1317.6,Yes,49-72 Mos,2
+7590-WB0219,Male,0,Yes,No,10,Yes,No,No,No,No,No,Yes,No internet service,No,Two year,Yes,Mailed check,33.92,339.2,No,0-12 Mos,2
+7590-WB0220,Female,0,No,No,53,No,No phone service,Fiber optic,No,No,Yes,Yes,No,No internet service,Month-to-month,No,Credit card (automatic),62.66,3320.98,No,49-72 Mos,3
+7590-WB0221,Female,1,No,Yes,44,No,Yes,DSL,No internet service,No internet service,Yes,No,No,No internet service,Two year,Yes,Electronic check,69.14,3042.16,No,25-48 Mos,3
+7590-WB0222,Female,0,No,No,47,No,No,DSL,Yes,No,No,Yes,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),56.53,2656.91,Yes,25-48 Mos,3
+7590-WB0223,Male,0,No,Yes,53,Yes,Yes,Fiber optic,No,No,Yes,No internet service,No internet service,Yes,Month-to-month,Yes,Mailed check,62.47,3310.91,No,49-72 Mos,3
+7590-WB0224,Male,0,Yes,Yes,46,No,No phone service,Fiber optic,Yes,No internet service,No,No internet service,No internet service,Yes,Two year,Yes,Bank transfer (automatic),65.51,3013.46,Yes,25-48 Mos,2
+7590-WB0225,Male,0,No,No,13,No,No,Fiber optic,No internet service,No,No internet service,Yes,Yes,Yes,One year,Yes,Mailed check,95.58,1242.54,Yes,13-24 Mos,2
+7590-WB0226,Male,1,No,No,37,No,No,No,No internet service,No,No internet service,No internet service,No,No,Two year,No,Bank transfer (automatic),28.83,1066.71,No,25-48 Mos,2
+7590-WB0227,Female,0,Yes,Yes,24,Yes,No phone service,DSL,No,No internet service,No internet service,No,No internet service,No,Two year,No,Mailed check,95.53,2292.72,Yes,13-24 Mos,2
+7590-WB0228,Male,0,No,No,2,Yes,No,No,No internet service,No,No,No internet service,No,No internet service,Month-to-month,Yes,Electronic check,87.46,174.92,No,0-12 Mos,4
+7590-WB0229,Female,0,Yes,No,14,No,No phone service,No,No,No,No,No,No internet service,Yes,Month-to-month,No,Mailed check,92.79,1299.06,No,13-24 Mos,3
+7590-WB0230,Female,0,No,No,10,Yes,No,DSL,Yes,No internet service,Yes,No internet service,No,Yes,Month-to-month,Yes,Credit card (automatic),92.06,920.6,No,0-12 Mos,3
+7590-WB0231,Male,0,No,Yes,35,Yes,No phone service,DSL,No,No internet service,Yes,No,Yes,No,One year,No,Bank transfer (automatic),65.54,2293.9,No,25-48 Mos,2
+7590-WB0232,Male,0,No,Yes,25,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Two year,Yes,Bank transfer (automatic),39.5,987.5,No,25-48 Mos,2
+7590-WB0233,Male,0,Yes,No,3,No,Yes,Fiber optic,Yes,No,Yes,Yes,No internet service,No internet service,Two year,Yes,Credit card (automatic),72.18,216.54,No,0-12 Mos,2
+7590-WB0234,Male,0,No,No,17,No,Yes,No,No,Yes,Yes,No,No,No internet service,One year,Yes,Credit card (automatic),114.53,1947.01,No,13-24 Mos,2
+7590-WB0235,Male,0,No,No,12,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,Two year,Yes,Electronic check,77.4,928.8,No,0-12 Mos,3
+7590-WB0236,Male,1,No,No,54,Yes,No,Fiber optic,No internet service,No internet service,No,No internet service,Yes,No internet service,Two year,No,Bank transfer (automatic),19.36,1045.44,No,49-72 Mos,2
+7590-WB0237,Male,0,Yes,No,24,Yes,No,DSL,Yes,No,No internet service,No internet service,No,No internet service,Month-to-month,No,Electronic check,24.25,582.0,Yes,13-24 Mos,4
+7590-WB0238,Male,0,Yes,Yes,29,No,Yes,DSL,No,No,No internet service,No internet service,No internet service,No,One year,No,Bank transfer (automatic),118.03,3422.87,No,25-48 Mos,2
+7590-WB0239,Female,0,No,No,43,No,Yes,Fiber optic,Yes,No internet service,No internet service,No,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),25.48,1095.64,Yes,25-48 Mos,3
+7590-WB0240,Male,0,Yes,Yes,25,Yes,No phone service,DSL,Yes,Yes,No internet service,No internet service,Yes,Yes,One year,No,Electronic check,22.88,572.0,Yes,25-48 Mos,3
+7590-WB0241,Male,0,No,No,60,Yes,No phone service,Fiber optic,No,No internet service,No,No internet service,No,Yes,Month-to-month,No,Bank transfer (automatic),53.73,3223.8,Yes,49-72 Mos,3
+7590-WB0242,Female,0,No,Yes,65,Yes,No phone service,DSL,No internet service,No,No,Yes,Yes,No internet service,Two year,Yes,Bank transfer (automatic),115.67,7518.55,No,49-72 Mos,2
+7590-WB0243,Male,0,No,No,28,Yes,Yes,DSL,Yes,No internet service,No,Yes,Yes,Yes,One year,Yes,Electronic check,50.28,1407.84,No,25-48 Mos,3
+7590-WB0244,Female,0,No,Yes,16,No,Yes,DSL,No,No,Yes,No internet service,No internet service,No,One year,Yes,Mailed check,59.44,951.04,No,13-24 Mos,2
+7590-WB0245,Female,0,No,No,47,Yes,Yes,DSL,Yes,Yes,Yes,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,81.97,3852.59,No,25-48 Mos,4
+7590-WB0246,Male,1,No,Yes,58,No,No phone service,Fiber optic,No internet service,No,No internet service,No,No internet service,No internet service,One year,No,Bank transfer (automatic),20.67,1198.86,No,49-72 Mos,2
+7590-WB0247,Female,0,No,Yes,27,Yes,No,No,No internet service,Yes,Yes,No,No,No internet service,Two year,Yes,Credit card (automatic),108.48,2928.96,No,25-48 Mos,2
+7590-WB0248,Female,0,Yes,Yes,53,Yes,Yes,DSL,No internet service,Yes,No,No internet service,Yes,Yes,Two year,No,Mailed check,70.45,3733.85,No,49-72 Mos,2
+7590-WB0249,Female,1,Yes,Yes,42,Yes,No,Fiber optic,No,No,No internet service,Yes,No,Yes,Two year,Yes,Credit card (automatic),65.16,2736.72,No,25-48 Mos,2
+7590-WB0250,Female,0,Yes,Yes,59,Yes,No,Fiber optic,No,No,No internet service,No internet service,Yes,No internet service,Month-to-month,No,Mailed check,104.75,6180.25,No,49-72 Mos,3
+7590-WB0251,Male,0,Yes,Yes,47,Yes,No,DSL,No internet service,Yes,Yes,No,Yes,Yes,One year,Yes,Credit card (automatic),114.03,5359.41,No,25-48 Mos,2
+7590-WB0252,Female,1,Yes,No,34,No,No phone service,No,No,No internet service,No internet service,Yes,Yes,Yes,Month-to-month,No,Mailed check,60.8,2067.2,No,25-48 Mos,3
+7590-WB0253,Male,0,Yes,Yes,37,Yes,No,DSL,No internet service,No,Yes,Yes,No internet service,No internet service,Two year,No,Electronic check,35.58,1316.46,Yes,25-48 Mos,3
+7590-WB0254,Female,0,Yes,No,6,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No internet service,One year,No,Mailed check,100.23,601.38,No,0-12 Mos,2
+7590-WB0255,Female,0,No,No,7,Yes,No phone service,No,No internet service,Yes,No internet service,No internet service,No,Yes,Two year,Yes,Mailed check,58.78,411.46,No,0-12 Mos,2
+7590-WB0256,Female,0,No,No,25,No,Yes,Fiber optic,Yes,No internet service,Yes,No internet service,Yes,No internet service,One year,Yes,Mailed check,112.27,2806.75,No,25-48 Mos,2
+7590-WB0257,Female,0,No,No,33,No,Yes,DSL,No internet service,No,Yes,No internet service,No,No internet service,One year,Yes,Bank transfer (automatic),113.71,3752.43,No,25-48 Mos,2
+7590-WB0258,Male,0,No,No,55,No,No phone service,No,No internet service,Yes,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card (automatic),29.79,1638.45,No,49-72 Mos,3
+7590-WB0259,Male,1,Yes,Yes,58,No,Yes,Fiber optic,No,No internet service,Yes,Yes,No,No internet service,One year,Yes,Electronic check,114.38,6634.04,No,49-72 Mos,3
+7590-WB0260,Female,0,Yes,Yes,7,Yes,Yes,Fiber optic,No,Yes,No internet service,No,Yes,Yes,Two year,No,Credit card (automatic),55.26,386.82,No,0-12 Mos,2
+7590-WB0261,Female,0,No,Yes,57,Yes,No phone service,Fiber optic,No,No,No,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),83.2,4742.4,Yes,49-72 Mos,2
+7590-WB0262,Male,0,No,No,12,Yes,Yes,DSL,No,No internet service,No,No,No internet service,No,Two year,Yes,Electronic check,21.74,260.88,No,0-12 Mos,3
+7590-WB0263,Female,0,Yes,Yes,16,No,No,No,No,Yes,Yes,Yes,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),107.58,1721.28,No,13-24 Mos,3
+7590-WB0264,Female,0,No,Yes,43,Yes,Yes,DSL,No,No internet service,Yes,No,No,No,Two year,No,Mailed check,82.73,3557.39,Yes,25-48 Mos,2
+7590-WB0265,Female,0,No,Yes,7,Yes,No,DSL,Yes,No,Yes,No internet service,Yes,No internet service,One year,Yes,Bank transfer (automatic),82.93,580.51,No,0-12 Mos,2
+7590-WB0266,Male,0,No,Yes,51,No,Yes,DSL,No internet service,No internet service,No,Yes,No,No,Two year,Yes,Bank transfer (automatic),108.92,5554.92,No,49-72 Mos,2
+7590-WB0267,Male,0,No,Yes,32,No,No phone service,No,No internet service,No,Yes,No,No,No,Two year,No,Mailed check,69.34,2218.88,Yes,25-48 Mos,2
+7590-WB0268,Male,1,Yes,No,8,No,No phone service,DSL,No internet service,Yes,No internet service,No,No internet service,No internet service,One year,No,Credit card (automatic),59.51,476.08,No,0-12 Mos,2
+7590-WB0269,Female,0,No,Yes,72,Yes,Yes,DSL,Yes,No,No internet service,Yes,Yes,No internet service,Two year,Yes,Mailed check,105.3,7581.6,No,49-72 Mos,2
+7590-WB0270,Female,0,No,No,45,Yes,No phone service,DSL,No internet service,Yes,No internet service,Yes,No internet service,No internet service,One year,No,Electronic check,92.86,4178.7,No,25-48 Mos,3
+7590-WB0271,Male,0,Yes,No,59,No,Yes,DSL,Yes,Yes,No,No internet service,Yes,No,Month-to-month,Yes,Mailed check,113.62,6703.58,Yes,49-72 Mos,3
+7590-WB0272,Male,1,Yes,No,4,Yes,No phone service,Fiber optic,Yes,No,Yes,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),112.73,450.92,No,0-12 Mos,2
+7590-WB0273,Male,0,No,No,67,No,No,DSL,Yes,Yes,Yes,No internet service,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),56.67,3796.89,No,49-72 Mos,3
+7590-WB0274,Male,0,Yes,No,29,No,Yes,Fiber optic,No internet service,No internet service,Yes,No,Yes,No internet service,Two year,No,Bank transfer (automatic),63.17,1831.93,Yes,25-48 Mos,2
+7590-WB0275,Female,0,No,Yes,29,Yes,No,DSL,Yes,Yes,No,No internet service,Yes,Yes,Two year,Yes,Mailed check,43.98,1275.42,Yes,25-48 Mos,2
+7590-WB0276,Male,0,No,Yes,28,No,No,No,No internet service,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,84.65,2370.2,No,25-48 Mos,4
+7590-WB0277,Female,0,Yes,Yes,44,No,Yes,Fiber optic,No internet service,No internet service,No,Yes,Yes,No internet service,Two year,No,Credit card (automatic),54.89,2415.16,No,25-48 Mos,2
+7590-WB0278,Male,0,No,No,4,No,No,Fiber optic,No,No internet service,No,No,Yes,No,Two year,No,Bank transfer (automatic),97.25,389.0,Yes,0-12 Mos,2
+7590-WB0279,Female,0,No,Yes,9,Yes,Yes,Fiber optic,No,Yes,No internet service,Yes,No internet service,No internet service,Month-to-month,No,Mailed check,30.47,274.23,No,0-12 Mos,3
+7590-WB0280,Male,0,No,Yes,5,No,No,Fiber optic,Yes,Yes,No,No,No internet service,Yes,Two year,Yes,Electronic check,29.95,149.75,No,0-12 Mos,3
+7590-WB0281,Male,0,No,No,56,No,Yes,No,Yes,No,No,No,Yes,No,One year,No,Electronic check,38.8,2172.8,No,49-72 Mos,3
+7590-WB0282,Male,0,Yes,No,50,No,Yes,DSL,No internet service,No internet service,No,No,No,Yes,Two year,No,Bank transfer (automatic),26.72,1336.0,Yes,49-72 Mos,2
+7590-WB0283,Male,0,Yes,No,15,No,No phone service,Fiber optic,Yes,No,Yes,No,No,No,Two year,Yes,Bank transfer (automatic),80.56,1208.4,No,13-24 Mos,2
+7590-WB0284,Female,0,No,No,32,No,Yes,No,Yes,Yes,Yes,No internet service,No internet service,Yes,Two year,Yes,Credit card (automatic),33.06,1057.92,Yes,25-48 Mos,2
+7590-WB0285,Male,0,Yes,Yes,28,No,Yes,Fiber optic,No internet service,No internet service,Yes,No,Yes,No internet service,Month-to-month,Yes,Electronic check,34.33,961.24,No,25-48 Mos,4
+7590-WB0286,Female,1,No,No,22,No,No,DSL,Yes,No,No internet service,No internet service,Yes,Yes,One year,Yes,Credit card (automatic),19.68,432.96,No,13-24 Mos,2
+7590-WB0287,Female,0,No,No,17,Yes,Yes,Fiber optic,Yes,No,No internet service,Yes,No,Yes,One year,No,Electronic check,96.85,1646.45,No,13-24 Mos,3
+7590-WB0288,Female,0,No,Yes,59,Yes,No phone service,No,No internet service,No,No,Yes,No,No,Two year,Yes,Electronic check,99.89,5893.51,No,49-72 Mos,3
+7590-WB0289,Female,0,No,Yes,71,No,No,DSL,No internet service,No,Yes,No internet service,No,Yes,Month-to-month,No,Mailed check,34.53,2451.63,No,49-72 Mos,3
+7590-WB0290,Male,1,No,No,57,Yes,No,No,No,No,No internet service,Yes,No internet service,No internet service,Month-to-month,Yes,Bank transfer (automatic),92.57,5276.49,No,49-72 Mos,3
+7590-WB0291,Female,0,Yes,Yes,26,Yes,No phone service,DSL,No internet service,No internet service,Yes,Yes,Yes,No internet service,One year,Yes,Electronic check,61.82,1607.32,Yes,25-48 Mos,3
+7590-WB0292,Female,0,No,No,25,No,No,DSL,No,No,No internet service,No,No internet service,No internet service,Month-to-month,No,Credit card (automatic),42.33,1058.25,No,25-48 Mos,3
+7590-WB0293,Female,0,Yes,No,10,Yes,No,DSL,Yes,No internet service,No internet service,No,Yes,No,Two year,No,Bank transfer (automatic),80.7,807.0,Yes,0-12 Mos,2
+7590-WB0294,Male,0,Yes,Yes,45,No,No,Fiber optic,No internet service,No,No,No,No internet service,No,Two year,No,Credit card (automatic),36.19,1628.55,No,25-48 Mos,2
+7590-WB0295,Male,0,No,Yes,11,No,No,No,No internet service,Yes,No,No internet service,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),94.32,1037.52,No,0-12 Mos,3
+7590-WB0296,Male,1,No,No,53,No,No phone service,No,No internet service,Yes,No internet service,No internet service,No,Yes,Two year,Yes,Bank transfer (automatic),23.04,1221.12,No,49-72 Mos,2
+7590-WB0297,Male,1,No,No,72,No,No phone service,No,Yes,No,No,Yes,No,Yes,One year,No,Electronic check,114.64,8254.08,No,49-72 Mos,3
+7590-WB0298,Female,0,No,No,68,No,No,DSL,No,Yes,No internet service,No,No,No,Two year,No,Mailed check,25.47,1731.96,No,49-72 Mos,2
+7590-WB0299,Female,0,No,Yes,28,Yes,No,Fiber optic,Yes,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Electronic check,76.48,2141.44,No,25-48 Mos,4
+7590-WB0300,Male,1,Yes,No,65,No,No phone service,DSL,Yes,No,Yes,No internet service,No,Yes,One year,No,Bank transfer (automatic),108.92,7079.8,No,49-72 Mos,2
+7590-WB0301,Female,0,No,No,49,Yes,No phone service,No,No internet service,No internet service,No,No,Yes,No,Two year,No,Electronic check,19.45,953.05,Yes,49-72 Mos,3
+7590-WB0302,Female,0,No,No,47,No,No phone service,Fiber optic,No,No,No,No internet service,No internet service,No,One year,Yes,Electronic check,68.35,3212.45,No,25-48 Mos,3
+7590-WB0303,Female,0,Yes,No,52,No,No,Fiber optic,Yes,Yes,No,No,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),53.43,2778.36,No,49-72 Mos,3
+7590-WB0304,Male,0,Yes,No,54,No,No,Fiber optic,No internet service,No internet service,Yes,Yes,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),76.57,4134.78,No,49-72 Mos,2
+7590-WB0305,Male,0,No,Yes,60,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Electronic check,40.91,2454.6,Yes,49-72 Mos,3
+7590-WB0306,Female,0,Yes,No,57,No,No phone service,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,24.77,1411.89,No,49-72 Mos,3
+7590-WB0307,Male,1,No,No,47,No,No,Fiber optic,No internet service,No,No,No,No internet service,No internet service,Two year,No,Electronic check,81.16,3814.52,No,25-48 Mos,3
+7590-WB0308,Male,1,Yes,No,31,No,No phone service,DSL,No internet service,No internet service,No,No internet service,No internet service,No,Two year,No,Credit card (automatic),60.14,1864.34,Yes,25-48 Mos,2
+7590-WB0309,Male,0,Yes,No,46,No,No,DSL,No,Yes,No,Yes,No,Yes,Two year,No,Electronic check,80.81,3717.26,Yes,25-48 Mos,3
+7590-WB0310,Male,0,No,Yes,26,Yes,No phone service,Fiber optic,Yes,No,Yes,Yes,No,Yes,Two year,No,Credit card (automatic),39.41,1024.66,No,25-48 Mos,2
+7590-WB0311,Male,1,Yes,Yes,5,No,No,Fiber optic,No internet service,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,52.29,261.45,No,0-12 Mos,3
+7590-WB0312,Female,0,Yes,Yes,52,Yes,Yes,DSL,No internet service,No,No internet service,No internet service,Yes,No,Two year,Yes,Credit card (automatic),74.7,3884.4,No,49-72 Mos,2
+7590-WB0313,Male,0,Yes,No,54,No,Yes,DSL,No,Yes,Yes,No internet service,Yes,No internet service,One year,No,Electronic check,77.86,4204.44,Yes,49-72 Mos,3
+7590-WB0314,Female,1,Yes,No,33,Yes,No phone service,DSL,No,No,No internet service,No,No internet service,Yes,Month-to-month,No,Mailed check,55.67,1837.11,No,25-48 Mos,3
+7590-WB0315,Female,1,Yes,Yes,50,Yes,No,No,No internet service,No internet service,No,Yes,No internet service,No internet service,One year,No,Credit card (automatic),46.4,2320.0,No,49-72 Mos,2
+7590-WB0316,Male,0,Yes,Yes,38,No,No,No,No,No internet service,Yes,No internet service,No,No internet service,One year,No,Credit card (automatic),45.76,1738.88,No,25-48 Mos,2
+7590-WB0317,Female,0,No,Yes,27,No,No phone service,DSL,No internet service,Yes,No,No,Yes,No,One year,Yes,Bank transfer (automatic),35.81,966.87,No,25-48 Mos,2
+7590-WB0318,Female,0,No,No,15,Yes,No,Fiber optic,Yes,No internet service,No,Yes,No,No,Month-to-month,No,Mailed check,50.95,764.25,No,13-24 Mos,3
+7590-WB0319,Female,0,Yes,No,61,No,No phone service,DSL,No,No,No,No internet service,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),38.29,2335.69,No,49-72 Mos,3
+7590-WB0320,Male,0,No,Yes,21,No,No,No,Yes,Yes,No,No internet service,No internet service,No,Month-to-month,No,Mailed check,81.95,1720.95,No,13-24 Mos,3
+7590-WB0321,Male,0,No,Yes,46,No,No phone service,Fiber optic,Yes,No,Yes,No,No internet service,No,Two year,No,Credit card (automatic),75.44,3470.24,No,25-48 Mos,2
+7590-WB0322,Female,0,No,Yes,69,Yes,No,No,Yes,Yes,No,Yes,No,No,One year,No,Bank transfer (automatic),56.7,3912.3,No,49-72 Mos,2
+7590-WB0323,Male,0,Yes,No,6,No,No phone service,Fiber optic,No internet service,Yes,No internet service,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,51.0,306.0,No,0-12 Mos,4
+7590-WB0324,Male,0,No,No,38,No,No,No,Yes,No,Yes,No internet service,Yes,No internet service,One year,No,Credit card (automatic),42.13,1600.94,No,25-48 Mos,2
+7590-WB0325,Male,0,Yes,No,62,No,Yes,Fiber optic,Yes,No internet service,No,Yes,No,No,Month-to-month,Yes,Mailed check,72.06,4467.72,No,49-72 Mos,3
+7590-WB0326,Male,1,No,Yes,62,Yes,No,Fiber optic,Yes,No internet service,Yes,No,No internet service,Yes,Month-to-month,Yes,Mailed check,110.6,6857.2,No,49-72 Mos,3
+7590-WB0327,Female,0,Yes,Yes,46,No,No phone service,Fiber optic,No internet service,Yes,No internet service,No internet service,No,No internet service,Month-to-month,No,Bank transfer (automatic),87.16,4009.36,Yes,25-48 Mos,3
+7590-WB0328,Female,0,Yes,No,13,Yes,Yes,Fiber optic,Yes,No,No,No internet service,No,No,One year,Yes,Bank transfer (automatic),93.06,1209.78,No,13-24 Mos,2
+7590-WB0329,Male,0,No,Yes,3,No,No,No,Yes,No,No internet service,No,No internet service,No,Two year,Yes,Mailed check,102.1,306.3,Yes,0-12 Mos,2
+7590-WB0330,Male,0,No,No,6,Yes,Yes,No,No,Yes,No,No internet service,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),53.59,321.54,Yes,0-12 Mos,3
+7590-WB0331,Female,0,Yes,Yes,8,No,No,Fiber optic,No internet service,No internet service,No internet service,Yes,No,No internet service,Month-to-month,No,Bank transfer (automatic),24.57,196.56,Yes,0-12 Mos,3
+7590-WB0332,Female,0,No,Yes,44,No,Yes,Fiber optic,Yes,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,80.82,3556.08,No,25-48 Mos,4
+7590-WB0333,Male,0,No,Yes,33,Yes,No phone service,No,No,No internet service,Yes,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,37.21,1227.93,No,25-48 Mos,2
+7590-WB0334,Female,0,No,Yes,50,Yes,No,Fiber optic,No internet service,No internet service,No,No,Yes,Yes,One year,No,Electronic check,75.44,3772.0,No,49-72 Mos,3
+7590-WB0335,Male,0,Yes,No,11,Yes,No,Fiber optic,No internet service,Yes,Yes,No,No,No,One year,No,Mailed check,92.57,1018.27,No,0-12 Mos,2
+7590-WB0336,Male,0,Yes,Yes,28,No,No phone service,Fiber optic,No internet service,Yes,No,Yes,No,No internet service,One year,Yes,Electronic check,97.01,2716.28,No,25-48 Mos,3
+7590-WB0337,Female,1,No,No,70,No,Yes,DSL,No internet service,No internet service,No,No,Yes,Yes,One year,Yes,Credit card (automatic),48.58,3400.6,No,49-72 Mos,2
+7590-WB0338,Female,0,No,No,41,No,No phone service,Fiber optic,No internet service,No,No internet service,No internet service,No internet service,Yes,Month-to-month,Yes,Mailed check,69.75,2859.75,No,25-48 Mos,3
+7590-WB0339,Male,0,No,No,16,No,No phone service,DSL,No internet service,No,No internet service,No internet service,No internet service,No,Two year,Yes,Credit card (automatic),80.66,1290.56,No,13-24 Mos,2
+7590-WB0340,Male,0,Yes,Yes,68,Yes,Yes,Fiber optic,Yes,Yes,No internet service,Yes,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),100.61,6841.48,Yes,49-72 Mos,3
+7590-WB0341,Female,0,Yes,No,48,No,No phone service,No,Yes,No internet service,No,Yes,No internet service,No,Two year,No,Mailed check,94.77,4548.96,No,25-48 Mos,2
+7590-WB0342,Male,0,No,No,56,No,No,DSL,Yes,No,No,Yes,No internet service,No,One year,Yes,Credit card (automatic),117.54,6582.24,No,49-72 Mos,2
+7590-WB0343,Female,0,No,No,64,No,No,DSL,Yes,No,No,No,No,No internet service,Two year,No,Electronic check,19.06,1219.84,No,49-72 Mos,3
+7590-WB0344,Male,1,No,Yes,59,No,No,Fiber optic,No,Yes,Yes,No internet service,No,No internet service,Month-to-month,Yes,Credit card (automatic),62.22,3670.98,No,49-72 Mos,3
+7590-WB0345,Female,0,No,Yes,62,No,No phone service,Fiber optic,Yes,No internet service,Yes,No internet service,No,No internet service,Month-to-month,No,Mailed check,43.98,2726.76,No,49-72 Mos,3
+7590-WB0346,Female,0,No,No,11,No,No,DSL,No internet service,No,No,No internet service,Yes,Yes,One year,No,Credit card (automatic),30.3,333.3,No,0-12 Mos,2
+7590-WB0347,Female,0,No,Yes,18,No,No,No,Yes,Yes,No internet service,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,109.86,1977.48,No,13-24 Mos,4
+7590-WB0348,Male,1,Yes,No,19,Yes,No,No,Yes,No,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,118.55,2252.45,No,13-24 Mos,4
+7590-WB0349,Male,0,No,No,55,No,No,Fiber optic,No internet service,No,No internet service,No,No,Yes,Two year,Yes,Electronic check,36.4,2002.0,Yes,49-72 Mos,3
+7590-WB0350,Female,0,Yes,Yes,26,No,No,No,Yes,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),22.11,574.86,No,25-48 Mos,3
+7590-WB0351,Male,0,No,No,6,No,No,No,Yes,Yes,No internet service,No internet service,Yes,No internet service,One year,No,Mailed check,45.89,275.34,No,0-12 Mos,2
+7590-WB0352,Female,0,No,Yes,4,No,No phone service,Fiber optic,Yes,No internet service,No,Yes,No internet service,No,One year,No,Electronic check,102.15,408.6,No,0-12 Mos,3
+7590-WB0353,Female,0,Yes,Yes,29,Yes,No,No,No,Yes,Yes,No internet service,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),47.79,1385.91,No,25-48 Mos,3
+7590-WB0354,Male,1,Yes,No,59,Yes,No,Fiber optic,Yes,No internet service,No internet service,No,No internet service,No,One year,No,Electronic check,23.97,1414.23,Yes,49-72 Mos,3
+7590-WB0355,Male,0,Yes,Yes,17,Yes,Yes,DSL,No internet service,No,Yes,No,Yes,No internet service,Two year,No,Credit card (automatic),23.53,400.01,Yes,13-24 Mos,2
+7590-WB0356,Female,0,Yes,Yes,43,Yes,No phone service,Fiber optic,No internet service,No internet service,No internet service,No,No,No,Two year,Yes,Mailed check,61.21,2632.03,No,25-48 Mos,2
+7590-WB0357,Male,0,No,No,66,Yes,No phone service,DSL,Yes,No,No,No internet service,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),111.9,7385.4,No,49-72 Mos,3
+7590-WB0358,Male,0,Yes,No,34,Yes,No phone service,DSL,Yes,No,No,No,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),46.99,1597.66,No,25-48 Mos,3
+7590-WB0359,Female,0,No,Yes,8,No,No phone service,No,Yes,Yes,No,Yes,No,Yes,Two year,Yes,Credit card (automatic),61.18,489.44,Yes,0-12 Mos,2
+7590-WB0360,Female,0,Yes,Yes,13,Yes,No,No,No internet service,No,No,No internet service,No internet service,No,One year,Yes,Credit card (automatic),28.49,370.37,No,13-24 Mos,2
+7590-WB0361,Male,0,No,No,8,Yes,No,No,No internet service,Yes,No internet service,No internet service,No internet service,Yes,Month-to-month,No,Electronic check,67.85,542.8,Yes,0-12 Mos,4
+7590-WB0362,Female,0,No,Yes,65,No,Yes,Fiber optic,No,No internet service,Yes,No,No,No,Month-to-month,No,Credit card (automatic),88.25,5736.25,No,49-72 Mos,3
+7590-WB0363,Female,0,No,Yes,43,Yes,Yes,No,No,No internet service,No,No,Yes,Yes,One year,Yes,Electronic check,45.5,1956.5,No,25-48 Mos,3
+7590-WB0364,Male,0,No,Yes,39,No,No phone service,DSL,No,No,No internet service,Yes,Yes,No internet service,Month-to-month,No,Electronic check,48.07,1874.73,No,25-48 Mos,4
+7590-WB0365,Female,0,No,Yes,59,No,Yes,No,No internet service,Yes,Yes,No internet service,Yes,Yes,One year,Yes,Mailed check,102.87,6069.33,No,49-72 Mos,2
+7590-WB0366,Female,0,No,Yes,44,Yes,Yes,No,No,No,No,No,No internet service,Yes,One year,Yes,Bank transfer (automatic),19.29,848.76,Yes,25-48 Mos,2
+7590-WB0367,Male,0,Yes,Yes,9,No,No phone service,Fiber optic,Yes,Yes,Yes,Yes,Yes,No internet service,One year,No,Bank transfer (automatic),82.22,739.98,No,0-12 Mos,2
+7590-WB0368,Male,0,No,Yes,37,Yes,No phone service,Fiber optic,Yes,Yes,No,No,No internet service,Yes,One year,No,Bank transfer (automatic),57.84,2140.08,No,25-48 Mos,2
+7590-WB0369,Female,1,Yes,No,36,Yes,Yes,DSL,No internet service,Yes,Yes,No internet service,Yes,No internet service,One year,Yes,Electronic check,48.24,1736.64,Yes,25-48 Mos,3
+7590-WB0370,Female,1,Yes,No,28,No,No,Fiber optic,No,No internet service,Yes,No,No,No,Two year,Yes,Bank transfer (automatic),84.34,2361.52,Yes,25-48 Mos,2
+7590-WB0371,Male,0,No,No,42,No,Yes,No,Yes,Yes,No,No internet service,No,Yes,One year,Yes,Electronic check,102.13,4289.46,No,25-48 Mos,3
+7590-WB0372,Male,0,Yes,No,43,Yes,Yes,Fiber optic,No internet service,No internet service,No internet service,No,No internet service,No internet service,Two year,No,Mailed check,74.37,3197.91,Yes,25-48 Mos,2
+7590-WB0373,Male,0,No,No,42,No,No,DSL,No,Yes,Yes,No internet service,No internet service,No internet service,One year,Yes,Bank transfer (automatic),21.38,897.96,Yes,25-48 Mos,2
+7590-WB0374,Male,0,Yes,Yes,66,No,No,No,Yes,No internet service,No,Yes,No,Yes,Month-to-month,No,Electronic check,64.62,4264.92,No,49-72 Mos,4
+7590-WB0375,Female,0,No,Yes,55,Yes,No phone service,DSL,No,No internet service,Yes,No internet service,No,No,Two year,Yes,Bank transfer (automatic),64.76,3561.8,No,49-72 Mos,2
+7590-WB0376,Male,0,Yes,Yes,72,Yes,No phone service,Fiber optic,No internet service,No internet service,Yes,Yes,Yes,Yes,Month-to-month,No,Bank transfer (automatic),72.9,5248.8,No,49-72 Mos,3
+7590-WB0377,Male,0,No,Yes,48,No,Yes,Fiber optic,No,No,No internet service,No internet service,No,No internet service,One year,Yes,Mailed check,85.68,4112.64,No,25-48 Mos,2
+7590-WB0378,Female,0,No,No,22,Yes,No,DSL,No internet service,Yes,Yes,Yes,No internet service,No,One year,No,Credit card (automatic),20.19,444.18,Yes,13-24 Mos,2
+7590-WB0379,Male,0,No,Yes,27,Yes,No phone service,No,No,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),68.7,1854.9,No,25-48 Mos,3
+7590-WB0380,Female,0,No,Yes,67,Yes,Yes,Fiber optic,Yes,Yes,No,No internet service,No internet service,No internet service,One year,Yes,Mailed check,77.37,5183.79,Yes,49-72 Mos,2
+7590-WB0381,Male,0,Yes,No,13,Yes,No,Fiber optic,No internet service,Yes,No,No,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),52.76,685.88,No,13-24 Mos,3
+7590-WB0382,Male,0,No,Yes,45,Yes,Yes,No,No internet service,No,No internet service,Yes,Yes,No,One year,Yes,Bank transfer (automatic),85.42,3843.9,Yes,25-48 Mos,2
+7590-WB0383,Male,0,Yes,Yes,10,Yes,No phone service,Fiber optic,No internet service,No internet service,Yes,No internet service,Yes,No,One year,No,Bank transfer (automatic),41.18,411.8,No,0-12 Mos,2
+7590-WB0384,Female,0,Yes,No,9,Yes,No phone service,DSL,No,Yes,Yes,No internet service,Yes,No,Two year,No,Bank transfer (automatic),50.15,451.35,No,0-12 Mos,2
+7590-WB0385,Female,0,Yes,Yes,54,No,No,Fiber optic,No,No internet service,Yes,No,Yes,No,Month-to-month,No,Credit card (automatic),115.01,6210.54,Yes,49-72 Mos,3
+7590-WB0386,Male,0,No,Yes,27,Yes,Yes,Fiber optic,Yes,No,No internet service,No internet service,No,No,One year,No,Credit card (automatic),53.23,1437.21,No,25-48 Mos,2
+7590-WB0387,Female,0,Yes,Yes,34,No,No,No,No internet service,No internet service,Yes,No internet service,Yes,Yes,Month-to-month,No,Bank transfer (automatic),53.07,1804.38,Yes,25-48 Mos,3
+7590-WB0388,Female,0,Yes,Yes,1,No,No phone service,DSL,No internet service,Yes,No,No,No,No,Two year,Yes,Bank transfer (automatic),78.12,78.12,No,0-12 Mos,2
+7590-WB0389,Female,0,Yes,Yes,32,No,No phone service,No,No,Yes,No internet service,No internet service,Yes,No,Month-to-month,No,Mailed check,115.83,3706.56,No,25-48 Mos,3
+7590-WB0390,Female,0,No,No,71,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No internet service,Two year,No,Mailed check,117.05,8310.55,Yes,49-72 Mos,2
+7590-WB0391,Female,0,No,No,67,Yes,Yes,Fiber optic,Yes,No,No,No,No internet service,No,Month-to-month,No,Electronic check,76.51,5126.17,No,49-72 Mos,4
+7590-WB0392,Female,1,Yes,No,20,No,Yes,No,Yes,Yes,No internet service,No,No,No internet service,Month-to-month,No,Credit card (automatic),18.36,367.2,Yes,13-24 Mos,3
+7590-WB0393,Male,0,No,No,35,Yes,No,No,No,No,No,No,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),108.77,3806.95,No,25-48 Mos,2
+7590-WB0394,Male,0,No,No,17,No,Yes,No,No internet service,No internet service,Yes,No,Yes,No internet service,One year,Yes,Credit card (automatic),75.56,1284.52,No,13-24 Mos,2
+7590-WB0395,Female,0,Yes,No,18,Yes,Yes,DSL,Yes,Yes,No internet service,Yes,No,Yes,One year,Yes,Mailed check,55.03,990.54,No,13-24 Mos,2
+7590-WB0396,Male,0,Yes,Yes,45,Yes,No phone service,Fiber optic,No,Yes,No,Yes,Yes,Yes,One year,Yes,Credit card (automatic),101.58,4571.1,No,25-48 Mos,2
+7590-WB0397,Male,0,No,No,53,No,No phone service,No,No,Yes,Yes,No,No internet service,No internet service,Month-to-month,No,Credit card (automatic),58.43,3096.79,No,49-72 Mos,3
+7590-WB0398,Male,1,Yes,No,68,No,Yes,Fiber optic,No internet service,No internet service,Yes,Yes,No,Yes,Month-to-month,No,Bank transfer (automatic),21.67,1473.56,No,49-72 Mos,3
+7590-WB0399,Male,0,No,Yes,65,No,Yes,DSL,No,Yes,No,Yes,No internet service,No,One year,Yes,Bank transfer (automatic),100.77,6550.05,No,49-72 Mos,2
+7590-WB0400,Female,0,No,Yes,1,Yes,No phone service,DSL,No,No,Yes,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,73.11,73.11,Yes,0-12 Mos,3
+7590-WB0401,Male,0,No,No,58,No,Yes,DSL,Yes,No internet service,No internet service,No,Yes,No,Month-to-month,No,Bank transfer (automatic),52.23,3029.34,No,49-72 Mos,3
+7590-WB0402,Male,0,No,Yes,26,Yes,No,DSL,No,No internet service,No,Yes,Yes,No,One year,No,Mailed check,43.46,1129.96,No,25-48 Mos,2
+7590-WB0403,Female,0,No,No,20,Yes,No,Fiber optic,No,No internet service,Yes,No internet service,No,Yes,Two year,Yes,Mailed check,77.93,1558.6,No,13-24 Mos,2
+7590-WB0404,Female,0,No,Yes,10,Yes,No,DSL,Yes,No internet service,Yes,No internet service,No internet service,Yes,Month-to-month,Yes,Electronic check,39.16,391.6,Yes,0-12 Mos,4
+7590-WB0405,Male,0,Yes,No,59,No,Yes,DSL,No internet service,No internet service,No,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,50.8,2997.2,Yes,49-72 Mos,4
+7590-WB0406,Male,1,Yes,Yes,41,No,No phone service,No,No internet service,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,82.22,3371.02,No,25-48 Mos,4
+7590-WB0407,Male,0,No,Yes,5,No,Yes,DSL,Yes,No internet service,No,No internet service,No internet service,Yes,Month-to-month,No,Credit card (automatic),106.85,534.25,No,0-12 Mos,3
+7590-WB0408,Male,0,No,No,65,Yes,Yes,No,Yes,Yes,No,No,No,Yes,Two year,No,Electronic check,71.81,4667.65,No,49-72 Mos,3
+7590-WB0409,Male,0,No,No,17,Yes,No phone service,DSL,No internet service,No internet service,No internet service,No,Yes,No,One year,No,Bank transfer (automatic),94.54,1607.18,Yes,13-24 Mos,2
+7590-WB0410,Male,0,Yes,No,22,No,No phone service,DSL,No internet service,No internet service,No,No internet service,Yes,No,Month-to-month,Yes,Bank transfer (automatic),94.94,2088.68,No,13-24 Mos,3
+7590-WB0411,Female,0,No,No,41,Yes,No phone service,No,No internet service,No internet service,No internet service,No internet service,Yes,No,One year,No,Electronic check,85.02,3485.82,No,25-48 Mos,3
+7590-WB0412,Male,0,Yes,No,68,Yes,No,DSL,No internet service,No internet service,No internet service,No,No,No internet service,Month-to-month,No,Credit card (automatic),42.96,2921.28,Yes,49-72 Mos,3
+7590-WB0413,Male,0,No,Yes,69,No,Yes,Fiber optic,No internet service,No internet service,No,Yes,Yes,No internet service,Two year,Yes,Mailed check,105.36,7269.84,Yes,49-72 Mos,2
+7590-WB0414,Female,0,No,No,11,No,No phone service,Fiber optic,Yes,No,No internet service,No,Yes,No internet service,One year,Yes,Credit card (automatic),62.1,683.1,No,0-12 Mos,2
+7590-WB0415,Female,0,Yes,No,56,No,Yes,DSL,No,No,No,Yes,Yes,No,Two year,Yes,Credit card (automatic),22.69,1270.64,No,49-72 Mos,2
+7590-WB0416,Female,0,Yes,Yes,51,Yes,No,Fiber optic,No internet service,No internet service,No,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,42.83,2184.33,No,49-72 Mos,3
+7590-WB0417,Female,0,No,Yes,21,Yes,No,No,No internet service,No,Yes,Yes,No internet service,No internet service,Two year,Yes,Mailed check,95.19,1998.99,No,13-24 Mos,2
+7590-WB0418,Male,1,No,No,26,Yes,No phone service,DSL,No,Yes,No,No internet service,Yes,No internet service,Two year,Yes,Mailed check,25.2,655.2,No,25-48 Mos,2
+7590-WB0419,Male,0,No,Yes,19,Yes,No phone service,DSL,No,No internet service,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),33.06,628.14,Yes,13-24 Mos,3
+7590-WB0420,Male,0,Yes,Yes,60,Yes,Yes,No,No,Yes,No internet service,No,Yes,No internet service,Month-to-month,No,Mailed check,88.02,5281.2,No,49-72 Mos,3
+7590-WB0421,Male,1,Yes,No,71,No,No phone service,No,No,Yes,Yes,No internet service,Yes,Yes,One year,No,Mailed check,107.96,7665.16,No,49-72 Mos,2
+7590-WB0422,Male,0,Yes,Yes,47,Yes,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,No,Credit card (automatic),81.94,3851.18,No,25-48 Mos,3
+7590-WB0423,Male,1,Yes,Yes,71,Yes,No phone service,DSL,No,Yes,No,No internet service,Yes,No,One year,No,Credit card (automatic),40.59,2881.89,Yes,49-72 Mos,2
+7590-WB0424,Female,0,Yes,No,26,Yes,Yes,No,Yes,Yes,No internet service,No,No internet service,Yes,Two year,No,Electronic check,23.62,614.12,No,25-48 Mos,3
+7590-WB0425,Male,0,Yes,No,40,No,Yes,No,No,Yes,No internet service,No,No,Yes,Two year,Yes,Credit card (automatic),80.07,3202.8,No,25-48 Mos,2
+7590-WB0426,Female,0,No,Yes,5,No,Yes,Fiber optic,No,No internet service,No,Yes,No internet service,Yes,One year,Yes,Mailed check,23.01,115.05,No,0-12 Mos,2
+7590-WB0427,Female,0,No,Yes,21,No,Yes,Fiber optic,Yes,No internet service,No internet service,No internet service,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),79.83,1676.43,No,13-24 Mos,3
+7590-WB0428,Male,0,Yes,No,4,Yes,No,DSL,No,Yes,No,Yes,No,Yes,Month-to-month,No,Credit card (automatic),40.92,163.68,No,0-12 Mos,3
+7590-WB0429,Female,0,No,Yes,23,No,Yes,Fiber optic,No internet service,No internet service,Yes,No,Yes,No,Two year,No,Credit card (automatic),109.17,2510.91,No,13-24 Mos,2
+7590-WB0430,Male,0,No,Yes,15,No,No phone service,Fiber optic,No internet service,No internet service,No,Yes,No internet service,Yes,One year,Yes,Mailed check,66.0,990.0,No,13-24 Mos,2
+7590-WB0431,Female,0,Yes,Yes,8,No,No,No,No,Yes,No,Yes,No,No,Two year,Yes,Credit card (automatic),40.76,326.08,No,0-12 Mos,2
+7590-WB0432,Male,0,No,No,41,Yes,No,No,Yes,No internet service,No internet service,No,No,No,Two year,Yes,Credit card (automatic),103.99,4263.59,Yes,25-48 Mos,2
+7590-WB0433,Female,1,Yes,Yes,19,No,Yes,Fiber optic,No internet service,No,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,43.78,831.82,No,13-24 Mos,3
+7590-WB0434,Male,0,Yes,Yes,46,Yes,No,Fiber optic,Yes,No internet service,No,No internet service,No internet service,Yes,One year,Yes,Credit card (automatic),49.06,2256.76,No,25-48 Mos,2
+7590-WB0435,Male,0,No,No,28,Yes,Yes,Fiber optic,No internet service,No,Yes,Yes,No,No internet service,Two year,No,Bank transfer (automatic),102.09,2858.52,No,25-48 Mos,2
+7590-WB0436,Male,0,Yes,Yes,68,No,No phone service,DSL,No,Yes,Yes,No,No,Yes,Month-to-month,No,Electronic check,49.28,3351.04,No,49-72 Mos,4
+7590-WB0437,Male,0,Yes,Yes,15,Yes,Yes,DSL,Yes,No internet service,No internet service,No,No internet service,Yes,Two year,No,Credit card (automatic),59.47,892.05,No,13-24 Mos,2
+7590-WB0438,Male,1,Yes,No,37,No,No,DSL,Yes,Yes,No,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),53.19,1968.03,Yes,25-48 Mos,2
+7590-WB0439,Female,0,Yes,No,1,Yes,No phone service,Fiber optic,Yes,Yes,No internet service,No,No,Yes,Month-to-month,No,Credit card (automatic),29.95,29.95,No,0-12 Mos,3
+7590-WB0440,Female,0,Yes,No,67,No,Yes,Fiber optic,No internet service,Yes,No,No internet service,No internet service,Yes,Month-to-month,Yes,Electronic check,22.16,1484.72,No,49-72 Mos,4
+7590-WB0441,Female,0,Yes,No,24,No,No phone service,DSL,No internet service,Yes,Yes,No internet service,Yes,No,One year,No,Mailed check,91.07,2185.68,No,13-24 Mos,2
+7590-WB0442,Male,0,Yes,Yes,27,No,No phone service,DSL,No internet service,Yes,No,Yes,No,No,Two year,Yes,Electronic check,83.09,2243.43,No,25-48 Mos,3
+7590-WB0443,Female,0,Yes,Yes,40,Yes,No,Fiber optic,No,No internet service,No,No internet service,No,Yes,One year,Yes,Credit card (automatic),46.63,1865.2,No,25-48 Mos,2
+7590-WB0444,Male,0,No,No,63,No,No phone service,No,No internet service,No,Yes,No,No internet service,No,Month-to-month,No,Electronic check,47.96,3021.48,No,49-72 Mos,4
+7590-WB0445,Male,0,No,No,61,Yes,No,DSL,No,No internet service,Yes,No,Yes,No internet service,Month-to-month,No,Electronic check,113.22,6906.42,No,49-72 Mos,4
+7590-WB0446,Female,0,No,Yes,36,No,No phone service,Fiber optic,Yes,No internet service,No,No,No,No internet service,Two year,No,Mailed check,117.51,4230.36,No,25-48 Mos,2
+7590-WB0447,Female,0,Yes,No,24,Yes,Yes,Fiber optic,Yes,No internet service,No internet service,No,Yes,No internet service,One year,No,Credit card (automatic),65.83,1579.92,No,13-24 Mos,2
+7590-WB0448,Male,1,Yes,Yes,24,Yes,No phone service,No,No,No internet service,No,Yes,Yes,Yes,One year,No,Electronic check,98.9,2373.6,Yes,13-24 Mos,3
+7590-WB0449,Female,1,No,No,4,No,Yes,Fiber optic,No internet service,No,Yes,No internet service,No,Yes,Two year,Yes,Electronic check,92.29,369.16,No,0-12 Mos,3
+7590-WB0450,Male,0,No,Yes,67,No,Yes,Fiber optic,No,No internet service,No internet service,No internet service,Yes,No,Two year,No,Mailed check,48.13,3224.71,No,49-72 Mos,2
+7590-WB0451,Male,0,No,No,34,No,No phone service,DSL,Yes,Yes,Yes,No,No,No,One year,No,Bank transfer (automatic),24.14,820.76,No,25-48 Mos,2
+7590-WB0452,Male,0,Yes,No,57,No,Yes,DSL,Yes,No internet service,Yes,Yes,Yes,No,Month-to-month,Yes,Credit card (automatic),32.58,1857.06,No,49-72 Mos,3
+7590-WB0453,Male,0,No,Yes,49,No,No phone service,No,No,No internet service,No internet service,No,No,No internet service,Month-to-month,No,Bank transfer (automatic),102.5,5022.5,No,49-72 Mos,3
+7590-WB0454,Male,1,No,No,53,Yes,No phone service,No,No internet service,No,Yes,No,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),91.74,4862.22,Yes,49-72 Mos,2
+7590-WB0455,Female,0,Yes,Yes,23,No,Yes,Fiber optic,No internet service,No,Yes,Yes,No,No internet service,One year,No,Mailed check,85.02,1955.46,No,13-24 Mos,2
+7590-WB0456,Female,0,No,Yes,69,No,Yes,DSL,No,Yes,Yes,Yes,No,No internet service,One year,No,Mailed check,31.38,2165.22,No,49-72 Mos,2
+7590-WB0457,Male,0,Yes,Yes,53,Yes,No,No,No,No internet service,Yes,No,No,No,One year,Yes,Credit card (automatic),82.56,4375.68,No,49-72 Mos,2
+7590-WB0458,Male,0,Yes,Yes,62,No,Yes,No,No internet service,No internet service,Yes,No internet service,Yes,Yes,Month-to-month,No,Bank transfer (automatic),95.85,5942.7,No,49-72 Mos,3
+7590-WB0459,Female,0,Yes,Yes,41,No,No,No,Yes,No internet service,Yes,No,No internet service,Yes,Month-to-month,No,Electronic check,104.74,4294.34,No,25-48 Mos,4
+7590-WB0460,Female,0,No,No,57,Yes,Yes,Fiber optic,No,Yes,Yes,No internet service,Yes,No internet service,One year,No,Bank transfer (automatic),19.58,1116.06,No,49-72 Mos,2
+7590-WB0461,Male,0,No,No,60,No,No phone service,DSL,No internet service,No,Yes,No internet service,Yes,Yes,One year,No,Mailed check,87.04,5222.4,Yes,49-72 Mos,2
+7590-WB0462,Female,0,Yes,Yes,54,No,Yes,No,No internet service,Yes,Yes,Yes,No,Yes,Two year,Yes,Electronic check,20.17,1089.18,No,49-72 Mos,3
+7590-WB0463,Male,0,No,No,70,No,No phone service,DSL,Yes,No internet service,No,Yes,Yes,Yes,Two year,Yes,Electronic check,89.29,6250.3,Yes,49-72 Mos,3
+7590-WB0464,Female,0,No,Yes,57,Yes,No phone service,No,Yes,No,No,No,No,No internet service,One year,No,Mailed check,82.13,4681.41,No,49-72 Mos,2
+7590-WB0465,Male,0,No,No,10,No,No phone service,No,Yes,No,Yes,No internet service,No internet service,No,One year,No,Electronic check,33.16,331.6,No,0-12 Mos,3
+7590-WB0466,Female,0,No,No,40,Yes,No,DSL,Yes,Yes,No,No internet service,Yes,No,Month-to-month,Yes,Bank transfer (automatic),95.25,3810.0,No,25-48 Mos,3
+7590-WB0467,Male,0,Yes,No,7,No,Yes,DSL,Yes,No,No internet service,No,Yes,Yes,One year,Yes,Mailed check,25.12,175.84,No,0-12 Mos,2
+7590-WB0468,Female,0,No,No,38,Yes,No phone service,DSL,No,No,No,No,Yes,No,Two year,No,Credit card (automatic),101.3,3849.4,Yes,25-48 Mos,2
+7590-WB0469,Female,0,Yes,Yes,61,No,No phone service,Fiber optic,No internet service,No internet service,Yes,No,No,No,Month-to-month,Yes,Mailed check,44.57,2718.77,Yes,49-72 Mos,3
+7590-WB0470,Male,0,Yes,Yes,3,Yes,No,No,No,No internet service,Yes,Yes,No,No internet service,Two year,Yes,Credit card (automatic),87.48,262.44,Yes,0-12 Mos,2
+7590-WB0471,Female,0,No,No,51,Yes,Yes,Fiber optic,No,No,No,No,Yes,No internet service,Two year,Yes,Credit card (automatic),111.08,5665.08,Yes,49-72 Mos,2
+7590-WB0472,Male,1,Yes,No,47,Yes,Yes,DSL,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,52.4,2462.8,Yes,25-48 Mos,3
+7590-WB0473,Female,0,No,Yes,68,Yes,No,No,No,Yes,No internet service,No internet service,No internet service,Yes,Two year,No,Mailed check,68.79,4677.72,No,49-72 Mos,2
+7590-WB0474,Male,0,No,No,38,Yes,No,Fiber optic,No,Yes,No internet service,No,No internet service,Yes,One year,Yes,Credit card (automatic),64.79,2462.02,No,25-48 Mos,2
+7590-WB0475,Female,0,Yes,Yes,36,Yes,Yes,No,Yes,No,Yes,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),34.09,1227.24,No,25-48 Mos,2
+7590-WB0476,Male,0,Yes,Yes,41,No,No,Fiber optic,Yes,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,No,Electronic check,77.58,3180.78,No,25-48 Mos,4
+7590-WB0477,Female,0,Yes,Yes,69,No,Yes,DSL,No internet service,No,No internet service,Yes,No internet service,No internet service,Month-to-month,Yes,Mailed check,92.92,6411.48,Yes,49-72 Mos,3
+7590-WB0478,Male,0,Yes,No,13,Yes,Yes,Fiber optic,No,No,No,No,No,No internet service,Month-to-month,No,Mailed check,110.4,1435.2,No,13-24 Mos,3
+7590-WB0479,Female,0,No,Yes,58,Yes,No phone service,No,No internet service,No internet service,No internet service,No,No internet service,No,Two year,No,Electronic check,103.76,6018.08,No,49-72 Mos,3
+7590-WB0480,Male,0,No,No,50,Yes,No phone service,No,Yes,No internet service,No,No internet service,No internet service,No,One year,Yes,Mailed check,69.51,3475.5,No,49-72 Mos,2
+7590-WB0481,Male,0,No,Yes,30,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,90.51,2715.3,No,25-48 Mos,4
+7590-WB0482,Male,0,Yes,No,62,No,Yes,No,Yes,Yes,No,Yes,No,No,One year,Yes,Electronic check,98.73,6121.26,No,49-72 Mos,3
+7590-WB0483,Female,0,Yes,No,25,Yes,Yes,DSL,No,Yes,Yes,No,No internet service,No,Month-to-month,No,Mailed check,67.85,1696.25,Yes,25-48 Mos,3
+7590-WB0484,Male,0,Yes,No,27,No,Yes,Fiber optic,No,Yes,Yes,No internet service,No internet service,No,One year,No,Bank transfer (automatic),29.85,805.95,No,25-48 Mos,2
+7590-WB0485,Female,0,No,Yes,51,No,Yes,DSL,Yes,No internet service,Yes,No,No internet service,No,One year,No,Credit card (automatic),62.26,3175.26,Yes,49-72 Mos,2
+7590-WB0486,Male,0,Yes,Yes,57,Yes,Yes,DSL,No internet service,No,Yes,No,Yes,Yes,One year,No,Mailed check,102.92,5866.44,Yes,49-72 Mos,2
+7590-WB0487,Female,0,No,No,47,Yes,No,DSL,No internet service,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),78.21,3675.87,Yes,25-48 Mos,3
+7590-WB0488,Male,0,Yes,No,39,No,Yes,No,Yes,Yes,No,No,Yes,No,Two year,No,Electronic check,91.06,3551.34,No,25-48 Mos,3
+7590-WB0489,Female,0,No,No,16,No,No,No,No internet service,No internet service,Yes,No internet service,No internet service,No,Two year,Yes,Bank transfer (automatic),36.87,589.92,No,13-24 Mos,2
+7590-WB0490,Female,0,No,Yes,22,Yes,No,No,Yes,No internet service,No internet service,Yes,Yes,Yes,Two year,Yes,Mailed check,115.17,2533.74,Yes,13-24 Mos,2
+7590-WB0491,Male,0,Yes,Yes,54,Yes,Yes,Fiber optic,No internet service,No,No internet service,No,No internet service,Yes,One year,Yes,Mailed check,58.86,3178.44,No,49-72 Mos,2
+7590-WB0492,Female,0,Yes,Yes,21,Yes,Yes,No,Yes,No,Yes,No,No,No,Month-to-month,Yes,Bank transfer (automatic),83.94,1762.74,No,13-24 Mos,3
+7590-WB0493,Female,0,No,Yes,72,No,No,Fiber optic,No internet service,No internet service,No internet service,No,No internet service,No internet service,One year,No,Mailed check,20.15,1450.8,No,49-72 Mos,2
+7590-WB0494,Male,0,No,No,16,No,No,No,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),31.05,496.8,No,13-24 Mos,3
+7590-WB0495,Female,0,Yes,No,59,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,One year,No,Bank transfer (automatic),96.84,5713.56,No,49-72 Mos,2
+7590-WB0496,Female,0,Yes,Yes,31,No,Yes,DSL,Yes,Yes,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,115.53,3581.43,No,25-48 Mos,4
+7590-WB0497,Female,1,No,Yes,42,No,No,DSL,No internet service,No,Yes,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),50.42,2117.64,No,25-48 Mos,3
+7590-WB0498,Male,0,Yes,No,32,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),21.99,703.68,No,25-48 Mos,3
+7590-WB0499,Female,1,No,Yes,59,Yes,No,Fiber optic,Yes,Yes,No internet service,No,No,Yes,One year,No,Bank transfer (automatic),54.52,3216.68,No,49-72 Mos,2
+7590-WB0500,Male,0,No,Yes,34,No,No phone service,Fiber optic,Yes,No internet service,No internet service,No internet service,No internet service,No,Two year,Yes,Bank transfer (automatic),20.01,680.34,Yes,25-48 Mos,2
+7590-WB0501,Female,0,Yes,Yes,9,No,No,No,No,Yes,No,Yes,Yes,No,One year,Yes,Electronic check,37.58,338.22,No,0-12 Mos,3
+7590-WB0502,Female,0,Yes,Yes,11,Yes,No phone service,Fiber optic,No,No internet service,No internet service,Yes,No internet service,Yes,One year,Yes,Electronic check,93.87,1032.57,Yes,0-12 Mos,3
+7590-WB0503,Female,1,Yes,Yes,10,Yes,Yes,No,No internet service,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,112.43,1124.3,No,0-12 Mos,4
+7590-WB0504,Male,0,Yes,Yes,17,Yes,Yes,Fiber optic,No,No,No internet service,No,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),27.04,459.68,Yes,13-24 Mos,3
+7590-WB0505,Female,0,Yes,No,68,Yes,No,Fiber optic,No internet service,Yes,No,No,No internet service,No,Two year,No,Credit card (automatic),74.32,5053.76,No,49-72 Mos,2
+7590-WB0506,Female,0,No,Yes,48,Yes,Yes,Fiber optic,No,Yes,Yes,No,No internet service,No,Two year,Yes,Credit card (automatic),43.77,2100.96,No,25-48 Mos,2
+7590-WB0507,Male,0,No,Yes,52,No,Yes,DSL,No internet service,No internet service,No internet service,No internet service,Yes,Yes,Month-to-month,Yes,Electronic check,32.23,1675.96,No,49-72 Mos,4
+7590-WB0508,Female,1,Yes,No,25,No,Yes,Fiber optic,No,No internet service,No,No internet service,No internet service,Yes,Two year,No,Credit card (automatic),40.26,1006.5,No,25-48 Mos,2
+7590-WB0509,Male,0,Yes,No,21,No,Yes,DSL,No,No internet service,No internet service,Yes,No,No internet service,Two year,No,Credit card (automatic),76.32,1602.72,No,13-24 Mos,2
+7590-WB0510,Male,0,Yes,No,65,No,No phone service,DSL,No internet service,Yes,Yes,No internet service,No internet service,No,Month-to-month,No,Credit card (automatic),24.8,1612.0,No,49-72 Mos,3
+7590-WB0511,Female,0,No,Yes,63,Yes,No phone service,Fiber optic,Yes,Yes,No,Yes,No,No internet service,One year,Yes,Credit card (automatic),61.89,3899.07,No,49-72 Mos,2
+7590-WB0512,Male,1,Yes,No,51,Yes,No,No,Yes,No,No internet service,Yes,Yes,No internet service,Two year,No,Credit card (automatic),31.84,1623.84,Yes,49-72 Mos,2
+7590-WB0513,Female,1,Yes,Yes,36,Yes,No,No,No,Yes,No internet service,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,45.65,1643.4,No,25-48 Mos,3
+7590-WB0514,Male,0,No,Yes,66,No,No,No,No internet service,No,Yes,Yes,No internet service,No,Two year,No,Electronic check,37.42,2469.72,No,49-72 Mos,3
+7590-WB0515,Male,0,No,Yes,15,No,Yes,Fiber optic,Yes,No internet service,Yes,No,No internet service,Yes,Two year,No,Bank transfer (automatic),106.99,1604.85,No,13-24 Mos,2
+7590-WB0516,Female,1,Yes,No,39,No,Yes,No,No internet service,No internet service,No,Yes,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),89.41,3486.99,No,25-48 Mos,3
+7590-WB0517,Male,0,Yes,No,70,Yes,No phone service,DSL,Yes,No internet service,No internet service,No,No,No internet service,Two year,No,Mailed check,105.53,7387.1,No,49-72 Mos,2
+7590-WB0518,Male,0,Yes,No,1,No,No phone service,No,No internet service,No,No internet service,No internet service,Yes,Yes,Two year,Yes,Bank transfer (automatic),56.79,56.79,Yes,0-12 Mos,2
+7590-WB0519,Male,1,No,No,23,Yes,No,Fiber optic,No,Yes,Yes,No internet service,No,Yes,Two year,No,Mailed check,49.75,1144.25,No,13-24 Mos,2
+7590-WB0520,Male,0,Yes,No,39,Yes,No phone service,No,No internet service,No internet service,Yes,Yes,No,Yes,One year,Yes,Credit card (automatic),56.5,2203.5,Yes,25-48 Mos,2
+7590-WB0521,Male,0,Yes,Yes,57,Yes,No phone service,DSL,Yes,Yes,No,No,No internet service,Yes,One year,No,Credit card (automatic),20.11,1146.27,Yes,49-72 Mos,2
+7590-WB0522,Female,0,Yes,Yes,34,Yes,No phone service,Fiber optic,No,Yes,No internet service,Yes,No internet service,Yes,Two year,No,Credit card (automatic),91.08,3096.72,No,25-48 Mos,2
+7590-WB0523,Male,1,No,Yes,41,Yes,No phone service,No,No internet service,No internet service,No internet service,No internet service,No,No internet service,Month-to-month,Yes,Credit card (automatic),53.4,2189.4,No,25-48 Mos,3
+7590-WB0524,Female,1,No,Yes,13,Yes,No phone service,Fiber optic,Yes,No,No,Yes,No,Yes,Two year,Yes,Bank transfer (automatic),49.74,646.62,Yes,13-24 Mos,2
+7590-WB0525,Male,1,Yes,No,70,No,No,Fiber optic,No,Yes,No,Yes,No internet service,No,Two year,Yes,Bank transfer (automatic),78.36,5485.2,No,49-72 Mos,2
+7590-WB0526,Female,0,Yes,No,6,Yes,No,Fiber optic,No internet service,No internet service,Yes,No,No internet service,No internet service,One year,Yes,Mailed check,62.09,372.54,No,0-12 Mos,2
+7590-WB0527,Female,1,No,Yes,52,Yes,No phone service,No,Yes,Yes,Yes,No internet service,No,No internet service,One year,No,Electronic check,116.82,6074.64,No,49-72 Mos,3
+7590-WB0528,Male,1,No,No,3,No,No,Fiber optic,No internet service,Yes,No,Yes,No internet service,No,One year,No,Credit card (automatic),54.05,162.15,No,0-12 Mos,2
+7590-WB0529,Male,0,No,No,63,Yes,Yes,No,No internet service,Yes,No,No,No internet service,No,Two year,No,Mailed check,79.95,5036.85,No,49-72 Mos,2
+7590-WB0530,Male,0,No,Yes,49,No,No phone service,DSL,No,Yes,No internet service,Yes,No,No internet service,Two year,No,Mailed check,49.57,2428.93,Yes,49-72 Mos,2
+7590-WB0531,Female,0,No,Yes,47,No,Yes,No,No,Yes,No,No,No,Yes,Month-to-month,No,Mailed check,117.8,5536.6,No,25-48 Mos,3
+7590-WB0532,Male,0,No,No,55,No,No,DSL,Yes,No,No,No,Yes,No internet service,Two year,No,Credit card (automatic),62.98,3463.9,Yes,49-72 Mos,2
+7590-WB0533,Female,0,No,No,64,Yes,No,No,No,No,No internet service,Yes,No,No internet service,Two year,Yes,Credit card (automatic),81.98,5246.72,No,49-72 Mos,2
+7590-WB0534,Female,0,No,Yes,65,Yes,Yes,Fiber optic,Yes,No internet service,No,No internet service,No internet service,No,One year,No,Mailed check,30.99,2014.35,No,49-72 Mos,2
+7590-WB0535,Female,0,No,Yes,67,No,No,No,No internet service,No,Yes,No internet service,No,No internet service,One year,No,Credit card (automatic),91.92,6158.64,No,49-72 Mos,2
+7590-WB0536,Male,0,Yes,Yes,15,Yes,No phone service,Fiber optic,No internet service,No,Yes,No,No,Yes,One year,Yes,Mailed check,45.31,679.65,Yes,13-24 Mos,2
+7590-WB0537,Male,0,Yes,No,32,Yes,Yes,DSL,Yes,No,No internet service,No internet service,No,No,One year,No,Bank transfer (automatic),63.34,2026.88,Yes,25-48 Mos,2
+7590-WB0538,Female,0,Yes,Yes,68,No,No phone service,No,No internet service,Yes,No,No,Yes,No internet service,One year,No,Credit card (automatic),107.0,7276.0,No,49-72 Mos,2
+7590-WB0539,Female,0,No,Yes,18,No,Yes,Fiber optic,No,Yes,Yes,No internet service,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),115.79,2084.22,No,13-24 Mos,3
+7590-WB0540,Male,0,Yes,No,43,Yes,No,DSL,No internet service,No internet service,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Electronic check,60.92,2619.56,No,25-48 Mos,4
+7590-WB0541,Female,0,No,No,35,No,Yes,DSL,No,No internet service,Yes,No internet service,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),102.15,3575.25,No,25-48 Mos,3
+7590-WB0542,Male,0,No,No,58,No,Yes,No,Yes,No internet service,Yes,No,No,No internet service,One year,No,Electronic check,23.61,1369.38,No,49-72 Mos,3
+7590-WB0543,Female,0,Yes,No,33,No,No phone service,DSL,Yes,Yes,No,No,Yes,No internet service,One year,Yes,Mailed check,103.43,3413.19,Yes,25-48 Mos,2
+7590-WB0544,Male,0,No,No,14,Yes,No,Fiber optic,No internet service,No,No,No internet service,No,No internet service,One year,No,Credit card (automatic),81.52,1141.28,Yes,13-24 Mos,2
+7590-WB0545,Female,1,Yes,Yes,34,Yes,No phone service,DSL,No internet service,No,No,Yes,Yes,Yes,Month-to-month,No,Credit card (automatic),67.36,2290.24,No,25-48 Mos,3
+7590-WB0546,Male,0,Yes,Yes,61,Yes,No,DSL,No,Yes,No,No,Yes,No internet service,One year,No,Credit card (automatic),107.69,6569.09,No,49-72 Mos,2
+7590-WB0547,Female,0,Yes,No,4,No,No phone service,Fiber optic,No,No internet service,Yes,No,Yes,No internet service,Month-to-month,Yes,Electronic check,103.21,412.84,Yes,0-12 Mos,4
+7590-WB0548,Male,0,No,No,59,Yes,Yes,DSL,No internet service,No internet service,No internet service,No,No,No internet service,One year,No,Electronic check,48.09,2837.31,Yes,49-72 Mos,3
+7590-WB0549,Male,1,Yes,No,29,No,No phone service,DSL,No internet service,No internet service,No internet service,No,Yes,No,Two year,No,Mailed check,97.79,2835.91,No,25-48 Mos,2
+7590-WB0550,Female,0,No,No,6,Yes,No,DSL,Yes,Yes,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),28.25,169.5,No,0-12 Mos,3
+7590-WB0551,Female,1,Yes,No,49,Yes,No,DSL,Yes,No internet service,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),100.94,4946.06,No,49-72 Mos,2
+7590-WB0552,Male,0,Yes,Yes,40,No,Yes,Fiber optic,Yes,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,No,Electronic check,86.13,3445.2,No,25-48 Mos,4
+7590-WB0553,Female,1,Yes,Yes,65,Yes,No,DSL,No internet service,Yes,No internet service,Yes,Yes,Yes,One year,Yes,Credit card (automatic),27.08,1760.2,Yes,49-72 Mos,2
+7590-WB0554,Male,0,No,Yes,69,No,No phone service,Fiber optic,No internet service,No,Yes,Yes,No internet service,No,One year,No,Bank transfer (automatic),86.9,5996.1,Yes,49-72 Mos,2
+7590-WB0555,Female,1,No,Yes,27,Yes,Yes,DSL,No internet service,Yes,Yes,No,No internet service,No,Two year,Yes,Bank transfer (automatic),76.59,2067.93,No,25-48 Mos,2
+7590-WB0556,Male,0,No,No,6,Yes,No,DSL,Yes,Yes,No,Yes,No,No,One year,No,Electronic check,78.0,468.0,No,0-12 Mos,3
+7590-WB0557,Male,0,Yes,Yes,13,No,No,DSL,No internet service,Yes,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,47.48,617.24,No,13-24 Mos,3
+7590-WB0558,Male,0,Yes,No,64,No,No phone service,DSL,No,Yes,No internet service,Yes,No,No internet service,One year,No,Electronic check,45.03,2881.92,No,49-72 Mos,3
+7590-WB0559,Male,0,No,No,62,No,No phone service,Fiber optic,No internet service,No,Yes,No,No,Yes,One year,No,Electronic check,94.88,5882.56,No,49-72 Mos,3
+7590-WB0560,Male,0,No,No,19,Yes,Yes,Fiber optic,No internet service,No internet service,No internet service,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),44.06,837.14,No,13-24 Mos,3
+7590-WB0561,Male,1,No,Yes,43,Yes,No,Fiber optic,No internet service,Yes,No,Yes,No,Yes,Two year,Yes,Electronic check,63.1,2713.3,No,25-48 Mos,3
+7590-WB0562,Female,1,No,No,20,Yes,No phone service,No,No internet service,No,No,Yes,Yes,No,Two year,No,Credit card (automatic),88.08,1761.6,Yes,13-24 Mos,2
+7590-WB0563,Female,0,No,Yes,68,No,Yes,DSL,No internet service,No internet service,No internet service,No internet service,Yes,No internet service,One year,Yes,Mailed check,26.25,1785.0,No,49-72 Mos,2
+7590-WB0564,Female,0,No,Yes,44,No,No,DSL,No,No internet service,No,No internet service,No,Yes,Month-to-month,Yes,Credit card (automatic),78.0,3432.0,No,25-48 Mos,3
+7590-WB0565,Male,0,Yes,No,23,No,No,Fiber optic,No,No internet service,Yes,No internet service,No,Yes,Two year,No,Mailed check,77.48,1782.04,No,13-24 Mos,2
+7590-WB0566,Male,0,No,No,2,Yes,Yes,No,No internet service,Yes,No internet service,Yes,No internet service,No internet service,Two year,No,Mailed check,87.01,174.02,No,0-12 Mos,2
+7590-WB0567,Male,0,Yes,No,22,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No internet service,One year,No,Mailed check,55.43,1219.46,No,13-24 Mos,2
+7590-WB0568,Male,0,Yes,Yes,57,No,No phone service,Fiber optic,No internet service,No internet service,Yes,No,Yes,No internet service,Month-to-month,No,Electronic check,63.37,3612.09,No,49-72 Mos,4
+7590-WB0569,Female,0,No,No,72,Yes,No,DSL,No internet service,No internet service,No,No internet service,No internet service,No,Two year,No,Credit card (automatic),51.41,3701.52,Yes,49-72 Mos,2
+7590-WB0570,Female,0,No,Yes,7,No,No,DSL,No internet service,No internet service,Yes,No,Yes,No internet service,One year,Yes,Bank transfer (automatic),99.47,696.29,Yes,0-12 Mos,2
+7590-WB0571,Male,0,Yes,No,56,Yes,No,Fiber optic,Yes,No internet service,No internet service,No,No internet service,No,One year,No,Electronic check,31.38,1757.28,No,49-72 Mos,3
+7590-WB0572,Female,0,No,No,67,Yes,Yes,Fiber optic,Yes,No internet service,Yes,No,No,Yes,One year,Yes,Mailed check,115.03,7707.01,Yes,49-72 Mos,2
+7590-WB0573,Female,0,No,Yes,16,No,No phone service,DSL,Yes,No internet service,Yes,No,No,No,One year,No,Bank transfer (automatic),82.05,1312.8,No,13-24 Mos,2
+7590-WB0574,Male,0,Yes,Yes,51,Yes,No,DSL,No,No,Yes,No internet service,No,No internet service,Two year,No,Electronic check,107.38,5476.38,No,49-72 Mos,3
+7590-WB0575,Female,1,Yes,Yes,72,Yes,Yes,Fiber optic,Yes,No internet service,Yes,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),61.09,4398.48,No,49-72 Mos,3
+7590-WB0576,Male,0,Yes,Yes,12,No,No,DSL,No,Yes,Yes,Yes,No internet service,No internet service,One year,No,Mailed check,51.64,619.68,No,0-12 Mos,2
+7590-WB0577,Female,0,No,Yes,53,No,No phone service,DSL,No,Yes,No,Yes,Yes,No,One year,Yes,Bank transfer (automatic),108.77,5764.81,No,49-72 Mos,2
+7590-WB0578,Male,0,Yes,Yes,5,Yes,No,Fiber optic,Yes,Yes,No internet service,Yes,No internet service,Yes,Two year,Yes,Bank transfer (automatic),28.19,140.95,Yes,0-12 Mos,2
+7590-WB0579,Male,0,No,No,27,No,No phone service,DSL,Yes,No internet service,No,No internet service,No,No,One year,Yes,Mailed check,30.02,810.54,Yes,25-48 Mos,2
+7590-WB0580,Male,1,Yes,No,12,Yes,No phone service,DSL,Yes,Yes,No internet service,No,Yes,Yes,One year,No,Bank transfer (automatic),48.33,579.96,No,0-12 Mos,2
+7590-WB0581,Male,0,Yes,Yes,17,No,No,No,No,No,No internet service,No internet service,No,No internet service,Month-to-month,No,Electronic check,114.71,1950.07,Yes,13-24 Mos,4
+7590-WB0582,Female,0,Yes,No,6,Yes,No,Fiber optic,No internet service,No internet service,No internet service,No,Yes,Yes,One year,No,Bank transfer (automatic),81.87,491.22,No,0-12 Mos,2
+7590-WB0583,Male,0,No,Yes,5,Yes,No phone service,No,Yes,Yes,No internet service,No internet service,No,No internet service,Two year,No,Credit card (automatic),73.95,369.75,Yes,0-12 Mos,2
+7590-WB0584,Male,1,No,No,57,No,Yes,No,Yes,No,No internet service,No internet service,Yes,No internet service,Month-to-month,No,Electronic check,89.14,5080.98,No,49-72 Mos,4
+7590-WB0585,Male,1,Yes,No,28,Yes,No phone service,No,Yes,No,Yes,No,Yes,Yes,Two year,No,Bank transfer (automatic),60.21,1685.88,No,25-48 Mos,2
+7590-WB0586,Female,0,Yes,Yes,69,Yes,No,DSL,No,Yes,No,No internet service,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),94.44,6516.36,Yes,49-72 Mos,3
+7590-WB0587,Male,0,Yes,Yes,59,No,No,DSL,No,No,No,No,No,No,Month-to-month,No,Credit card (automatic),57.77,3408.43,No,49-72 Mos,3
+7590-WB0588,Female,0,No,Yes,33,No,Yes,No,No internet service,Yes,Yes,Yes,No internet service,No,One year,No,Credit card (automatic),101.3,3342.9,No,25-48 Mos,2
+7590-WB0589,Male,1,Yes,No,62,Yes,No phone service,No,Yes,No,No internet service,Yes,No internet service,Yes,One year,No,Bank transfer (automatic),45.11,2796.82,No,49-72 Mos,2
+7590-WB0590,Female,0,No,Yes,50,No,No phone service,No,No,No internet service,No,Yes,No,Yes,One year,No,Mailed check,46.14,2307.0,No,49-72 Mos,2
+7590-WB0591,Female,1,Yes,No,19,No,No phone service,DSL,No internet service,No internet service,Yes,No internet service,Yes,Yes,Two year,Yes,Credit card (automatic),70.75,1344.25,No,13-24 Mos,2
+7590-WB0592,Male,0,Yes,Yes,69,Yes,No,No,Yes,No internet service,Yes,Yes,No internet service,Yes,One year,Yes,Mailed check,61.54,4246.26,No,49-72 Mos,2
+7590-WB0593,Female,0,Yes,No,66,Yes,No phone service,No,No,No internet service,No,No,No,No internet service,One year,Yes,Electronic check,83.39,5503.74,No,49-72 Mos,3
+7590-WB0594,Male,0,Yes,No,47,No,Yes,Fiber optic,Yes,No internet service,No,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,54.86,2578.42,No,25-48 Mos,3
+7590-WB0595,Male,0,Yes,Yes,39,No,No,Fiber optic,Yes,Yes,No internet service,Yes,No internet service,Yes,One year,Yes,Mailed check,41.42,1615.38,Yes,25-48 Mos,2
+7590-WB0596,Male,0,Yes,No,68,No,No,DSL,No,No internet service,No internet service,No internet service,No internet service,Yes,One year,No,Mailed check,65.47,4451.96,No,49-72 Mos,2
+7590-WB0597,Female,0,No,No,33,Yes,No phone service,Fiber optic,No,No internet service,No,No,No internet service,Yes,One year,Yes,Mailed check,74.63,2462.79,No,25-48 Mos,2
+7590-WB0598,Female,0,Yes,Yes,13,Yes,Yes,Fiber optic,No,No internet service,No internet service,No internet service,Yes,No internet service,One year,Yes,Mailed check,32.58,423.54,No,13-24 Mos,2
+7590-WB0599,Male,0,No,No,54,Yes,No,Fiber optic,Yes,No internet service,Yes,No internet service,No internet service,No,Month-to-month,No,Electronic check,74.2,4006.8,No,49-72 Mos,4
+7590-WB0600,Male,0,Yes,Yes,7,Yes,No,DSL,Yes,No,No internet service,No,Yes,No,One year,No,Electronic check,50.34,352.38,No,0-12 Mos,3
+7590-WB0601,Female,0,Yes,Yes,14,Yes,No phone service,Fiber optic,No internet service,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Mailed check,57.69,807.66,No,13-24 Mos,3
+7590-WB0602,Male,1,No,Yes,19,Yes,No phone service,DSL,Yes,No internet service,Yes,No,No,No,Two year,No,Mailed check,46.32,880.08,No,13-24 Mos,2
+7590-WB0603,Male,1,Yes,Yes,54,Yes,Yes,No,No,Yes,No internet service,Yes,No internet service,No,One year,No,Credit card (automatic),111.86,6040.44,No,49-72 Mos,2
+7590-WB0604,Male,1,No,No,20,No,No phone service,Fiber optic,Yes,No,Yes,No,No,No internet service,One year,Yes,Electronic check,86.93,1738.6,No,13-24 Mos,3
+7590-WB0605,Female,1,No,No,29,No,Yes,DSL,No internet service,Yes,No internet service,No,No,No,One year,No,Bank transfer (automatic),44.63,1294.27,No,25-48 Mos,2
+7590-WB0606,Female,0,Yes,No,24,Yes,No,Fiber optic,No internet service,No internet service,No,No,No,No internet service,Month-to-month,Yes,Electronic check,83.08,1993.92,No,13-24 Mos,4
+7590-WB0607,Female,0,No,Yes,63,Yes,Yes,No,No,Yes,No internet service,No internet service,Yes,No internet service,One year,Yes,Bank transfer (automatic),103.53,6522.39,No,49-72 Mos,2
+7590-WB0608,Male,0,No,No,57,Yes,Yes,DSL,No,Yes,No,No,No,No,One year,No,Credit card (automatic),58.61,3340.77,No,49-72 Mos,2
+7590-WB0609,Male,0,Yes,No,8,No,Yes,DSL,No internet service,No internet service,No,No,No internet service,No,Two year,Yes,Mailed check,101.66,813.28,Yes,0-12 Mos,2
+7590-WB0610,Male,0,No,Yes,62,Yes,No,DSL,No internet service,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),33.77,2093.74,Yes,49-72 Mos,3
+7590-WB0611,Female,0,Yes,Yes,29,No,No phone service,No,No internet service,No,No,Yes,No,Yes,Month-to-month,No,Mailed check,100.94,2927.26,No,25-48 Mos,3
+7590-WB0612,Male,0,Yes,No,17,No,No,No,No,Yes,No,No,Yes,No internet service,Two year,No,Electronic check,72.55,1233.35,No,13-24 Mos,3
+7590-WB0613,Male,0,Yes,Yes,66,No,No phone service,No,No internet service,No internet service,Yes,No internet service,Yes,No,Month-to-month,No,Mailed check,40.66,2683.56,No,49-72 Mos,3
+7590-WB0614,Male,0,Yes,Yes,6,No,Yes,DSL,No internet service,Yes,Yes,No,Yes,Yes,One year,No,Bank transfer (automatic),59.17,355.02,No,0-12 Mos,2
+7590-WB0615,Male,0,No,Yes,58,No,Yes,No,No,Yes,Yes,No,No internet service,No internet service,One year,Yes,Bank transfer (automatic),117.54,6817.32,No,49-72 Mos,2
+7590-WB0616,Female,0,Yes,Yes,69,Yes,Yes,Fiber optic,Yes,Yes,No,Yes,No,Yes,Two year,No,Credit card (automatic),97.0,6693.0,Yes,49-72 Mos,2
+7590-WB0617,Female,0,Yes,No,28,Yes,Yes,No,Yes,No internet service,No internet service,No,Yes,Yes,Month-to-month,No,Electronic check,76.05,2129.4,No,25-48 Mos,4
+7590-WB0618,Male,1,No,Yes,62,No,Yes,DSL,No internet service,No internet service,Yes,No internet service,Yes,No,Month-to-month,Yes,Bank transfer (automatic),29.82,1848.84,No,49-72 Mos,3
+7590-WB0619,Female,0,Yes,Yes,41,Yes,No phone service,Fiber optic,Yes,No,No internet service,No,Yes,No internet service,Month-to-month,Yes,Credit card (automatic),60.24,2469.84,No,25-48 Mos,3
+7590-WB0620,Female,0,Yes,Yes,69,No,No phone service,No,Yes,No internet service,No internet service,No internet service,No,Yes,Two year,Yes,Electronic check,44.69,3083.61,No,49-72 Mos,3
+7590-WB0621,Male,1,No,Yes,41,No,Yes,Fiber optic,Yes,Yes,No,Yes,Yes,No internet service,One year,Yes,Electronic check,25.39,1040.99,Yes,25-48 Mos,3
+7590-WB0622,Male,1,No,Yes,49,Yes,No,Fiber optic,Yes,Yes,No,No,Yes,No,Two year,No,Credit card (automatic),72.74,3564.26,No,49-72 Mos,2
+7590-WB0623,Female,1,No,Yes,49,Yes,No,DSL,No internet service,No,No,Yes,No internet service,No internet service,One year,No,Bank transfer (automatic),107.61,5272.89,Yes,49-72 Mos,2
+7590-WB0624,Male,0,No,Yes,71,Yes,Yes,Fiber optic,Yes,No internet service,Yes,No,No,Yes,Two year,Yes,Bank transfer (automatic),86.15,6116.65,No,49-72 Mos,2
+7590-WB0625,Female,0,No,Yes,3,Yes,No phone service,Fiber optic,Yes,Yes,No,No internet service,No internet service,Yes,One year,Yes,Credit card (automatic),43.34,130.02,No,0-12 Mos,2
+7590-WB0626,Male,0,No,No,10,Yes,No,DSL,No,No,Yes,Yes,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),75.9,759.0,No,0-12 Mos,3
+7590-WB0627,Female,0,No,Yes,35,No,No,DSL,No internet service,No,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),113.05,3956.75,No,25-48 Mos,3
+7590-WB0628,Male,0,Yes,No,2,Yes,No,DSL,No,Yes,Yes,No internet service,No,Yes,Month-to-month,No,Bank transfer (automatic),90.9,181.8,No,0-12 Mos,3
+7590-WB0629,Female,0,No,Yes,24,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No internet service,Yes,Two year,Yes,Bank transfer (automatic),87.54,2100.96,No,13-24 Mos,2
+7590-WB0630,Female,0,No,Yes,38,Yes,No,Fiber optic,No internet service,No internet service,No,No,No internet service,No,Two year,No,Credit card (automatic),115.55,4390.9,No,25-48 Mos,2
+7590-WB0631,Female,0,No,Yes,22,No,No,Fiber optic,Yes,No,Yes,Yes,No internet service,No,Two year,Yes,Credit card (automatic),98.54,2167.88,Yes,13-24 Mos,2
+7590-WB0632,Male,0,Yes,Yes,26,Yes,No,DSL,No,Yes,No,No,No internet service,Yes,Month-to-month,No,Bank transfer (automatic),31.98,831.48,No,25-48 Mos,3
+7590-WB0633,Female,0,Yes,No,43,No,No,No,No internet service,No,No,No internet service,Yes,No internet service,One year,No,Credit card (automatic),53.19,2287.17,No,25-48 Mos,2
+7590-WB0634,Female,0,No,Yes,55,Yes,No phone service,Fiber optic,Yes,No internet service,Yes,No internet service,Yes,No,Month-to-month,No,Bank transfer (automatic),115.25,6338.75,No,49-72 Mos,3
+7590-WB0635,Male,0,No,Yes,39,Yes,Yes,No,No internet service,Yes,No,Yes,Yes,No internet service,Month-to-month,No,Mailed check,67.47,2631.33,No,25-48 Mos,3
+7590-WB0636,Male,0,No,No,29,No,Yes,DSL,No,No internet service,No internet service,Yes,No,Yes,One year,Yes,Electronic check,29.47,854.63,No,25-48 Mos,3
+7590-WB0637,Female,1,Yes,No,20,Yes,No phone service,Fiber optic,Yes,No,No,No,Yes,Yes,One year,No,Electronic check,64.34,1286.8,No,13-24 Mos,3
+7590-WB0638,Female,0,Yes,Yes,41,Yes,No phone service,No,Yes,No internet service,No,No internet service,No,No internet service,One year,Yes,Bank transfer (automatic),88.3,3620.3,No,25-48 Mos,2
+7590-WB0639,Male,0,No,No,54,No,Yes,Fiber optic,No internet service,No internet service,Yes,No,No internet service,No,One year,No,Electronic check,118.5,6399.0,No,49-72 Mos,3
+7590-WB0640,Male,0,Yes,No,20,Yes,No,Fiber optic,Yes,No,Yes,No internet service,No,No internet service,Month-to-month,No,Bank transfer (automatic),50.8,1016.0,No,13-24 Mos,3
+7590-WB0641,Male,0,No,No,19,No,No,Fiber optic,No,No internet service,No,Yes,No,No internet service,Two year,Yes,Credit card (automatic),69.92,1328.48,No,13-24 Mos,2
+7590-WB0642,Male,0,Yes,Yes,66,No,Yes,No,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,106.66,7039.56,No,49-72 Mos,3
+7590-WB0643,Male,0,Yes,Yes,30,No,No,DSL,No,Yes,No internet service,No,No internet service,No,One year,No,Electronic check,53.95,1618.5,No,25-48 Mos,3
+7590-WB0644,Female,0,No,Yes,53,No,No phone service,Fiber optic,No internet service,No,No internet service,No internet service,No internet service,No internet service,Two year,No,Electronic check,29.23,1549.19,Yes,49-72 Mos,3
+7590-WB0645,Male,0,No,No,34,No,No,DSL,Yes,No,Yes,No internet service,Yes,No,Two year,Yes,Credit card (automatic),113.62,3863.08,No,25-48 Mos,2
+7590-WB0646,Female,1,No,Yes,22,Yes,No,DSL,Yes,Yes,No,No internet service,No internet service,Yes,Month-to-month,No,Mailed check,67.34,1481.48,Yes,13-24 Mos,3
+7590-WB0647,Female,0,No,No,67,Yes,No,No,Yes,No,No internet service,Yes,No internet service,No,Month-to-month,Yes,Mailed check,68.78,4608.26,Yes,49-72 Mos,3
+7590-WB0648,Female,0,Yes,Yes,6,Yes,Yes,No,No,Yes,No internet service,No,No internet service,Yes,Month-to-month,Yes,Mailed check,80.68,484.08,No,0-12 Mos,3
+7590-WB0649,Male,1,Yes,Yes,27,No,No phone service,DSL,Yes,Yes,No,No internet service,Yes,No,Two year,Yes,Credit card (automatic),18.61,502.47,No,25-48 Mos,2
+7590-WB0650,Female,1,Yes,No,10,No,No,Fiber optic,No,No,Yes,Yes,No internet service,No internet service,Two year,No,Electronic check,111.83,1118.3,No,0-12 Mos,3
+7590-WB0651,Female,0,No,Yes,48,No,Yes,No,Yes,No internet service,No internet service,No internet service,No,Yes,Two year,No,Electronic check,54.58,2619.84,No,25-48 Mos,3
+7590-WB0652,Male,0,Yes,No,70,No,No,Fiber optic,No,No internet service,No,No,No,No internet service,One year,Yes,Mailed check,58.14,4069.8,No,49-72 Mos,2
+7590-WB0653,Female,0,No,No,59,Yes,No phone service,Fiber optic,Yes,Yes,No,No internet service,No internet service,Yes,One year,Yes,Credit card (automatic),35.75,2109.25,No,49-72 Mos,2
+7590-WB0654,Female,0,Yes,Yes,59,Yes,No,Fiber optic,No internet service,No internet service,No internet service,No,Yes,No,Month-to-month,Yes,Credit card (automatic),56.25,3318.75,No,49-72 Mos,3
+7590-WB0655,Male,0,No,No,2,No,No phone service,DSL,No internet service,No internet service,Yes,Yes,Yes,No,Two year,Yes,Credit card (automatic),99.05,198.1,Yes,0-12 Mos,2
+7590-WB0656,Female,0,No,Yes,29,No,No,Fiber optic,No,No,No internet service,Yes,Yes,Yes,Month-to-month,No,Mailed check,98.65,2860.85,No,25-48 Mos,3
+7590-WB0657,Female,0,Yes,Yes,68,Yes,No phone service,DSL,No,Yes,No,No internet service,No internet service,Yes,Two year,Yes,Credit card (automatic),112.3,7636.4,No,49-72 Mos,2
+7590-WB0658,Female,1,No,No,65,No,No,DSL,Yes,Yes,No internet service,No,No internet service,Yes,Month-to-month,No,Mailed check,58.77,3820.05,No,49-72 Mos,3
+7590-WB0659,Male,1,No,Yes,26,No,No phone service,Fiber optic,Yes,No,Yes,No,No,No,One year,Yes,Mailed check,89.48,2326.48,No,25-48 Mos,2
+7590-WB0660,Male,0,Yes,No,10,No,No,Fiber optic,No internet service,No internet service,No,No,Yes,Yes,Two year,No,Mailed check,69.23,692.3,No,0-12 Mos,2
+7590-WB0661,Male,0,No,Yes,53,Yes,No,Fiber optic,Yes,Yes,Yes,No internet service,No,Yes,One year,No,Bank transfer (automatic),99.05,5249.65,No,49-72 Mos,2
+7590-WB0662,Female,0,No,Yes,59,Yes,Yes,Fiber optic,No,No internet service,No internet service,No,No,No internet service,Two year,No,Mailed check,89.86,5301.74,No,49-72 Mos,2
+7590-WB0663,Female,0,No,Yes,22,No,Yes,DSL,No,Yes,No internet service,No,Yes,Yes,Month-to-month,No,Credit card (automatic),55.22,1214.84,No,13-24 Mos,3
+7590-WB0664,Male,0,Yes,Yes,51,Yes,No phone service,Fiber optic,No,Yes,Yes,No,No internet service,No internet service,Two year,No,Bank transfer (automatic),52.09,2656.59,No,49-72 Mos,2
+7590-WB0665,Female,0,Yes,Yes,48,No,No,Fiber optic,No,Yes,No internet service,No,No internet service,No internet service,One year,Yes,Electronic check,43.62,2093.76,No,25-48 Mos,3
+7590-WB0666,Female,0,No,No,21,No,No phone service,DSL,No,Yes,Yes,No internet service,No,No internet service,Two year,Yes,Electronic check,76.19,1599.99,No,13-24 Mos,3
+7590-WB0667,Male,0,Yes,No,22,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No,No,Month-to-month,No,Credit card (automatic),115.12,2532.64,Yes,13-24 Mos,3
+7590-WB0668,Male,0,No,No,30,No,No phone service,No,No internet service,No internet service,Yes,No,No,No internet service,Two year,Yes,Credit card (automatic),38.36,1150.8,No,25-48 Mos,2
+7590-WB0669,Female,0,No,No,25,No,No phone service,DSL,No,No internet service,Yes,No,No,Yes,One year,Yes,Credit card (automatic),27.82,695.5,No,25-48 Mos,2
+7590-WB0670,Female,0,No,No,28,Yes,Yes,No,Yes,No internet service,No,Yes,Yes,No,Month-to-month,Yes,Credit card (automatic),30.25,847.0,No,25-48 Mos,3
+7590-WB0671,Female,0,No,No,65,No,No,DSL,No,No,No,Yes,No,No,One year,Yes,Bank transfer (automatic),96.95,6301.75,No,49-72 Mos,2
+7590-WB0672,Male,1,No,Yes,45,No,No phone service,Fiber optic,No internet service,Yes,Yes,No,No,No,Two year,Yes,Credit card (automatic),53.44,2404.8,No,25-48 Mos,2
+7590-WB0673,Male,0,Yes,Yes,68,No,Yes,Fiber optic,No,Yes,No internet service,No,No internet service,No,One year,Yes,Mailed check,40.8,2774.4,No,49-72 Mos,2
+7590-WB0674,Male,0,No,No,7,Yes,No,No,No internet service,Yes,No internet service,Yes,No internet service,No,Two year,Yes,Electronic check,53.71,375.97,Yes,0-12 Mos,3
+7590-WB0675,Male,0,Yes,No,49,No,Yes,Fiber optic,No internet service,No,No internet service,Yes,No internet service,No,Month-to-month,No,Credit card (automatic),83.11,4072.39,No,49-72 Mos,3
+7590-WB0676,Female,0,Yes,Yes,9,Yes,No phone service,No,No,No internet service,Yes,No,Yes,No,One year,Yes,Mailed check,73.2,658.8,No,0-12 Mos,2
+7590-WB0677,Male,0,No,Yes,36,No,No,No,No,Yes,Yes,No internet service,Yes,No internet service,One year,Yes,Credit card (automatic),92.98,3347.28,Yes,25-48 Mos,2
+7590-WB0678,Male,0,No,Yes,1,No,No,Fiber optic,Yes,No internet service,Yes,No internet service,No internet service,Yes,Two year,Yes,Mailed check,52.33,52.33,No,0-12 Mos,2
+7590-WB0679,Male,0,Yes,No,10,No,Yes,Fiber optic,No internet service,No internet service,Yes,No,No internet service,Yes,One year,No,Bank transfer (automatic),63.68,636.8,No,0-12 Mos,2
+7590-WB0680,Male,0,Yes,No,36,No,Yes,No,Yes,No,No,No,No,No internet service,One year,No,Electronic check,28.5,1026.0,No,25-48 Mos,3
+7590-WB0681,Male,1,Yes,No,46,Yes,Yes,Fiber optic,No,No,Yes,Yes,No,No internet service,Month-to-month,Yes,Electronic check,25.59,1177.14,No,25-48 Mos,4
+7590-WB0682,Female,0,No,Yes,32,Yes,No,DSL,No internet service,No internet service,No internet service,Yes,Yes,No,Two year,No,Bank transfer (automatic),64.71,2070.72,No,25-48 Mos,2
+7590-WB0683,Female,0,Yes,Yes,32,No,No,Fiber optic,Yes,Yes,No,No internet service,Yes,No,Two year,No,Mailed check,48.56,1553.92,No,25-48 Mos,2
+7590-WB0684,Male,1,No,No,6,No,No phone service,Fiber optic,Yes,Yes,No internet service,No,No,No internet service,Month-to-month,Yes,Credit card (automatic),79.84,479.04,No,0-12 Mos,3
+7590-WB0685,Female,0,No,No,48,No,No,DSL,Yes,No,Yes,Yes,No internet service,No,Month-to-month,No,Mailed check,22.57,1083.36,No,25-48 Mos,3
+7590-WB0686,Male,1,No,Yes,38,No,No phone service,Fiber optic,No,No,No,No internet service,No,Yes,Two year,Yes,Electronic check,30.49,1158.62,No,25-48 Mos,3
+7590-WB0687,Male,0,Yes,Yes,17,No,Yes,Fiber optic,No,No,Yes,No internet service,Yes,Yes,Month-to-month,No,Bank transfer (automatic),105.2,1788.4,Yes,13-24 Mos,3
+7590-WB0688,Female,0,No,Yes,27,No,Yes,No,No,No,No,No internet service,Yes,No,Month-to-month,Yes,Bank transfer (automatic),75.16,2029.32,No,25-48 Mos,3
+7590-WB0689,Female,0,No,Yes,54,No,No,Fiber optic,No internet service,No,No internet service,Yes,No,No,Month-to-month,No,Mailed check,89.81,4849.74,No,49-72 Mos,3
+7590-WB0690,Male,0,No,No,50,No,Yes,Fiber optic,No,No,Yes,Yes,No,No,Two year,Yes,Mailed check,102.87,5143.5,No,49-72 Mos,2
+7590-WB0691,Male,0,No,Yes,35,Yes,Yes,DSL,No internet service,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),64.87,2270.45,Yes,25-48 Mos,3
+7590-WB0692,Male,0,No,Yes,25,Yes,No,No,Yes,Yes,No,No,Yes,No,One year,No,Electronic check,94.74,2368.5,No,25-48 Mos,3
+7590-WB0693,Female,0,Yes,Yes,28,Yes,No phone service,No,Yes,No,No,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),70.97,1987.16,No,25-48 Mos,2
+7590-WB0694,Male,0,No,No,15,No,No,No,No,No,Yes,No internet service,No,No,Two year,Yes,Credit card (automatic),40.64,609.6,No,13-24 Mos,2
+7590-WB0695,Male,0,No,No,4,No,No phone service,Fiber optic,Yes,Yes,No,Yes,Yes,No internet service,Month-to-month,No,Mailed check,52.18,208.72,No,0-12 Mos,3
+7590-WB0696,Male,1,Yes,Yes,27,No,No,No,No,Yes,Yes,Yes,Yes,No,One year,Yes,Bank transfer (automatic),67.53,1823.31,No,25-48 Mos,2
+7590-WB0697,Female,1,No,Yes,26,Yes,No,DSL,No internet service,No internet service,No,No,Yes,No,Two year,Yes,Bank transfer (automatic),50.1,1302.6,No,25-48 Mos,2
+7590-WB0698,Male,1,Yes,Yes,19,No,Yes,No,Yes,No,No internet service,No,No,Yes,One year,No,Bank transfer (automatic),51.97,987.43,No,13-24 Mos,2
+7590-WB0699,Male,0,No,No,17,Yes,No,DSL,No,No,No,No,No,No internet service,Month-to-month,Yes,Electronic check,52.16,886.72,No,13-24 Mos,4
+7590-WB0700,Female,0,Yes,No,43,No,No,No,Yes,No,No internet service,Yes,No internet service,No internet service,Two year,No,Mailed check,30.6,1315.8,No,25-48 Mos,2
+7590-WB0701,Male,0,Yes,No,41,Yes,No phone service,No,Yes,No,No,No internet service,Yes,No internet service,One year,Yes,Mailed check,26.76,1097.16,No,25-48 Mos,2
+7590-WB0702,Male,0,No,Yes,42,Yes,Yes,DSL,No,No internet service,No,No,No,Yes,Two year,No,Mailed check,22.92,962.64,No,25-48 Mos,2
+7590-WB0703,Female,0,No,No,50,Yes,No phone service,No,Yes,Yes,Yes,No,Yes,No internet service,One year,No,Electronic check,29.4,1470.0,No,49-72 Mos,3
+7590-WB0704,Male,0,No,Yes,40,No,No phone service,No,Yes,Yes,No,Yes,Yes,Yes,One year,Yes,Mailed check,52.79,2111.6,No,25-48 Mos,2
+7590-WB0705,Female,0,Yes,Yes,39,Yes,Yes,No,Yes,No,No,No,No internet service,No,Month-to-month,No,Credit card (automatic),77.93,3039.27,No,25-48 Mos,3
+7590-WB0706,Female,0,Yes,Yes,23,No,Yes,Fiber optic,Yes,No,No internet service,No internet service,No,No,Month-to-month,Yes,Mailed check,37.16,854.68,No,13-24 Mos,3
+7590-WB0707,Male,0,Yes,No,52,No,Yes,DSL,No internet service,No,No,Yes,No,No internet service,One year,Yes,Mailed check,107.49,5589.48,Yes,49-72 Mos,2
+7590-WB0708,Male,0,No,Yes,47,No,No,No,Yes,No internet service,Yes,No,Yes,No,Two year,No,Mailed check,99.49,4676.03,No,25-48 Mos,2
+7590-WB0709,Male,0,Yes,No,63,No,Yes,DSL,Yes,No internet service,No internet service,No,Yes,No,Two year,Yes,Electronic check,70.56,4445.28,No,49-72 Mos,3
+7590-WB0710,Male,1,Yes,No,69,No,Yes,DSL,No,Yes,Yes,Yes,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),91.03,6281.07,No,49-72 Mos,3
+7590-WB0711,Female,0,No,Yes,43,Yes,Yes,DSL,No internet service,No,Yes,Yes,No internet service,No,One year,No,Credit card (automatic),55.07,2368.01,No,25-48 Mos,2
+7590-WB0712,Male,0,Yes,Yes,48,No,No phone service,No,No,No,Yes,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer (automatic),21.95,1053.6,No,25-48 Mos,3
+7590-WB0713,Female,0,Yes,No,34,No,No phone service,No,No,No,Yes,No internet service,No internet service,No internet service,One year,Yes,Bank transfer (automatic),109.14,3710.76,Yes,25-48 Mos,2
+7590-WB0714,Male,0,No,Yes,40,No,No,DSL,No,No,No internet service,Yes,No internet service,No,One year,No,Credit card (automatic),31.09,1243.6,No,25-48 Mos,2
+7590-WB0715,Male,0,Yes,No,61,No,No phone service,Fiber optic,No internet service,No internet service,No,No internet service,No internet service,No,Month-to-month,Yes,Mailed check,113.52,6924.72,Yes,49-72 Mos,3
+7590-WB0716,Male,0,No,Yes,50,No,No,DSL,No,Yes,Yes,No,Yes,No,Two year,Yes,Mailed check,75.72,3786.0,No,49-72 Mos,2
+7590-WB0717,Female,0,No,No,67,Yes,No phone service,Fiber optic,No,Yes,No internet service,No internet service,No internet service,No,Month-to-month,No,Mailed check,48.96,3280.32,Yes,49-72 Mos,3
+7590-WB0718,Male,0,No,No,62,Yes,Yes,DSL,No,No internet service,Yes,No,Yes,No,One year,Yes,Electronic check,68.05,4219.1,Yes,49-72 Mos,3
+7590-WB0719,Male,0,No,No,58,No,No phone service,DSL,Yes,No,No,No,Yes,Yes,Month-to-month,Yes,Mailed check,68.66,3982.28,Yes,49-72 Mos,3
+7590-WB0720,Male,0,No,No,33,Yes,No,DSL,No,Yes,No internet service,No,No,No,Two year,No,Electronic check,20.59,679.47,No,25-48 Mos,3
+7590-WB0721,Male,1,Yes,Yes,16,Yes,No phone service,No,No internet service,Yes,No internet service,No,Yes,Yes,Two year,Yes,Credit card (automatic),53.97,863.52,No,13-24 Mos,2
+7590-WB0722,Female,0,Yes,Yes,48,No,Yes,Fiber optic,No internet service,No internet service,No,No internet service,Yes,No internet service,One year,Yes,Mailed check,92.61,4445.28,No,25-48 Mos,2
+7590-WB0723,Male,0,No,No,10,Yes,No,Fiber optic,Yes,No,No internet service,No,No internet service,No,Month-to-month,No,Mailed check,69.51,695.1,Yes,0-12 Mos,3
+7590-WB0724,Female,1,No,No,38,No,Yes,DSL,No internet service,Yes,No,No,Yes,No,Two year,No,Bank transfer (automatic),42.8,1626.4,No,25-48 Mos,2
+7590-WB0725,Female,0,Yes,Yes,19,Yes,Yes,No,No internet service,No,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Credit card (automatic),51.93,986.67,No,13-24 Mos,3
+7590-WB0726,Female,0,No,Yes,36,Yes,No,No,Yes,Yes,No internet service,Yes,No internet service,No internet service,Two year,Yes,Mailed check,104.99,3779.64,No,25-48 Mos,2
+7590-WB0727,Female,0,No,Yes,59,Yes,Yes,Fiber optic,No,No internet service,No,No internet service,No internet service,Yes,One year,No,Electronic check,71.07,4193.13,No,49-72 Mos,3
+7590-WB0728,Female,0,No,Yes,63,No,Yes,No,Yes,No,No,No internet service,No,Yes,One year,Yes,Credit card (automatic),71.35,4495.05,Yes,49-72 Mos,2
+7590-WB0729,Female,1,Yes,Yes,46,Yes,No phone service,Fiber optic,No,No internet service,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),114.88,5284.48,No,25-48 Mos,3
+7590-WB0730,Male,0,Yes,Yes,3,Yes,Yes,Fiber optic,No,Yes,No internet service,No,Yes,No,One year,Yes,Credit card (automatic),50.5,151.5,No,0-12 Mos,2
+7590-WB0731,Female,1,No,No,65,No,Yes,Fiber optic,No internet service,No internet service,No,No,No internet service,No,Two year,No,Electronic check,66.44,4318.6,Yes,49-72 Mos,3
+7590-WB0732,Female,0,No,Yes,8,No,Yes,No,Yes,No internet service,No,No,No internet service,No,One year,Yes,Bank transfer (automatic),99.83,798.64,No,0-12 Mos,2
+7590-WB0733,Female,0,Yes,Yes,51,Yes,Yes,Fiber optic,No internet service,No internet service,No internet service,Yes,No internet service,No internet service,Two year,Yes,Electronic check,94.52,4820.52,No,49-72 Mos,3
+7590-WB0734,Male,0,Yes,No,6,No,No,Fiber optic,No internet service,Yes,No internet service,No,No,No,Two year,No,Credit card (automatic),44.96,269.76,No,0-12 Mos,2
+7590-WB0735,Male,0,No,Yes,39,Yes,No phone service,DSL,No,No,No internet service,Yes,Yes,No internet service,One year,No,Bank transfer (automatic),33.43,1303.77,No,25-48 Mos,2
+7590-WB0736,Female,0,No,Yes,60,Yes,Yes,Fiber optic,No internet service,No internet service,No,No,No,No,Two year,No,Electronic check,88.67,5320.2,No,49-72 Mos,3
+7590-WB0737,Male,1,Yes,Yes,28,No,Yes,Fiber optic,Yes,No,No internet service,No internet service,Yes,Yes,Two year,Yes,Credit card (automatic),44.14,1235.92,No,25-48 Mos,2
+7590-WB0738,Female,0,Yes,Yes,54,No,No,DSL,No internet service,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,110.98,5992.92,No,49-72 Mos,4
+7590-WB0739,Female,1,Yes,Yes,37,No,Yes,DSL,No internet service,No,No,Yes,Yes,No,Month-to-month,No,Mailed check,31.24,1155.88,No,25-48 Mos,3
+7590-WB0740,Male,0,No,No,9,Yes,No,No,No,No internet service,No internet service,Yes,No,No,Month-to-month,Yes,Credit card (automatic),50.24,452.16,No,0-12 Mos,3
+7590-WB0741,Female,1,Yes,Yes,56,No,No phone service,Fiber optic,Yes,No internet service,No,No,No internet service,No internet service,One year,Yes,Bank transfer (automatic),23.76,1330.56,No,49-72 Mos,2
+7590-WB0742,Male,0,No,No,59,Yes,No phone service,No,No internet service,No internet service,Yes,No internet service,No,No,Month-to-month,Yes,Bank transfer (automatic),88.93,5246.87,Yes,49-72 Mos,3
+7590-WB0743,Male,0,Yes,No,2,No,Yes,No,No,No internet service,No,No,No,No,Two year,Yes,Mailed check,107.82,215.64,No,0-12 Mos,2
+7590-WB0744,Female,1,Yes,Yes,61,Yes,Yes,DSL,No internet service,No internet service,No internet service,No,No internet service,No,One year,No,Electronic check,82.16,5011.76,No,49-72 Mos,3
+7590-WB0745,Female,0,Yes,No,58,No,Yes,No,Yes,No internet service,Yes,No,No internet service,Yes,One year,No,Electronic check,112.49,6524.42,No,49-72 Mos,3
+7590-WB0746,Male,0,Yes,Yes,60,Yes,No,Fiber optic,No internet service,Yes,Yes,No internet service,Yes,No internet service,One year,Yes,Bank transfer (automatic),31.16,1869.6,No,49-72 Mos,2
+7590-WB0747,Female,0,No,No,40,No,Yes,DSL,No internet service,Yes,No internet service,Yes,Yes,Yes,One year,No,Electronic check,27.07,1082.8,No,25-48 Mos,3
+7590-WB0748,Female,0,No,No,36,Yes,Yes,Fiber optic,No,Yes,No internet service,No internet service,Yes,No internet service,Two year,Yes,Credit card (automatic),102.51,3690.36,Yes,25-48 Mos,2
+7590-WB0749,Female,1,Yes,Yes,37,No,No phone service,Fiber optic,No internet service,No,No internet service,Yes,No,Yes,Two year,Yes,Credit card (automatic),104.23,3856.51,Yes,25-48 Mos,2
+7590-WB0750,Male,0,No,Yes,18,No,Yes,DSL,No,No,No,Yes,Yes,No,Month-to-month,No,Bank transfer (automatic),101.77,1831.86,Yes,13-24 Mos,3
+7590-WB0751,Male,0,Yes,Yes,63,Yes,No phone service,Fiber optic,Yes,Yes,No,Yes,No,Yes,One year,No,Credit card (automatic),98.55,6208.65,No,49-72 Mos,2
+7590-WB0752,Female,0,Yes,Yes,22,No,Yes,DSL,No internet service,No,No,No internet service,No,Yes,Month-to-month,Yes,Bank transfer (automatic),54.65,1202.3,No,13-24 Mos,3
+7590-WB0753,Male,0,Yes,Yes,11,Yes,No phone service,Fiber optic,Yes,No,No internet service,No,Yes,No internet service,Two year,Yes,Electronic check,40.1,441.1,No,0-12 Mos,3
+7590-WB0754,Male,0,Yes,No,58,Yes,Yes,DSL,Yes,No internet service,No internet service,No,Yes,No internet service,One year,Yes,Electronic check,111.59,6472.22,No,49-72 Mos,3
+7590-WB0755,Male,0,No,No,57,No,No phone service,No,No internet service,No internet service,No,No,No,Yes,Two year,Yes,Electronic check,49.1,2798.7,No,49-72 Mos,3
+7590-WB0756,Male,0,Yes,No,4,Yes,No,Fiber optic,No,No,Yes,No,No internet service,No internet service,Month-to-month,No,Mailed check,58.29,233.16,No,0-12 Mos,3
+7590-WB0757,Male,0,Yes,No,7,No,No phone service,DSL,Yes,No,No,No,No internet service,No internet service,Two year,No,Bank transfer (automatic),88.56,619.92,No,0-12 Mos,2
+7590-WB0758,Female,0,No,No,61,No,No phone service,Fiber optic,Yes,Yes,Yes,No internet service,No,No internet service,One year,Yes,Credit card (automatic),47.73,2911.53,No,49-72 Mos,2
+7590-WB0759,Female,0,Yes,No,54,Yes,No phone service,Fiber optic,No internet service,No,No internet service,No internet service,Yes,No internet service,One year,Yes,Electronic check,100.57,5430.78,No,49-72 Mos,3
+7590-WB0760,Female,0,Yes,No,68,No,Yes,Fiber optic,No internet service,No internet service,No internet service,No internet service,No,No internet service,Month-to-month,No,Mailed check,25.29,1719.72,No,49-72 Mos,3
+7590-WB0761,Male,0,Yes,Yes,1,Yes,Yes,DSL,No internet service,No,No,No internet service,No,Yes,One year,Yes,Credit card (automatic),97.76,97.76,No,0-12 Mos,2
+7590-WB0762,Male,0,No,Yes,55,Yes,Yes,No,No internet service,Yes,No,No internet service,Yes,No internet service,Two year,No,Credit card (automatic),78.74,4330.7,No,49-72 Mos,2
+7590-WB0763,Female,0,Yes,No,3,No,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No,Two year,Yes,Credit card (automatic),75.84,227.52,Yes,0-12 Mos,2
+7590-WB0764,Male,0,No,No,38,No,No,No,No internet service,No internet service,No,No internet service,No,Yes,Two year,No,Electronic check,64.32,2444.16,Yes,25-48 Mos,3
+7590-WB0765,Female,0,Yes,Yes,1,Yes,No phone service,DSL,No,No internet service,No internet service,No,No internet service,Yes,Two year,Yes,Credit card (automatic),46.09,46.09,No,0-12 Mos,2
+7590-WB0766,Female,0,Yes,Yes,38,Yes,No,No,Yes,No internet service,No internet service,Yes,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),64.89,2465.82,No,25-48 Mos,3
+7590-WB0767,Female,0,No,Yes,29,No,No phone service,DSL,No,No,Yes,No internet service,Yes,No internet service,Two year,Yes,Mailed check,63.48,1840.92,Yes,25-48 Mos,2
+7590-WB0768,Male,0,Yes,Yes,5,No,No phone service,Fiber optic,No,Yes,No,Yes,No,No,Month-to-month,No,Credit card (automatic),76.92,384.6,No,0-12 Mos,3
+7590-WB0769,Male,0,Yes,No,21,No,No phone service,Fiber optic,No internet service,No,No internet service,No internet service,No,No internet service,Two year,No,Credit card (automatic),46.55,977.55,No,13-24 Mos,2
+7590-WB0770,Female,0,No,Yes,71,No,No,No,Yes,No,No,No internet service,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),26.05,1849.55,No,49-72 Mos,3
+7590-WB0771,Female,0,No,No,67,Yes,Yes,DSL,No,No internet service,Yes,No,No internet service,Yes,Two year,Yes,Credit card (automatic),32.83,2199.61,No,49-72 Mos,2
+7590-WB0772,Female,1,No,No,47,No,No,Fiber optic,No internet service,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Electronic check,88.52,4160.44,Yes,25-48 Mos,3
+7590-WB0773,Female,0,No,No,35,Yes,No phone service,DSL,No internet service,No internet service,No,No,No internet service,Yes,Month-to-month,Yes,Electronic check,20.51,717.85,Yes,25-48 Mos,4
+7590-WB0774,Male,0,No,Yes,68,Yes,No phone service,DSL,Yes,No,No,No,Yes,No internet service,One year,No,Electronic check,104.32,7093.76,Yes,49-72 Mos,3
+7590-WB0775,Male,0,Yes,Yes,69,No,No,Fiber optic,No,No,No internet service,Yes,No,No,One year,No,Credit card (automatic),88.04,6074.76,No,49-72 Mos,2
+7590-WB0776,Female,0,No,No,1,Yes,No phone service,DSL,No,No internet service,Yes,No,Yes,No,One year,No,Mailed check,95.44,95.44,No,0-12 Mos,2
+7590-WB0777,Female,0,Yes,No,68,No,No phone service,Fiber optic,No,No,Yes,No internet service,No internet service,Yes,Month-to-month,Yes,Mailed check,102.27,6954.36,No,49-72 Mos,3
+7590-WB0778,Male,1,Yes,No,12,Yes,No,Fiber optic,No internet service,No,Yes,No internet service,No,No,One year,Yes,Credit card (automatic),30.58,366.96,No,0-12 Mos,2
+7590-WB0779,Male,0,Yes,Yes,60,No,No,Fiber optic,Yes,No internet service,No,No internet service,Yes,Yes,One year,No,Mailed check,100.91,6054.6,No,49-72 Mos,2
+7590-WB0780,Female,0,No,No,27,Yes,No,DSL,Yes,No,No internet service,No internet service,No,Yes,Month-to-month,Yes,Mailed check,68.97,1862.19,No,25-48 Mos,3
+7590-WB0781,Female,0,No,Yes,56,Yes,No phone service,Fiber optic,No,Yes,No,No internet service,Yes,No,One year,No,Credit card (automatic),107.25,6006.0,Yes,49-72 Mos,2
+7590-WB0782,Female,0,Yes,No,23,No,No phone service,DSL,No internet service,No internet service,No,No,No internet service,Yes,One year,No,Electronic check,107.35,2469.05,Yes,13-24 Mos,3
+7590-WB0783,Male,0,No,No,25,No,Yes,Fiber optic,No,Yes,No,No,No internet service,No,One year,No,Credit card (automatic),20.68,517.0,Yes,25-48 Mos,2
+7590-WB0784,Male,0,No,No,21,Yes,Yes,Fiber optic,Yes,No,No internet service,No internet service,No,Yes,Month-to-month,No,Electronic check,56.73,1191.33,No,13-24 Mos,4
+7590-WB0785,Male,0,No,Yes,61,Yes,No,No,No internet service,No,No,No internet service,No,No,Month-to-month,Yes,Electronic check,71.15,4340.15,Yes,49-72 Mos,4
+7590-WB0786,Female,0,No,Yes,63,No,Yes,No,No,No internet service,Yes,No,No,Yes,One year,No,Mailed check,86.43,5445.09,Yes,49-72 Mos,2
+7590-WB0787,Female,0,Yes,No,52,Yes,No phone service,No,No,No,Yes,Yes,Yes,No,One year,Yes,Mailed check,47.01,2444.52,No,49-72 Mos,2
+7590-WB0788,Male,0,Yes,Yes,25,No,Yes,DSL,No internet service,No internet service,Yes,No,No internet service,Yes,Month-to-month,No,Electronic check,43.59,1089.75,No,25-48 Mos,4
+7590-WB0789,Male,0,No,No,55,Yes,No phone service,DSL,Yes,No internet service,No internet service,No,No,Yes,One year,No,Electronic check,56.57,3111.35,Yes,49-72 Mos,3
+7590-WB0790,Female,0,Yes,Yes,46,No,No,Fiber optic,No internet service,No internet service,No,No,No,Yes,Month-to-month,No,Mailed check,68.59,3155.14,Yes,25-48 Mos,3
+7590-WB0791,Male,0,No,Yes,32,Yes,No,Fiber optic,No,No internet service,No internet service,No,No,No,One year,No,Bank transfer (automatic),113.84,3642.88,Yes,25-48 Mos,2
+7590-WB0792,Male,0,No,Yes,55,No,No phone service,Fiber optic,No,No internet service,No,No,Yes,No internet service,Month-to-month,Yes,Electronic check,94.84,5216.2,No,49-72 Mos,4
+7590-WB0793,Female,0,Yes,No,5,No,Yes,Fiber optic,No,Yes,Yes,Yes,No,Yes,Two year,Yes,Electronic check,61.4,307.0,No,0-12 Mos,3
+7590-WB0794,Male,0,Yes,Yes,36,Yes,No,DSL,No,No internet service,No,No internet service,No,Yes,Two year,Yes,Electronic check,23.71,853.56,No,25-48 Mos,3
+7590-WB0795,Female,0,Yes,Yes,49,No,No,Fiber optic,Yes,Yes,No,No internet service,Yes,No,Month-to-month,Yes,Mailed check,35.19,1724.31,No,49-72 Mos,3
+7590-WB0796,Female,0,No,No,58,Yes,Yes,Fiber optic,Yes,No,No,Yes,Yes,Yes,Two year,No,Credit card (automatic),64.07,3716.06,No,49-72 Mos,2
+7590-WB0797,Female,0,Yes,No,39,No,Yes,No,No,No internet service,No internet service,No internet service,No,Yes,One year,Yes,Electronic check,100.04,3901.56,Yes,25-48 Mos,3
+7590-WB0798,Female,0,No,No,61,No,No phone service,Fiber optic,Yes,No,No,No internet service,No,Yes,Month-to-month,Yes,Electronic check,56.51,3447.11,No,49-72 Mos,4
+7590-WB0799,Female,0,Yes,No,9,No,Yes,Fiber optic,Yes,No internet service,No,No internet service,Yes,Yes,Month-to-month,No,Electronic check,72.37,651.33,No,0-12 Mos,4
+7590-WB0800,Female,0,Yes,Yes,6,Yes,Yes,Fiber optic,Yes,Yes,No,Yes,No internet service,No internet service,One year,Yes,Credit card (automatic),107.88,647.28,No,0-12 Mos,2
+7590-WB0801,Female,0,No,Yes,35,No,Yes,DSL,No,Yes,No internet service,Yes,Yes,No internet service,One year,Yes,Credit card (automatic),110.09,3853.15,No,25-48 Mos,2
+7590-WB0802,Male,1,No,Yes,39,Yes,No phone service,No,No internet service,Yes,No internet service,No internet service,No internet service,Yes,Month-to-month,Yes,Electronic check,39.94,1557.66,No,25-48 Mos,4
+7590-WB0803,Female,0,No,Yes,22,No,No phone service,Fiber optic,No internet service,No,No internet service,No internet service,No,Yes,One year,Yes,Electronic check,22.63,497.86,No,13-24 Mos,3
+7590-WB0804,Female,0,No,Yes,41,Yes,No,Fiber optic,No internet service,No internet service,No,No internet service,No,Yes,Month-to-month,No,Bank transfer (automatic),48.94,2006.54,Yes,25-48 Mos,3
+7590-WB0805,Male,0,No,No,5,Yes,No phone service,No,No,No,Yes,No,No internet service,No internet service,One year,No,Credit card (automatic),88.18,440.9,No,0-12 Mos,2
+7590-WB0806,Male,1,No,Yes,42,Yes,No,Fiber optic,Yes,Yes,Yes,No,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),113.84,4781.28,Yes,25-48 Mos,3
+7590-WB0807,Male,0,No,Yes,67,No,Yes,DSL,Yes,No,Yes,No,No,No,One year,No,Electronic check,25.99,1741.33,No,49-72 Mos,3
+7590-WB0808,Female,0,No,Yes,30,Yes,No,Fiber optic,No,Yes,No,Yes,No internet service,No,One year,Yes,Electronic check,21.11,633.3,Yes,25-48 Mos,3
+7590-WB0809,Male,0,Yes,No,57,No,No,DSL,No,Yes,Yes,No internet service,Yes,Yes,Two year,Yes,Electronic check,107.11,6105.27,No,49-72 Mos,3
+7590-WB0810,Female,0,No,No,29,Yes,Yes,DSL,No internet service,Yes,Yes,Yes,No internet service,Yes,Two year,Yes,Electronic check,93.44,2709.76,No,25-48 Mos,3
+7590-WB0811,Female,0,No,Yes,37,Yes,No,Fiber optic,No internet service,No internet service,Yes,Yes,Yes,No internet service,Two year,No,Mailed check,117.97,4364.89,No,25-48 Mos,2
+7590-WB0812,Female,1,Yes,No,13,Yes,No phone service,No,No,No internet service,No,Yes,Yes,Yes,One year,No,Mailed check,58.13,755.69,No,13-24 Mos,2
+7590-WB0813,Female,0,No,No,32,Yes,No phone service,DSL,No internet service,Yes,Yes,No internet service,Yes,Yes,Month-to-month,No,Mailed check,60.06,1921.92,No,25-48 Mos,3
+7590-WB0814,Male,0,Yes,No,46,No,No phone service,No,Yes,No,Yes,No,Yes,No internet service,One year,No,Bank transfer (automatic),35.57,1636.22,No,25-48 Mos,2
+7590-WB0815,Male,0,Yes,No,23,Yes,No phone service,Fiber optic,No,No,No,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),29.89,687.47,Yes,13-24 Mos,2
+7590-WB0816,Female,0,No,No,45,Yes,No,DSL,No,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Electronic check,76.41,3438.45,No,25-48 Mos,3
+7590-WB0817,Female,0,Yes,No,17,No,No,Fiber optic,Yes,Yes,Yes,Yes,No internet service,No internet service,Two year,Yes,Credit card (automatic),54.86,932.62,Yes,13-24 Mos,2
+7590-WB0818,Female,0,No,No,66,Yes,Yes,No,Yes,No,No internet service,Yes,No internet service,No,Two year,No,Mailed check,26.32,1737.12,Yes,49-72 Mos,2
+7590-WB0819,Male,0,Yes,Yes,6,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,No internet service,No internet service,Month-to-month,Yes,Electronic check,107.39,644.34,Yes,0-12 Mos,4
+7590-WB0820,Female,0,Yes,Yes,18,Yes,No,Fiber optic,No internet service,No,No,No,Yes,No internet service,Month-to-month,Yes,Electronic check,38.18,687.24,No,13-24 Mos,4
+7590-WB0821,Female,0,Yes,No,22,Yes,No,DSL,No,No internet service,No internet service,No,No,Yes,Two year,No,Bank transfer (automatic),93.48,2056.56,No,13-24 Mos,2
+7590-WB0822,Male,0,No,Yes,33,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No,Yes,Two year,Yes,Credit card (automatic),46.61,1538.13,Yes,25-48 Mos,2
+7590-WB0823,Male,1,No,Yes,30,No,No phone service,Fiber optic,Yes,Yes,No internet service,No internet service,No internet service,Yes,One year,Yes,Bank transfer (automatic),99.95,2998.5,No,25-48 Mos,2
+7590-WB0824,Female,0,Yes,No,32,Yes,No,Fiber optic,No internet service,No,No internet service,Yes,No internet service,No,Two year,Yes,Mailed check,30.15,964.8,No,25-48 Mos,2
+7590-WB0825,Male,1,Yes,Yes,42,No,Yes,DSL,Yes,No,Yes,No internet service,No,No internet service,One year,No,Credit card (automatic),94.24,3958.08,No,25-48 Mos,2
+7590-WB0826,Male,0,No,No,10,No,Yes,No,No internet service,No,Yes,No,Yes,No internet service,Two year,No,Mailed check,28.11,281.1,No,0-12 Mos,2
+7590-WB0827,Female,0,No,No,36,Yes,Yes,No,No internet service,Yes,No internet service,Yes,No internet service,No,Month-to-month,Yes,Bank transfer (automatic),63.17,2274.12,Yes,25-48 Mos,3
+7590-WB0828,Male,0,Yes,No,34,No,No phone service,Fiber optic,Yes,No internet service,Yes,No,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),92.02,3128.68,No,25-48 Mos,3
+7590-WB0829,Female,0,Yes,Yes,28,Yes,No,DSL,No internet service,No internet service,No internet service,Yes,No,Yes,Two year,Yes,Electronic check,35.66,998.48,Yes,25-48 Mos,3
+7590-WB0830,Male,0,No,Yes,11,No,Yes,Fiber optic,No,No,No internet service,Yes,No,No,One year,No,Credit card (automatic),46.96,516.56,No,0-12 Mos,2
+7590-WB0831,Female,0,No,Yes,39,No,No phone service,No,No internet service,No internet service,No,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),105.16,4101.24,No,25-48 Mos,2
+7590-WB0832,Female,0,No,Yes,47,No,Yes,DSL,No internet service,No,No internet service,No internet service,Yes,No,One year,Yes,Electronic check,107.2,5038.4,No,25-48 Mos,3
+7590-WB0833,Female,0,No,No,19,Yes,Yes,No,No,No internet service,Yes,No,No internet service,No,Two year,No,Credit card (automatic),22.77,432.63,Yes,13-24 Mos,2
+7590-WB0834,Male,1,No,No,15,No,Yes,No,Yes,Yes,No internet service,No internet service,No,No internet service,Two year,No,Mailed check,35.14,527.1,Yes,13-24 Mos,2
+7590-WB0835,Female,1,Yes,Yes,28,Yes,Yes,DSL,No,No,No,No internet service,Yes,Yes,Month-to-month,No,Mailed check,30.06,841.68,Yes,25-48 Mos,3
+7590-WB0836,Male,0,No,No,24,Yes,Yes,DSL,No internet service,No internet service,Yes,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),36.31,871.44,No,13-24 Mos,3
+7590-WB0837,Female,0,Yes,No,72,No,No phone service,Fiber optic,Yes,Yes,No,Yes,No internet service,No internet service,Two year,No,Mailed check,115.75,8334.0,No,49-72 Mos,2
+7590-WB0838,Female,0,No,Yes,9,Yes,No,Fiber optic,No internet service,No internet service,No,No internet service,No internet service,Yes,Month-to-month,Yes,Credit card (automatic),73.69,663.21,No,0-12 Mos,3
+7590-WB0839,Male,0,Yes,No,47,No,No,No,No internet service,Yes,No internet service,No,No,No internet service,One year,Yes,Electronic check,65.3,3069.1,Yes,25-48 Mos,3
+7590-WB0840,Female,0,No,Yes,33,Yes,No,DSL,No,Yes,No,Yes,No internet service,No internet service,One year,Yes,Bank transfer (automatic),117.19,3867.27,No,25-48 Mos,2
+7590-WB0841,Female,0,No,No,62,Yes,No,DSL,No,No internet service,No,Yes,Yes,No internet service,Two year,No,Electronic check,74.22,4601.64,Yes,49-72 Mos,3
+7590-WB0842,Male,0,Yes,Yes,19,No,No phone service,Fiber optic,Yes,No internet service,Yes,No internet service,No internet service,No,One year,No,Bank transfer (automatic),84.69,1609.11,Yes,13-24 Mos,2
+7590-WB0843,Female,1,Yes,No,67,No,No phone service,No,Yes,Yes,No,Yes,No,No,Two year,Yes,Bank transfer (automatic),51.69,3463.23,No,49-72 Mos,2
+7590-WB0844,Female,0,No,No,40,No,No phone service,No,Yes,Yes,No internet service,No,No internet service,No,One year,Yes,Electronic check,56.65,2266.0,No,25-48 Mos,3
+7590-WB0845,Female,0,No,Yes,47,No,Yes,Fiber optic,No internet service,Yes,No internet service,No,No,No internet service,Two year,Yes,Mailed check,77.99,3665.53,No,25-48 Mos,2
+7590-WB0846,Female,0,No,Yes,65,Yes,Yes,DSL,No,No,No internet service,Yes,No,Yes,One year,Yes,Mailed check,25.26,1641.9,Yes,49-72 Mos,2
+7590-WB0847,Male,0,No,Yes,29,Yes,Yes,Fiber optic,No,Yes,No,No internet service,Yes,No,One year,No,Mailed check,43.97,1275.13,No,25-48 Mos,2
+7590-WB0848,Male,0,No,Yes,50,Yes,No,Fiber optic,No,No,Yes,No internet service,Yes,Yes,Month-to-month,Yes,Mailed check,38.03,1901.5,No,49-72 Mos,3
+7590-WB0849,Female,1,Yes,No,13,No,Yes,Fiber optic,Yes,Yes,No internet service,Yes,No internet service,No internet service,Month-to-month,No,Electronic check,19.85,258.05,No,13-24 Mos,4
+7590-WB0850,Male,0,Yes,No,1,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),72.21,72.21,No,0-12 Mos,3
+7590-WB0851,Female,1,No,Yes,34,No,Yes,DSL,No,Yes,No internet service,Yes,No,No internet service,Month-to-month,No,Bank transfer (automatic),74.64,2537.76,No,25-48 Mos,3
+7590-WB0852,Male,0,Yes,No,48,Yes,No,Fiber optic,No,Yes,No internet service,No internet service,Yes,Yes,Month-to-month,No,Electronic check,56.84,2728.32,Yes,25-48 Mos,4
+7590-WB0853,Female,0,Yes,Yes,48,No,Yes,DSL,Yes,Yes,Yes,No internet service,Yes,No,Month-to-month,No,Mailed check,45.26,2172.48,No,25-48 Mos,3
+7590-WB0854,Female,0,Yes,Yes,49,Yes,Yes,Fiber optic,No,No internet service,No internet service,Yes,No internet service,No,Two year,No,Mailed check,83.78,4105.22,No,49-72 Mos,2
+7590-WB0855,Female,0,No,No,64,Yes,No phone service,No,Yes,No internet service,Yes,No,No,No,Two year,Yes,Electronic check,31.78,2033.92,Yes,49-72 Mos,3
+7590-WB0856,Female,1,Yes,No,61,No,Yes,DSL,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),70.37,4292.57,No,49-72 Mos,3
+7590-WB0857,Female,1,No,Yes,29,Yes,Yes,No,No,No,No internet service,No,No internet service,Yes,Two year,Yes,Electronic check,95.44,2767.76,Yes,25-48 Mos,3
+7590-WB0858,Female,0,Yes,Yes,39,No,No phone service,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,34.76,1355.64,No,25-48 Mos,4
+7590-WB0859,Male,0,No,Yes,26,Yes,No,Fiber optic,Yes,Yes,No,Yes,No,No internet service,Two year,Yes,Credit card (automatic),93.95,2442.7,No,25-48 Mos,2
+7590-WB0860,Female,0,Yes,No,17,Yes,No phone service,Fiber optic,Yes,No internet service,No,Yes,Yes,No,One year,Yes,Electronic check,94.71,1610.07,Yes,13-24 Mos,3
+7590-WB0861,Male,1,No,No,71,No,No phone service,DSL,No,No,No internet service,No,No internet service,Yes,Two year,Yes,Credit card (automatic),24.27,1723.17,Yes,49-72 Mos,2
+7590-WB0862,Female,0,No,No,13,No,No,No,No internet service,No internet service,Yes,No,Yes,No,Two year,No,Bank transfer (automatic),20.14,261.82,Yes,13-24 Mos,2
+7590-WB0863,Male,0,Yes,No,69,Yes,Yes,DSL,Yes,No,No internet service,No,No internet service,Yes,Two year,No,Electronic check,116.13,8012.97,No,49-72 Mos,3
+7590-WB0864,Male,0,No,Yes,26,Yes,No,DSL,Yes,Yes,No,No,No,Yes,One year,No,Electronic check,37.68,979.68,No,25-48 Mos,3
+7590-WB0865,Male,0,No,Yes,49,Yes,Yes,Fiber optic,No,No internet service,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,100.87,4942.63,Yes,49-72 Mos,3
+7590-WB0866,Female,0,No,Yes,67,Yes,Yes,No,No internet service,No,No,Yes,No internet service,No,Two year,Yes,Electronic check,74.72,5006.24,Yes,49-72 Mos,3
+7590-WB0867,Female,0,No,Yes,7,Yes,No,Fiber optic,No,Yes,Yes,No,No internet service,No,Two year,Yes,Mailed check,44.83,313.81,No,0-12 Mos,2
+7590-WB0868,Male,1,No,Yes,58,Yes,No phone service,DSL,Yes,Yes,No internet service,Yes,No internet service,No,One year,No,Mailed check,31.31,1815.98,Yes,49-72 Mos,2
+7590-WB0869,Female,0,No,Yes,49,No,No,Fiber optic,Yes,Yes,Yes,No,No internet service,No internet service,Month-to-month,Yes,Mailed check,68.17,3340.33,No,49-72 Mos,3
+7590-WB0870,Male,0,No,No,53,No,Yes,No,No,No internet service,No internet service,Yes,Yes,No internet service,Two year,No,Bank transfer (automatic),59.19,3137.07,No,49-72 Mos,2
+7590-WB0871,Female,1,No,No,65,No,No,Fiber optic,No,No internet service,No,Yes,No internet service,Yes,One year,No,Credit card (automatic),88.49,5751.85,No,49-72 Mos,2
+7590-WB0872,Male,0,Yes,Yes,62,Yes,No,No,No internet service,Yes,Yes,No,No internet service,Yes,Month-to-month,No,Mailed check,109.12,6765.44,No,49-72 Mos,3
+7590-WB0873,Male,1,Yes,Yes,17,Yes,Yes,No,No internet service,No internet service,No,No,No,Yes,Month-to-month,No,Electronic check,99.18,1686.06,No,13-24 Mos,4
+7590-WB0874,Female,0,No,No,43,Yes,No phone service,Fiber optic,Yes,No,Yes,Yes,No internet service,No internet service,Two year,Yes,Electronic check,45.83,1970.69,No,25-48 Mos,3
+7590-WB0875,Male,0,No,No,25,No,No,DSL,No internet service,Yes,No internet service,Yes,No,No internet service,Two year,Yes,Mailed check,106.58,2664.5,No,25-48 Mos,2
+7590-WB0876,Female,1,Yes,No,3,No,Yes,Fiber optic,No internet service,Yes,Yes,Yes,Yes,No internet service,Two year,No,Mailed check,102.01,306.03,No,0-12 Mos,2
+7590-WB0877,Male,0,Yes,No,29,Yes,Yes,DSL,Yes,No internet service,Yes,No internet service,Yes,Yes,Two year,Yes,Electronic check,111.63,3237.27,Yes,25-48 Mos,3
+7590-WB0878,Male,0,Yes,Yes,32,Yes,No,DSL,Yes,Yes,No internet service,No,No internet service,No internet service,One year,No,Mailed check,64.35,2059.2,Yes,25-48 Mos,2
+7590-WB0879,Female,0,No,Yes,26,No,No phone service,Fiber optic,Yes,No,No internet service,No internet service,Yes,Yes,One year,Yes,Credit card (automatic),95.49,2482.74,Yes,25-48 Mos,2
+7590-WB0880,Female,0,Yes,Yes,16,No,No,DSL,Yes,No internet service,No internet service,No internet service,No internet service,Yes,Two year,Yes,Credit card (automatic),77.71,1243.36,No,13-24 Mos,2
+7590-WB0881,Female,0,No,Yes,25,No,No phone service,DSL,No,No internet service,Yes,No,Yes,No,Month-to-month,No,Bank transfer (automatic),49.46,1236.5,No,25-48 Mos,3
+7590-WB0882,Male,0,No,Yes,54,Yes,No phone service,Fiber optic,Yes,Yes,No,No,No internet service,No,Two year,No,Mailed check,118.19,6382.26,No,49-72 Mos,2
+7590-WB0883,Female,1,Yes,No,28,Yes,No phone service,Fiber optic,Yes,Yes,Yes,No internet service,No internet service,No,Month-to-month,No,Bank transfer (automatic),22.1,618.8,No,25-48 Mos,3
+7590-WB0884,Male,0,No,Yes,56,Yes,No phone service,Fiber optic,Yes,Yes,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),34.56,1935.36,No,49-72 Mos,3
+7590-WB0885,Male,0,No,No,65,No,No,DSL,No internet service,No internet service,No,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),107.95,7016.75,Yes,49-72 Mos,3
+7590-WB0886,Female,0,No,Yes,41,No,Yes,No,Yes,Yes,No internet service,Yes,No,No,One year,No,Mailed check,24.34,997.94,No,25-48 Mos,2
+7590-WB0887,Female,0,No,Yes,51,Yes,Yes,DSL,No,No,Yes,No internet service,No,No,Month-to-month,Yes,Bank transfer (automatic),107.38,5476.38,Yes,49-72 Mos,3
+7590-WB0888,Male,0,Yes,Yes,71,Yes,Yes,No,No,Yes,No,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),90.13,6399.23,Yes,49-72 Mos,3
+7590-WB0889,Male,1,Yes,Yes,29,No,Yes,Fiber optic,Yes,Yes,No internet service,No,Yes,Yes,One year,Yes,Bank transfer (automatic),21.94,636.26,No,25-48 Mos,2
+7590-WB0890,Female,0,No,Yes,19,Yes,Yes,No,No,No internet service,No internet service,No,No internet service,No,Month-to-month,No,Credit card (automatic),61.4,1166.6,No,13-24 Mos,3
+7590-WB0891,Female,0,No,No,66,No,Yes,Fiber optic,No internet service,Yes,Yes,No internet service,No,No internet service,Month-to-month,Yes,Credit card (automatic),94.07,6208.62,No,49-72 Mos,3
+7590-WB0892,Female,0,Yes,No,41,No,No,Fiber optic,Yes,No internet service,No internet service,No internet service,No,No internet service,Two year,Yes,Mailed check,76.85,3150.85,No,25-48 Mos,2
+7590-WB0893,Female,0,No,No,45,Yes,No phone service,No,No,Yes,No internet service,Yes,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),112.31,5053.95,No,25-48 Mos,3
+7590-WB0894,Female,0,Yes,Yes,15,No,Yes,Fiber optic,No,No,No,Yes,No,No,Month-to-month,No,Mailed check,105.45,1581.75,No,13-24 Mos,3
+7590-WB0895,Male,0,No,Yes,3,Yes,No,No,Yes,No,No,No,No internet service,No internet service,Month-to-month,No,Credit card (automatic),51.68,155.04,No,0-12 Mos,3
+7590-WB0896,Male,0,No,No,11,No,Yes,Fiber optic,No,No internet service,No internet service,Yes,No internet service,Yes,Month-to-month,No,Electronic check,26.76,294.36,No,0-12 Mos,4
+7590-WB0897,Male,0,Yes,Yes,53,No,Yes,DSL,Yes,No internet service,No,No,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),113.15,5996.95,No,49-72 Mos,3
+7590-WB0898,Male,0,Yes,Yes,46,Yes,No phone service,DSL,No,Yes,No internet service,No,No internet service,No internet service,One year,Yes,Mailed check,70.24,3231.04,No,25-48 Mos,2
+7590-WB0899,Female,0,Yes,No,30,No,No phone service,Fiber optic,No internet service,Yes,Yes,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,25.73,771.9,No,25-48 Mos,4
+7590-WB0900,Female,0,Yes,Yes,57,Yes,No phone service,Fiber optic,No,No,No,Yes,Yes,No internet service,Month-to-month,Yes,Bank transfer (automatic),100.32,5718.24,No,49-72 Mos,3
+7590-WB0901,Female,0,No,No,18,Yes,Yes,No,No,Yes,No internet service,No internet service,No internet service,Yes,One year,No,Bank transfer (automatic),105.53,1899.54,No,13-24 Mos,2
+7590-WB0902,Male,0,Yes,Yes,51,No,Yes,DSL,Yes,No,No internet service,No internet service,No,No,One year,Yes,Mailed check,82.51,4208.01,No,49-72 Mos,2
+7590-WB0903,Male,0,No,No,48,Yes,Yes,No,No,No internet service,No,Yes,No,Yes,Month-to-month,Yes,Electronic check,63.22,3034.56,No,25-48 Mos,4
+7590-WB0904,Female,0,Yes,Yes,66,Yes,No phone service,Fiber optic,Yes,Yes,No,No internet service,No,Yes,Month-to-month,No,Mailed check,84.8,5596.8,No,49-72 Mos,3
+7590-WB0905,Female,0,Yes,Yes,8,Yes,No,Fiber optic,No internet service,No internet service,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),89.27,714.16,Yes,0-12 Mos,3
+7590-WB0906,Male,0,No,No,22,Yes,Yes,No,Yes,Yes,No internet service,No internet service,Yes,No internet service,Two year,Yes,Bank transfer (automatic),108.0,2376.0,No,13-24 Mos,2
+7590-WB0907,Male,1,Yes,Yes,6,Yes,Yes,Fiber optic,Yes,No,Yes,Yes,No,No,Two year,No,Credit card (automatic),114.31,685.86,Yes,0-12 Mos,2
+7590-WB0908,Female,0,Yes,Yes,57,Yes,Yes,DSL,No,No internet service,Yes,No internet service,Yes,No,Month-to-month,No,Bank transfer (automatic),69.94,3986.58,No,49-72 Mos,3
+7590-WB0909,Female,0,Yes,No,36,No,No,No,No internet service,No internet service,Yes,No,No,Yes,One year,No,Bank transfer (automatic),98.5,3546.0,No,25-48 Mos,2
+7590-WB0910,Male,1,Yes,Yes,57,Yes,Yes,DSL,Yes,Yes,No,No,Yes,No,Month-to-month,No,Electronic check,115.18,6565.26,No,49-72 Mos,4
+7590-WB0911,Female,0,No,No,49,No,No,DSL,No,No internet service,Yes,Yes,Yes,No internet service,One year,Yes,Electronic check,33.45,1639.05,No,49-72 Mos,3
+7590-WB0912,Female,0,No,Yes,45,No,Yes,DSL,No,No,No,Yes,Yes,Yes,One year,Yes,Credit card (automatic),20.09,904.05,No,25-48 Mos,2
+7590-WB0913,Female,0,Yes,Yes,66,Yes,No,No,Yes,No internet service,No,Yes,No,No internet service,One year,Yes,Credit card (automatic),105.58,6968.28,Yes,49-72 Mos,2
+7590-WB0914,Male,0,Yes,Yes,45,No,Yes,Fiber optic,No,No internet service,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),37.87,1704.15,Yes,25-48 Mos,3
+7590-WB0915,Male,0,Yes,Yes,20,No,No phone service,DSL,Yes,Yes,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,22.52,450.4,No,13-24 Mos,3
+7590-WB0916,Male,1,No,No,64,Yes,No phone service,DSL,Yes,No internet service,No internet service,No internet service,No internet service,No,One year,No,Mailed check,34.34,2197.76,No,49-72 Mos,2
+7590-WB0917,Male,0,No,Yes,67,Yes,No phone service,DSL,Yes,Yes,Yes,Yes,No,No,Two year,Yes,Credit card (automatic),56.85,3808.95,Yes,49-72 Mos,2
+7590-WB0918,Male,0,No,No,3,Yes,No phone service,Fiber optic,No internet service,Yes,No internet service,No internet service,No internet service,No,Two year,Yes,Mailed check,40.29,120.87,Yes,0-12 Mos,2
+7590-WB0919,Male,0,No,Yes,54,No,Yes,Fiber optic,Yes,No internet service,Yes,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),48.93,2642.22,Yes,49-72 Mos,2
+7590-WB0920,Male,1,Yes,Yes,64,No,No phone service,No,No,No,Yes,Yes,No internet service,Yes,One year,No,Credit card (automatic),116.27,7441.28,No,49-72 Mos,2
+7590-WB0921,Female,0,Yes,Yes,40,Yes,No,Fiber optic,No internet service,Yes,Yes,Yes,No,Yes,Month-to-month,No,Credit card (automatic),89.04,3561.6,Yes,25-48 Mos,3
+7590-WB0922,Female,0,Yes,Yes,59,Yes,No phone service,No,No,No internet service,Yes,No,No,Yes,One year,Yes,Mailed check,89.83,5299.97,Yes,49-72 Mos,2
+7590-WB0923,Female,0,No,No,55,No,No phone service,No,No internet service,Yes,No internet service,No,No internet service,No,Two year,No,Electronic check,27.77,1527.35,No,49-72 Mos,3
+7590-WB0924,Female,0,Yes,No,62,No,No phone service,No,No internet service,No,No internet service,No,No,No internet service,Month-to-month,No,Credit card (automatic),91.83,5693.46,No,49-72 Mos,3
+7590-WB0925,Female,1,No,No,4,No,Yes,No,No internet service,No,Yes,No,Yes,Yes,One year,No,Mailed check,92.55,370.2,No,0-12 Mos,2
+7590-WB0926,Female,1,No,No,60,No,No phone service,No,No internet service,Yes,Yes,No internet service,No internet service,No internet service,One year,Yes,Mailed check,84.55,5073.0,No,49-72 Mos,2
+7590-WB0927,Female,0,Yes,Yes,30,Yes,No,DSL,No,No,No internet service,No internet service,No,Yes,Two year,No,Electronic check,41.21,1236.3,No,25-48 Mos,3
+7590-WB0928,Male,1,Yes,No,2,No,No phone service,Fiber optic,Yes,No internet service,No,No,No,No,One year,No,Credit card (automatic),60.77,121.54,No,0-12 Mos,2
+7590-WB0929,Male,0,Yes,No,62,No,No phone service,DSL,No,No internet service,No,No,No internet service,No internet service,Month-to-month,Yes,Electronic check,103.3,6404.6,No,49-72 Mos,4
+7590-WB0930,Female,1,No,Yes,49,No,No phone service,No,Yes,Yes,No,Yes,No,Yes,Two year,No,Bank transfer (automatic),85.61,4194.89,Yes,49-72 Mos,2
+7590-WB0931,Female,0,No,Yes,9,No,No,Fiber optic,No,No,No internet service,No internet service,No internet service,Yes,Two year,Yes,Electronic check,91.89,827.01,No,0-12 Mos,3
+7590-WB0932,Male,0,Yes,Yes,31,Yes,No phone service,DSL,No internet service,No internet service,No internet service,No internet service,No,Yes,Month-to-month,Yes,Electronic check,77.28,2395.68,No,25-48 Mos,4
+7590-WB0933,Female,0,Yes,Yes,61,Yes,No,DSL,No internet service,No internet service,No,No,Yes,Yes,Two year,No,Mailed check,63.43,3869.23,Yes,49-72 Mos,2
+7590-WB0934,Female,0,No,No,48,No,No,No,Yes,No internet service,No,No internet service,No internet service,No,One year,Yes,Electronic check,94.53,4537.44,No,25-48 Mos,3
+7590-WB0935,Male,0,Yes,No,25,No,No phone service,DSL,Yes,Yes,Yes,Yes,Yes,Yes,One year,No,Bank transfer (automatic),25.08,627.0,No,25-48 Mos,2
+7590-WB0936,Female,0,No,Yes,36,Yes,No,DSL,No,Yes,No internet service,Yes,No internet service,Yes,Two year,No,Mailed check,85.9,3092.4,No,25-48 Mos,2
+7590-WB0937,Male,0,No,Yes,8,Yes,Yes,DSL,Yes,No internet service,No internet service,No internet service,No,No,Month-to-month,No,Bank transfer (automatic),118.47,947.76,No,0-12 Mos,3
+7590-WB0938,Female,0,Yes,Yes,58,No,No phone service,DSL,No,No internet service,No,No,Yes,Yes,One year,No,Electronic check,96.66,5606.28,Yes,49-72 Mos,3
+7590-WB0939,Male,0,Yes,No,45,No,No phone service,DSL,Yes,No,No,No internet service,No,No internet service,Month-to-month,Yes,Bank transfer (automatic),47.45,2135.25,No,25-48 Mos,3
+7590-WB0940,Male,0,Yes,No,62,Yes,No,No,Yes,No,No internet service,Yes,No internet service,No internet service,One year,No,Bank transfer (automatic),46.17,2862.54,No,49-72 Mos,2
+7590-WB0941,Male,1,Yes,Yes,39,Yes,No,No,Yes,No,Yes,No,No internet service,Yes,One year,No,Electronic check,85.31,3327.09,No,25-48 Mos,3
+7590-WB0942,Female,0,No,Yes,58,Yes,No phone service,DSL,No internet service,Yes,No,No internet service,No internet service,No,Two year,No,Electronic check,108.28,6280.24,No,49-72 Mos,3
+7590-WB0943,Male,0,No,No,64,Yes,Yes,No,No internet service,No internet service,No internet service,No,No internet service,No,Two year,Yes,Mailed check,76.33,4885.12,Yes,49-72 Mos,2
+7590-WB0944,Female,0,No,Yes,44,Yes,No,No,No,Yes,No internet service,No,No internet service,No,Month-to-month,Yes,Mailed check,71.25,3135.0,No,25-48 Mos,3
+7590-WB0945,Female,1,Yes,Yes,29,Yes,No,Fiber optic,Yes,No internet service,Yes,Yes,Yes,Yes,Two year,No,Credit card (automatic),34.37,996.73,No,25-48 Mos,2
+7590-WB0946,Female,0,No,No,59,No,Yes,DSL,No,No,Yes,No,No internet service,Yes,One year,Yes,Mailed check,90.15,5318.85,Yes,49-72 Mos,2
+7590-WB0947,Female,0,Yes,Yes,71,Yes,Yes,No,Yes,No,No,No internet service,No,No internet service,One year,Yes,Electronic check,88.83,6306.93,No,49-72 Mos,3
+7590-WB0948,Male,0,Yes,No,9,Yes,No phone service,No,No internet service,No,No,No,Yes,No,Month-to-month,No,Bank transfer (automatic),115.43,1038.87,No,0-12 Mos,3
+7590-WB0949,Male,1,Yes,Yes,6,Yes,Yes,DSL,No internet service,No,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),48.42,290.52,No,0-12 Mos,3
+7590-WB0950,Female,0,Yes,Yes,29,Yes,No phone service,Fiber optic,Yes,No internet service,No internet service,No internet service,No internet service,Yes,One year,No,Mailed check,94.27,2733.83,Yes,25-48 Mos,2
+7590-WB0951,Female,0,Yes,No,58,No,Yes,DSL,Yes,No,No,Yes,No,Yes,Two year,No,Mailed check,61.87,3588.46,No,49-72 Mos,2
+7590-WB0952,Male,0,Yes,No,17,No,No,Fiber optic,No internet service,No internet service,No internet service,Yes,Yes,No,Two year,No,Electronic check,74.38,1264.46,No,13-24 Mos,3
+7590-WB0953,Female,1,No,Yes,16,Yes,No phone service,DSL,No internet service,No internet service,No,No internet service,Yes,No,Month-to-month,Yes,Bank transfer (automatic),100.3,1604.8,No,13-24 Mos,3
+7590-WB0954,Male,0,Yes,No,3,No,No phone service,DSL,No,Yes,Yes,No internet service,Yes,No internet service,Month-to-month,No,Credit card (automatic),40.56,121.68,Yes,0-12 Mos,3
+7590-WB0955,Female,0,No,Yes,21,No,No phone service,DSL,No internet service,No,Yes,Yes,No,No,One year,No,Credit card (automatic),52.71,1106.91,No,13-24 Mos,2
+7590-WB0956,Female,1,No,Yes,64,No,Yes,DSL,Yes,No,No internet service,No,Yes,Yes,One year,No,Mailed check,95.97,6142.08,No,49-72 Mos,2
+7590-WB0957,Male,0,Yes,No,36,No,No,Fiber optic,No,Yes,Yes,No internet service,No,No internet service,Month-to-month,No,Credit card (automatic),75.58,2720.88,Yes,25-48 Mos,3
+7590-WB0958,Female,0,Yes,Yes,62,No,No phone service,Fiber optic,Yes,No internet service,No internet service,No,No internet service,No,One year,No,Electronic check,27.54,1707.48,No,49-72 Mos,3
+7590-WB0959,Male,0,Yes,Yes,42,No,No phone service,No,No,No,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Credit card (automatic),61.48,2582.16,No,25-48 Mos,3
+7590-WB0960,Female,0,No,No,42,Yes,No phone service,DSL,Yes,No internet service,Yes,Yes,No,No,Month-to-month,No,Mailed check,77.21,3242.82,Yes,25-48 Mos,3
+7590-WB0961,Female,0,Yes,No,61,Yes,No phone service,Fiber optic,No internet service,Yes,No internet service,No,Yes,No,Two year,Yes,Electronic check,109.66,6689.26,No,49-72 Mos,3
+7590-WB0962,Female,0,No,Yes,13,Yes,No,Fiber optic,Yes,No internet service,Yes,No,No,Yes,Month-to-month,No,Bank transfer (automatic),37.19,483.47,No,13-24 Mos,3
+7590-WB0963,Male,0,Yes,No,11,Yes,Yes,Fiber optic,No,No,No,No internet service,No,No,One year,No,Electronic check,99.25,1091.75,No,0-12 Mos,3
+7590-WB0964,Female,0,Yes,No,54,Yes,No,DSL,Yes,No internet service,No,No,No,Yes,Two year,No,Mailed check,31.38,1694.52,No,49-72 Mos,2
+7590-WB0965,Female,1,No,No,16,No,No phone service,No,No,No internet service,Yes,No internet service,No internet service,Yes,Two year,Yes,Mailed check,42.59,681.44,Yes,13-24 Mos,2
+7590-WB0966,Female,0,No,No,8,Yes,No,Fiber optic,Yes,No,Yes,Yes,No,Yes,One year,No,Credit card (automatic),42.71,341.68,No,0-12 Mos,2
+7590-WB0967,Female,1,Yes,Yes,59,Yes,No phone service,DSL,No internet service,No,Yes,No,No internet service,No internet service,One year,No,Credit card (automatic),106.44,6279.96,No,49-72 Mos,2
+7590-WB0968,Male,0,No,Yes,57,No,Yes,Fiber optic,No internet service,No internet service,Yes,No internet service,No,Yes,One year,No,Bank transfer (automatic),38.25,2180.25,Yes,49-72 Mos,2
+7590-WB0969,Male,1,No,Yes,40,No,Yes,Fiber optic,Yes,No internet service,No,No,No internet service,No,Month-to-month,No,Bank transfer (automatic),97.34,3893.6,No,25-48 Mos,3
+7590-WB0970,Female,0,No,No,59,Yes,Yes,No,Yes,Yes,No internet service,No internet service,No,No internet service,Two year,No,Mailed check,64.66,3814.94,Yes,49-72 Mos,2
+7590-WB0971,Male,0,No,No,2,No,No phone service,Fiber optic,Yes,No,No internet service,No internet service,No,No,Month-to-month,No,Mailed check,118.66,237.32,No,0-12 Mos,3
+7590-WB0972,Female,0,No,No,10,No,No,Fiber optic,No,No internet service,No,No internet service,Yes,Yes,Month-to-month,No,Mailed check,102.58,1025.8,No,0-12 Mos,3
+7590-WB0973,Female,1,Yes,No,44,No,Yes,DSL,Yes,No,No internet service,Yes,Yes,No,Month-to-month,Yes,Bank transfer (automatic),92.59,4073.96,No,25-48 Mos,3
+7590-WB0974,Female,0,Yes,No,11,No,No phone service,DSL,Yes,Yes,No,No,No,No internet service,Month-to-month,No,Mailed check,105.76,1163.36,Yes,0-12 Mos,3
+7590-WB0975,Male,0,No,No,2,Yes,No phone service,No,No,No internet service,No internet service,Yes,No,No internet service,Two year,No,Bank transfer (automatic),81.97,163.94,No,0-12 Mos,2
+7590-WB0976,Male,0,Yes,No,50,No,No,DSL,No internet service,No internet service,Yes,No internet service,No,No,Two year,No,Mailed check,103.04,5152.0,No,49-72 Mos,2
+7590-WB0977,Male,0,Yes,Yes,12,Yes,Yes,DSL,Yes,No internet service,Yes,No internet service,No,No,Month-to-month,Yes,Electronic check,44.49,533.88,No,0-12 Mos,4
+7590-WB0978,Male,0,No,Yes,23,Yes,No phone service,No,Yes,No,Yes,Yes,Yes,No,One year,Yes,Electronic check,28.07,645.61,No,13-24 Mos,3
+7590-WB0979,Male,0,Yes,No,18,No,No,Fiber optic,No internet service,Yes,No,Yes,No internet service,No internet service,Two year,No,Mailed check,80.15,1442.7,Yes,13-24 Mos,2
+7590-WB0980,Male,0,No,No,62,No,Yes,No,No internet service,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,61.94,3840.28,No,49-72 Mos,4
+7590-WB0981,Male,0,No,No,62,No,No,DSL,No,No internet service,No internet service,No internet service,Yes,No,One year,No,Bank transfer (automatic),61.11,3788.82,No,49-72 Mos,2
+7590-WB0982,Male,0,Yes,Yes,38,Yes,No,No,Yes,Yes,No internet service,Yes,No,Yes,One year,No,Credit card (automatic),71.19,2705.22,No,25-48 Mos,2
+7590-WB0983,Male,0,No,Yes,67,No,No phone service,Fiber optic,Yes,No internet service,No internet service,No internet service,No,No internet service,Month-to-month,Yes,Electronic check,54.57,3656.19,No,49-72 Mos,4
+7590-WB0984,Female,0,No,No,38,No,No phone service,No,No,No internet service,No,No internet service,No internet service,No,Two year,No,Credit card (automatic),81.17,3084.46,No,25-48 Mos,2
+7590-WB0985,Male,0,No,No,67,No,No phone service,DSL,No internet service,No,No internet service,No,No,No,One year,Yes,Electronic check,21.32,1428.44,Yes,49-72 Mos,3
+7590-WB0986,Male,0,No,Yes,61,No,No,DSL,No,No internet service,Yes,No,No,No internet service,Two year,Yes,Bank transfer (automatic),115.72,7058.92,No,49-72 Mos,2
+7590-WB0987,Male,0,No,Yes,1,No,No phone service,No,No internet service,Yes,No internet service,No,No internet service,No,Two year,Yes,Electronic check,111.18,111.18,No,0-12 Mos,3
+7590-WB0988,Male,0,Yes,Yes,45,Yes,No,Fiber optic,No,No internet service,Yes,Yes,No internet service,Yes,One year,No,Electronic check,112.24,5050.8,No,25-48 Mos,3
+7590-WB0989,Male,0,Yes,Yes,28,No,No,No,No internet service,No internet service,No,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,54.93,1538.04,No,25-48 Mos,3
+7590-WB0990,Male,0,No,No,21,No,No phone service,Fiber optic,No,No,Yes,Yes,No internet service,No internet service,One year,No,Credit card (automatic),71.71,1505.91,No,13-24 Mos,2
+7590-WB0991,Male,0,No,Yes,13,No,Yes,Fiber optic,No internet service,Yes,Yes,Yes,Yes,No,One year,No,Credit card (automatic),114.14,1483.82,Yes,13-24 Mos,2
+7590-WB0992,Male,0,Yes,Yes,27,Yes,Yes,No,No internet service,No,Yes,No,Yes,No internet service,Two year,No,Bank transfer (automatic),108.94,2941.38,No,25-48 Mos,2
+7590-WB0993,Male,0,No,No,7,No,Yes,Fiber optic,No internet service,No internet service,No,No internet service,Yes,No,Month-to-month,No,Bank transfer (automatic),97.67,683.69,No,0-12 Mos,3
+7590-WB0994,Male,0,Yes,Yes,22,Yes,No,DSL,No internet service,No,No,No internet service,No,No,Two year,No,Credit card (automatic),59.19,1302.18,No,13-24 Mos,2
+7590-WB0995,Male,0,No,Yes,53,Yes,No,No,No internet service,No,No,No,No internet service,No internet service,One year,Yes,Mailed check,74.97,3973.41,No,49-72 Mos,2
+7590-WB0996,Female,0,No,Yes,4,No,No,Fiber optic,Yes,No,No,No internet service,No internet service,No,Month-to-month,No,Mailed check,97.94,391.76,Yes,0-12 Mos,3
+7590-WB0997,Female,0,No,No,23,No,No phone service,DSL,No internet service,No,No internet service,No,Yes,Yes,Month-to-month,No,Credit card (automatic),45.69,1050.87,No,13-24 Mos,3
+7590-WB0998,Male,0,No,Yes,70,No,No,No,Yes,No internet service,No,Yes,No,Yes,Month-to-month,No,Electronic check,81.21,5684.7,No,49-72 Mos,4
+7590-WB0999,Male,0,No,No,33,Yes,No phone service,DSL,No internet service,No internet service,Yes,Yes,No,No,Month-to-month,Yes,Credit card (automatic),101.46,3348.18,No,25-48 Mos,3
+7590-WB1000,Female,1,No,No,28,Yes,No phone service,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,89.35,2501.8,No,25-48 Mos,4
